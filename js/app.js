@@ -113,10 +113,9 @@ function loadHTMLPresentation() {
     const titleSpan = document.getElementById("chapter-title");
     if (!chapterDiv || !titleSpan) return;
 
-    let basePath = window.location.origin || "";
-    if (basePath === "null" || basePath.startsWith("file")) basePath = "";
+    // Direct relative path (works for GitHub Pages and local)
+    const htmlPath = "presentation/content/allchapters.html";
 
-    const htmlPath = `${basePath}/presentation/content/allchapters.html`;
     console.log("📘 Loading presentation from:", htmlPath);
 
     fetch(htmlPath)
