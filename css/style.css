@@ -1064,3 +1064,47 @@ body.login-page {
         transform: translateY(0);
     }
 }
+
+/* ======================
+   Presentation Slides
+   ====================== */
+#chapter-content {
+    min-height: 480px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    color: #e6e6e6;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: left;
+    transition: opacity 0.5s ease;
+}
+
+    #chapter-content h1,
+    #chapter-content h2 {
+        color: #00baff;
+        margin-bottom: 10px;
+    }
+
+.chapter-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+    .chapter-nav button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        background: linear-gradient(90deg, #007bff, #00c3ff);
+        border: none;
+        border-radius: 6px;
+        color: white;
+        cursor: pointer;
+    }
+
+        .chapter-nav button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 10px rgba(0, 195, 255, 0.4);
+        }
+
