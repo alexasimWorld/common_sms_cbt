@@ -108,76 +108,89 @@ function startPresentation() {
 
 
 // Loads the pre-converted HTML presentation
+let slides = [];
+let currentSlideIndex = 0;
+
 function loadHTMLPresentation() {
     const chapterDiv = document.getElementById("chapter-content");
     const titleSpan = document.getElementById("chapter-title");
     if (!chapterDiv || !titleSpan) return;
 
-    // Direct relative path (works for GitHub Pages and local)
-    const htmlPath = "presentation/content/allchapters.html";
+    console.log("📘 Loading presentation slides...");
 
-    console.log("📘 Loading presentation from:", htmlPath);
-
-    fetch(htmlPath)
+    fetch("presentation/content/allchapters.html")
         .then(res => {
             if (!res.ok) throw new Error("Could not load allchapters.html");
             return res.text();
         })
         .then(html => {
-            // 🧹 Clean Pandoc structure — keep only content inside <body>
-            const match = html.match(/<body[^>]*>([\s\S]*)<\/body>/i);
-            const cleanedHTML = match ? match[1] : html;
-
-            // 🧼 Remove any <style> tags included by Pandoc
             const temp = document.createElement("div");
-            temp.innerHTML = cleanedHTML;
-            temp.querySelectorAll("style").forEach(s => s.remove());
+            temp.innerHTML = html;
 
-            // Inject cleaned HTML
-            chapterDiv.innerHTML = temp.innerHTML;
-            titleSpan.textContent = "Company CBT Presentation";
+            // Split into slides using <h1> or <h2>
+            const sections = [];
+            let currentSection = document.createElement("div");
+            temp.childNodes.forEach(node => {
+                if (node.tagName === "H1" || node.tagName === "H2") {
+                    if (currentSection.childNodes.length) {
+                        sections.push(currentSection);
+                        currentSection = document.createElement("div");
+                    }
+                }
+                currentSection.appendChild(node.cloneNode(true));
+            });
+            if (currentSection.childNodes.length) sections.push(currentSection);
 
-            // Fade in smoothly
-            chapterDiv.style.opacity = 0;
-            setTimeout(() => {
-                chapterDiv.style.transition = "opacity 0.6s ease";
-                chapterDiv.style.opacity = 1;
-            }, 50);
+            slides = sections;
+            console.log(`✅ Found ${slides.length} slides.`);
 
-            console.log("✅ Presentation HTML loaded and cleaned");
+            currentSlideIndex = 0;
+            showSlide(currentSlideIndex);
         })
         .catch(err => {
             console.error("❌ Error loading HTML:", err);
-            chapterDiv.innerHTML = `
-                <p style="color:red;">
-                    ${err.message}<br>
-                    Please ensure <b>presentation/content/allchapters.html</b> exists.
-                </p>`;
+            chapterDiv.innerHTML = `<p style="color:red;">${err.message}</p>`;
         });
 }
 
-// Highlight current chapter while scrolling
-window.addEventListener("scroll", () => {
-    const titles = document.querySelectorAll("#chapter-content h1");
-    const floating = document.getElementById("chapter-float");
-    let active = null;
+function showSlide(index) {
+    const chapterDiv = document.getElementById("chapter-content");
+    const titleSpan = document.getElementById("chapter-title");
 
-    titles.forEach(title => {
-        const rect = title.getBoundingClientRect();
-        if (rect.top < window.innerHeight / 2) active = title.textContent;
-    });
+    if (!slides.length) return;
+    if (index < 0) index = 0;
+    if (index >= slides.length) index = slides.length - 1;
 
-    if (active) {
-        floating.textContent = active;
-        floating.classList.add("visible");
+    chapterDiv.innerHTML = "";
+    const slide = slides[index].cloneNode(true);
+    chapterDiv.appendChild(slide);
+
+    // Add nice animation
+    chapterDiv.style.opacity = 0;
+    setTimeout(() => {
+        chapterDiv.style.transition = "opacity 0.6s ease";
+        chapterDiv.style.opacity = 1;
+    }, 50);
+
+    // Update title
+    const title = slide.querySelector("h1, h2");
+    titleSpan.textContent = title ? title.textContent : `Slide ${index + 1}`;
+}
+
+function loadNext() {
+    if (currentSlideIndex < slides.length - 1) {
+        currentSlideIndex++;
+        showSlide(currentSlideIndex);
     }
-});
+}
 
+function loadPrevious() {
+    if (currentSlideIndex > 0) {
+        currentSlideIndex--;
+        showSlide(currentSlideIndex);
+    }
+}
 
-// Automatically preload (optional)
-window.addEventListener("DOMContentLoaded", () => {
-    console.log("💡 CBT system ready. Waiting for startPresentation()...");
-});
 
 
 
