@@ -1,5 +1,5 @@
 ﻿/* =======================================
-   Company CBT - Application Logic
+   Company CBT - Application Logic - updated 10/11/25 15:13
    ======================================= */
 
 // ---------- LOGIN / LOGOUT ---------- //
@@ -541,14 +541,18 @@ document.addEventListener("DOMContentLoaded", () => {
         else if (quizVisible && window.currentQuestion) {
             const q = window.currentQuestion;
 
-            // Only show the explanation as the hint
+            const chapterName =
+                q.section || q.chapter || "Unknown Chapter";
+
             const reason =
                 q.explanation || q.Reason || q.reason || "No hint available for this question.";
 
             message = `
-        <b>💡 Hint:</b><br>${reason}
+        <b>📘 Chapter:</b> ${chapterName}<br><br>
+        <b>💡 Explanation:</b> ${reason}
     `;
         }
+
 
 
 

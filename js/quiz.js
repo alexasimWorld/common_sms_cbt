@@ -1,4 +1,4 @@
-﻿// ---------- QUIZ SYSTEM ---------- //
+﻿// ---------- QUIZ SYSTEM ---------- updated 10/11/25 15:13//
 console.log("✅ quiz.js loaded dynamically.");
 
 let allQuestions = [];
@@ -19,8 +19,18 @@ async function loadQuiz() {
             // Could be either a flat list of questions or chapter objects
             if (data[0] && data[0].questions) {
                 console.log("📗 Detected multi-section structure.");
-                allQuestions = data.flatMap(sec => sec.questions || []);
+
+                // Flatten and tag each question with its section name
+                allQuestions = data.flatMap(sec => {
+                    const sectionName = sec.section || "Unknown Chapter";
+                    return (sec.questions || []).map(q => ({
+                        ...q,
+                        section: sectionName
+                    }));
+                });
+
             } else {
+
                 console.log("📘 Detected flat array structure.");
                 allQuestions = data;
             }
