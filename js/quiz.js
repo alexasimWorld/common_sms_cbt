@@ -1,4 +1,4 @@
-﻿// ---------- QUIZ SYSTEM ---------- updated 10/11/25 15:13//
+﻿// ---------- QUIZ SYSTEM ---------- updated 10/11/25 17:10 + Rank Filtering //
 console.log("✅ quiz.js loaded dynamically.");
 
 let allQuestions = [];
@@ -7,20 +7,25 @@ let index = 0;
 let score = 0;
 let userAnswers = {};
 
+// === Helper: Get trainee rank (sidebar or localStorage) ===
+function getUserRank() {
+    const val = document.getElementById("userRank")?.value?.trim();
+    if (val) return val.toLowerCase();
+    const saved = (localStorage.getItem("userRank") || "").trim();
+    return saved.toLowerCase();
+}
+
 // === Load Quiz Data ===
 async function loadQuiz() {
     try {
-        console.log("📥 Loading quiz data from questions/json/allquestions_fixed.json...");
-        const res = await fetch("questions/json/allquestions_fixed.json");
+        console.log("📥 Loading quiz data from questions/json/allquestions_fixed_ranked.json...");
+        const res = await fetch("questions/json/allquestions_fixed_ranked.json");
         const data = await res.json();
 
         // 🧠 Detect the structure automatically
         if (Array.isArray(data)) {
-            // Could be either a flat list of questions or chapter objects
             if (data[0] && data[0].questions) {
                 console.log("📗 Detected multi-section structure.");
-
-                // Flatten and tag each question with its section name
                 allQuestions = data.flatMap(sec => {
                     const sectionName = sec.section || "Unknown Chapter";
                     return (sec.questions || []).map(q => ({
@@ -28,9 +33,7 @@ async function loadQuiz() {
                         section: sectionName
                     }));
                 });
-
             } else {
-
                 console.log("📘 Detected flat array structure.");
                 allQuestions = data;
             }
@@ -41,16 +44,34 @@ async function loadQuiz() {
             throw new Error("Unsupported JSON format.");
         }
 
-        if (!allQuestions.length) throw new Error("No questions found in allquestions_fixed.json");
+        if (!allQuestions.length)
+            throw new Error("No questions found in allquestions_fixed_ranked.json");
 
-        // ✅ Randomize order and pick 20
-        currentSet = shuffle([...allQuestions]).slice(0, 20);
+        // ✅ Rank-based filtering
+        const traineeRank = getUserRank();
+        console.log("🧭 Trainee rank for filtering:", traineeRank || "(none provided)");
+
+        let filtered = allQuestions.filter(q => {
+            if (!q || !q.ranks || !Array.isArray(q.ranks) || q.ranks.length === 0) return true;
+            return q.ranks.some(r => String(r).toLowerCase() === traineeRank);
+        });
+
+        if (!filtered.length) {
+            console.warn("⚠️ No questions matched this rank. Falling back to all questions.");
+            filtered = allQuestions;
+        }
+
+        // ✅ Randomize and pick up to 20 questions
+        const SET_SIZE = 20;
+        const pool = shuffle([...filtered]);
+        currentSet = pool.slice(0, Math.min(SET_SIZE, pool.length));
+
         index = 0;
         score = 0;
         userAnswers = {};
 
         showQuestion();
-        console.log("✅ Loaded", currentSet.length, "questions.");
+        console.log(`✅ Loaded ${currentSet.length} questions (filtered from ${filtered.length} of ${allQuestions.length}).`);
     } catch (err) {
         console.error("❌ Error loading quiz:", err);
         const container = document.getElementById("quiz-container");
@@ -59,7 +80,6 @@ async function loadQuiz() {
         }
     }
 }
-
 
 // === Display Current Question ===
 function showQuestion() {
@@ -77,14 +97,11 @@ function showQuestion() {
     const q = currentSet[index];
     window.currentQuestion = q; // for robot hints
 
-    // Update header
     progressBox.textContent = `Question ${index + 1} / ${currentSet.length}`;
     resultBox.classList.add("hidden");
 
-    // Render question text
     questionBox.textContent = q.question;
 
-    // Render choices
     choicesBox.innerHTML = "";
     q.options.forEach((opt, i) => {
         const btn = document.createElement("button");
@@ -95,24 +112,16 @@ function showQuestion() {
     });
 }
 
-
 function handleAnswer(selectedIndex) {
     const q = currentSet[index];
     if (!q) return;
-
-    // Save user answer
     userAnswers[index] = selectedIndex;
 
-    // Highlight choice
     const buttons = document.querySelectorAll(".quiz-choice-btn");
     buttons.forEach((btn, i) => {
         btn.classList.remove("selected", "correct", "wrong");
         if (i === selectedIndex) btn.classList.add("selected");
     });
-
-    // Optional: immediate feedback
-    // if (selectedIndex === q.options.indexOf(q.answer))
-    //     buttons[selectedIndex].classList.add("correct");
 }
 
 function nextQuestion() {
@@ -146,27 +155,15 @@ function showResults() {
     document.getElementById("best-score").textContent = `${percent}%`;
 
     // ✅ Retrieve user info directly from sidebar fields in main.html
-    // ✅ Try reading from visible sidebar fields first
-    let userName = "";
-    let userLastName = "";
-    let userRank = "";
+    const tryGet = id => document.getElementById(id)?.value?.trim() || "";
+    let userName = tryGet("userName") || localStorage.getItem("userName") || "";
+    let userLastName = tryGet("userLastName") || localStorage.getItem("userLastName") || "";
+    let userRank = tryGet("userRank") || localStorage.getItem("userRank") || "";
 
-    // Try several sources (sidebar, intro screen, hidden fields)
-    const tryGet = (id) => document.getElementById(id)?.value?.trim() || "";
-
-    userName = tryGet("userName");
-    userLastName = tryGet("userLastName");
-    userRank = tryGet("userRank");
-
-    // ✅ Fallback to localStorage if sidebar not found or empty
-    if (!userName) userName = localStorage.getItem("userName") || "John";
-    if (!userLastName) userLastName = localStorage.getItem("userLastName") || "Doe";
-    if (!userRank) userRank = localStorage.getItem("userRank") || "Trainee";
-
-    const fullName = `${userName} ${userLastName}`;
+    const fullName = `${userName} ${userLastName}`.trim() || "Anonymous";
 
     // ✅ Show popup only if score ≥ 70%
-    if (percent >= 1) {
+    if (percent >= 70) {
         const popup = document.createElement("div");
         popup.className = "congrats-popup";
         popup.innerHTML = `
@@ -223,7 +220,6 @@ function showResults() {
         `;
         document.head.appendChild(style);
 
-        // Handle button click → Open certificate with user details
         document.getElementById("viewCertBtn").onclick = () => {
             const certURL = `certificate.html?name=${encodeURIComponent(fullName)}&rank=${encodeURIComponent(userRank)}&score=${percent}`;
             window.open(certURL, "_blank");
@@ -232,14 +228,11 @@ function showResults() {
     }
 }
 
-
-
-
-// Attach events
+// === Attach events ===
 document.getElementById("quiz-next").onclick = nextQuestion;
 document.getElementById("quiz-prev").onclick = prevQuestion;
 
-// Export
+// === Export ===
 (function (global) {
     global.loadQuiz = loadQuiz;
     global.showQuestion = showQuestion;
