@@ -524,7 +524,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const presVisible = !document.getElementById("presentation-area")?.classList.contains("hidden");
         robot.style.display = presVisible ? "none" : "block";
     });
-    observer.observe(document.body, { attributes: true, subtree: true, childList: true });
+    observer.observe(document.body, { attributes: true, attributeFilter: ["class"] });
+
 
     // When the user clicks on the flag or robot
     robot.addEventListener("click", () => {
