@@ -8,7 +8,16 @@
 <body>
     <div class="container">
         <!-- LEFT PANE (SIDEBAR) -->
-        <div id="sidebar" class="left-pane"></div>
+        <div id="sidebar" class="left-pane">
+            <!-- 🧭 User Info (auto-saved) -->
+            <div id="user-login">
+                <h3 style="color:#00baff; margin-bottom:8px;">User Info</h3>
+                <input id="userName" type="text" placeholder="First Name" />
+                <input id="userLastName" type="text" placeholder="Last Name" />
+                <input id="userRank" type="text" placeholder="Rank" />
+                <small style="color:#888;">(Auto-saved)</small>
+            </div>
+        </div>
 
         <!-- RIGHT PANE (MAIN CONTENT) -->
         <div class="right-pane">
@@ -38,7 +47,7 @@
                 </div>
             </div>
 
-            <!-- QUIZ AREA (hidden initially) -->
+            <!-- QUIZ AREA (Hidden initially) -->
             <div id="quiz-area" class="presentation-container hidden">
                 <div id="quiz-header" style="margin-bottom:12px;">
                     <span id="quiz-progress">Question 1/20</span>
@@ -65,6 +74,27 @@
     <script src="js/jarvis.js"></script>
     <script src="js/bridge.js"></script>
 
+    <!-- Auto-save user credentials -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const nameField = document.getElementById("userName");
+            const lastField = document.getElementById("userLastName");
+            const rankField = document.getElementById("userRank");
+
+            // Load saved values
+            nameField.value = localStorage.getItem("userName") || "";
+            lastField.value = localStorage.getItem("userLastName") || "";
+            rankField.value = localStorage.getItem("userRank") || "";
+
+            // Auto-save on change
+            [nameField, lastField, rankField].forEach(field => {
+                field.addEventListener("input", () => {
+                    localStorage.setItem(field.id, field.value.trim());
+                });
+            });
+        });
+    </script>
+
     <!-- 🪙 Nautical Robot Assistant -->
     <div id="nautical-robot">
         <img id="robot-img" src="assets/images/commonpro/nautical_bot.png" alt="Hint Robot">
@@ -74,13 +104,13 @@
     <!-- Hint Bubble -->
     <div id="hint-bubble" class="hidden"></div>
 
+    <!-- Robot Hint Logic -->
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const robot = document.getElementById("nautical-robot");
             const hintBubble = document.getElementById("hint-bubble");
             if (!robot || !hintBubble) return;
 
-            // Determine which section is visible
             function getCurrentMode() {
                 const intro = document.getElementById("intro-screen");
                 const pres = document.getElementById("presentation-area");
@@ -104,10 +134,9 @@
 
             function showThinking() {
                 hintBubble.innerHTML = `
-          <div class="thinking-dots">
-            <span></span><span></span><span></span>
-          </div>
-        `;
+                        <div class="thinking-dots">
+                            <span></span><span></span><span></span>
+                        </div>`;
                 hintBubble.classList.remove("hidden");
                 hintBubble.classList.add("visible");
             }
@@ -124,32 +153,28 @@
                 setTimeout(() => {
                     if (mode === "intro") {
                         showHint(`
-              <div class="hint-title">👋 Welcome aboard!</div>
-              <div class="hint-reason">
-                Choose to view the <b>Company’s presentation</b> or click on the <b>Quiz</b> to test your knowledge.
-              </div>
-            `);
+                                <div class="hint-title">👋 Welcome aboard!</div>
+                                <div class="hint-reason">
+                                    Choose to view the <b>Company’s presentation</b> or click on the <b>Quiz</b> to test your knowledge.
+                                </div>`);
                     } else if (mode === "quiz") {
                         const q = window.currentQuestion;
                         if (!q) {
                             showHint(`<div class="hint-title">💡 No question loaded yet.</div>`);
                             return;
                         }
-
                         const chapterName = q.section || "Unknown Chapter";
                         const reasonText = q.Reason || q.explanation || "No explanation provided.";
 
                         showHint(`
-              <div class="hint-title">📘 Chapter:</div>
-              <div class="hint-answer">${chapterName}</div>
-              <div class="hint-reason">${reasonText}</div>
-            `);
+                                <div class="hint-title">📘 Chapter:</div>
+                                <div class="hint-answer">${chapterName}</div>
+                                <div class="hint-reason">${reasonText}</div>`);
                     } else {
                         showHint(`<div class="hint-title">🪙 I'm ready when you are!</div>`);
                     }
                 }, 800);
             });
-
 
             document.addEventListener("click", (e) => {
                 if (!robot.contains(e.target) && !hintBubble.contains(e.target)) {
@@ -158,12 +183,8 @@
                 }
             });
 
-            // Observe view changes every half second to auto-toggle visibility
             setInterval(updateRobotVisibility, 500);
         });
     </script>
-
-
-
 </body>
 </html>
