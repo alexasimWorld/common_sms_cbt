@@ -1,0 +1,103 @@
+﻿{
+  "SectionTitle": "8.0: Shipping Emergencies",
+  "SectionNotes": "A shipping emergency (or accident) is a major incident onboard that can endanger personnel, the ship, the environment, or cargo. This chapter describes the integrated system of shipboard emergency plans designed to ensure a coordinated and effective response.",
+  "Topics": [
+    {
+      "TopicTitle": "Definition",
+      "Description": [
+        "A shipping emergency or accident is a major onboard incident that may threaten the safety of personnel, the ship, the environment, or cargo."
+      ]
+    },
+    {
+      "TopicTitle": "Purpose of the Integrated System",
+      "Details": [
+        "The Integrated System of Shipboard Emergency Plans complements each vessel's SOPEP/NT-VRP.",
+        "It provides a unified framework for individual Emergency Response Plans (ERP) covering a variety of potential emergencies.",
+        "It ensures that plans address all possible emergencies and are accessible in hardcopy, including cybersecurity contingency plans (see Appendix 8).",
+        "All personnel are trained and capable of responding effectively to shipboard emergencies."
+      ]
+    },
+    {
+      "TopicTitle": "Master’s Authority and Responsibilities",
+      "Responsibilities": [
+        "The Master has the overriding authority and responsibility to take any action necessary to protect lives, the ship, cargo, and the environment.",
+        "Decide whether external assistance is required or if the emergency can be handled using the ship’s own resources.",
+        "Always prioritize actions in the following order: Safety of personnel → Safety of the ship → Safety of the environment → Safety of the cargo."
+      ]
+    },
+    {
+      "TopicTitle": "Office Emergencies",
+      "Details": [
+        "For emergencies affecting the office, refer to the BCP (Business Continuity Plan), OERP (Office Emergency Response Plan), and OSP (Office Security Plan) as applicable."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is considered a shipping emergency?",
+      "Options": [
+        "A. A minor maintenance issue onboard",
+        "B. A major incident that could endanger personnel, ship, environment, or cargo",
+        "C. A delay in cargo operations",
+        "D. A routine safety drill"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "A shipping emergency involves a serious onboard incident that can threaten lives, property, or the environment."
+    },
+    {
+      "QuestionText": "2. What is the purpose of the Integrated System of Shipboard Emergency Plans?",
+      "Options": [
+        "A. To replace SOPEP/NT-VRP completely",
+        "B. To provide a uniform framework for all shipboard emergency response plans",
+        "C. To train only the Master for emergencies",
+        "D. To document past accidents"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The Integrated System ensures a unified and structured approach to emergency preparedness and response on board."
+    },
+    {
+      "QuestionText": "3. Which of the following is part of the Master’s authority during an emergency?",
+      "Options": [
+        "A. Waiting for office instructions before taking action",
+        "B. Having the overriding authority to act for the safety of personnel, ship, cargo, and environment",
+        "C. Delegating all emergency decisions to department heads",
+        "D. Following only company procedures without deviation"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The Master holds overriding authority to make immediate decisions in the best interest of life, ship, cargo, and environment."
+    },
+    {
+      "QuestionText": "4. What should be the order of priorities during an emergency response?",
+      "Options": [
+        "A. Ship → Cargo → Environment → Personnel",
+        "B. Environment → Personnel → Ship → Cargo",
+        "C. Personnel → Ship → Environment → Cargo",
+        "D. Cargo → Environment → Ship → Personnel"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "The correct order of priorities is always: safety of personnel first, then ship, then environment, then cargo."
+    },
+    {
+      "QuestionText": "5. How should cybersecurity contingency plans be maintained?",
+      "Options": [
+        "A. Only as digital files onboard",
+        "B. In hardcopy format as part of the emergency system",
+        "C. Stored by the IT department ashore only",
+        "D. Not required for shipboard use"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Cybersecurity contingency plans must be kept available in hardcopy as part of the emergency documentation."
+    },
+    {
+      "QuestionText": "6. Where should office personnel refer during an emergency ashore?",
+      "Options": [
+        "A. The ship's SOPEP manual",
+        "B. The BCP, OERP, and OSP as applicable",
+        "C. The Master’s standing orders",
+        "D. The office health and safety poster"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Office staff must follow the Business Continuity Plan (BCP), Office Emergency Response Plan (OERP), or Office Security Plan (OSP) depending on the nature of the emergency."
+    }
+  ]
+}

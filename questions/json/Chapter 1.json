@@ -1,0 +1,115 @@
+{
+  "section": "Chapter 1",
+  "questions": [
+    {
+      "question": "A superintendent designs a campaign to reduce near-miss events and raise environmental performance. Which purpose of the Company’s SMS best justifies this initiative?",
+      "options": [
+        "To meet flag state reporting obligations only",
+        "To promote HSQE excellence through leadership and a disciplined, documented system",
+        "To minimize document storage costs by digitizing records",
+        "To limit legal liability after incidents occur"
+      ],
+      "answer": "To promote HSQE excellence through leadership and a disciplined, documented system",
+      "explanation": "The SMS explicitly aims to promote Health, Safety, Security, Quality, and Environmental excellence via strong leadership and a documented management system."
+    },
+    {
+      "question": "You’re auditing the Safety Management System Manual (SMSM). Which set of compliance frameworks should the manual describe according to Company policy?",
+      "options": [
+        "SOLAS and STCW only",
+        "ILO Conventions and ISO 14001 only",
+        "ISM Code, MLC 2006, and ISO 9001",
+        "OCIMF SIRE and TMSA only"
+      ],
+      "answer": "ISM Code, MLC 2006, and ISO 9001",
+      "explanation": "The SMSM’s purpose is to describe compliance with the ISM Code, the Maritime Labour Convention (MLC 2006), and ISO 9001 (Quality Management Systems)."
+    },
+    {
+      "question": "A department head is updating SMS documentation. Which of the following is LEAST aligned with what the documentation must include?",
+      "options": [
+        "Clear definition of policies, objectives, and targets within the SMS scope",
+        "Defined responsibilities, authorities, and interrelations for staff who affect HSQE processes",
+        "Documented procedures and appropriate SMS references",
+        "Marketing collateral outlining the company’s brand identity and color palette"
+      ],
+      "answer": "Marketing collateral outlining the company’s brand identity and color palette",
+      "explanation": "System documentation must define scope, responsibilities/authority, and procedures with references—not unrelated marketing materials."
+    },
+    {
+      "question": "During an onboard briefing, the Master asks what event types the crew should report under the SMS. Which answer is most complete?",
+      "options": [
+        "Only nonconformities and incidents",
+        "Incidents and personnel accidents; near-misses are optional",
+        "Only unsafe acts; unsafe conditions are handled in maintenance",
+        "Nonconformities, incidents, personnel accidents, near-misses, unsafe conditions, and unsafe acts"
+      ],
+      "answer": "Nonconformities, incidents, personnel accidents, near-misses, unsafe conditions, and unsafe acts",
+      "explanation": "The SMS requires procedures to report and analyze undesired events including all those listed, ensuring systematic learning and prevention."
+    },
+    {
+      "question": "The technical team wants to shift from reactive fixes to a proactive approach. According to the SMS, which maintenance philosophy should be emphasized?",
+      "options": [
+        "Breakdown maintenance only, to optimize spares usage",
+        "Condition monitoring and prevention-based maintenance",
+        "Calendar-based replacement of all components every year",
+        "Vendor-driven maintenance without internal review"
+      ],
+      "answer": "Condition monitoring and prevention-based maintenance",
+      "explanation": "The SMS calls for condition monitoring and prevention-based maintenance to safeguard the ship’s condition."
+    },
+    {
+      "question": "Management asks how the Company evaluates whether the SMS is working effectively. Which combination reflects the required evaluation mechanisms?",
+      "options": [
+        "Quarterly budget reviews and port state MOUs",
+        "Internal audits, Management reviews, and Master’s reviews",
+        "Class annual surveys and PSC inspections only",
+        "External financial audits and charterer vettings"
+      ],
+      "answer": "Internal audits, Management reviews, and Master’s reviews",
+      "explanation": "System performance and effectiveness are evaluated through internal audits, Management reviews, and Master’s reviews per the SMS."
+    },
+    {
+      "question": "The Company plans to establish a new shore office. When determining SMS boundaries and applicability, which factor is most directly relevant?",
+      "options": [
+        "Only the vessel’s load line and deadweight",
+        "The Company’s functions, physical boundaries, and organizational units ashore and onboard",
+        "The ship’s commercial trading routes",
+        "Charter party terms for laytime and demurrage"
+      ],
+      "answer": "The Company’s functions, physical boundaries, and organizational units ashore and onboard",
+      "explanation": "SMS boundaries consider the Company’s functions and physical/organizational units both ashore and onboard, ensuring coverage as the organization changes."
+    },
+    {
+      "question": "A document controller revises procedures for drawings received from equipment makers. Which control must the SMS include?",
+      "options": [
+        "Optional indexing for external documents, no retention of records",
+        "Document and data control including documents of external origin, plus record-keeping",
+        "Archiving only electronic documents; paper documents are excluded",
+        "Retention of non-referenced documents for historical interest"
+      ],
+      "answer": "Document and data control including documents of external origin, plus record-keeping",
+      "explanation": "The SMS requires document/data control (including external documents) and record-keeping to demonstrate compliance and effective operation."
+    },
+    {
+      "question": "A mixed-nationality crew joins a Company vessel. What is the official communication language between the Company and ships, and the common working language onboard?",
+      "options": [
+        "Greek",
+        "English",
+        "Spanish",
+        "Language decided by the senior officer onboard"
+      ],
+      "answer": "English",
+      "explanation": "The SMS specifies English as the official communication and common working language onboard the ships."
+    },
+    {
+      "question": "A bulk carrier under the Company’s management queries whether the SMS applies to it and to shore-based support activities. What is the correct interpretation?",
+      "options": [
+        "The SMS applies to tankers only, not to bulk carriers",
+        "The SMS applies only onboard; shore activities are excluded",
+        "The SMS applies to all Company activities and the specified ship types, including bulk carriers",
+        "The SMS applies only during audits and inspections"
+      ],
+      "answer": "The SMS applies to all Company activities and the specified ship types, including bulk carriers",
+      "explanation": "The SMS applies to all Company activities and the listed ship types; the document explicitly mentions bulk carriers."
+    }
+  ]
+}

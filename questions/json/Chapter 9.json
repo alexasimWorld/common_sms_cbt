@@ -1,0 +1,103 @@
+{
+  "SectionTitle": "9.0: Undesired Events and Investigations",
+  "SectionNotes": "The Company ensures that all undesired events such as accidents, incidents, hazards, non-conformities, and near misses are reported, investigated, and analyzed to prevent recurrence and improve the Safety Management System (SMS).",
+  "Topics": [
+    {
+      "TopicTitle": "Purpose",
+      "Objectives": [
+        "Systematically identify all undesired events and perform root cause analysis to eliminate or reduce risks to an acceptable level (ALARP).",
+        "Identify the persons responsible for reporting, authorizing investigations, and implementing corrective/preventive actions.",
+        "Ensure verification of the effectiveness of corrective and preventive actions.",
+        "Analyze investigation findings to determine necessary improvements to the Safety Management System (SMS)."
+      ]
+    },
+    {
+      "TopicTitle": "Definition of Undesired Events",
+      "Details": [
+        "An undesired event is any occurrence that has or could have an adverse effect on safety, the environment, or operations.",
+        "These include:",
+        "� Accidents � events causing injury, pollution, or damage.",
+        "� Incidents � events that could have resulted in an accident but did not.",
+        "� Non-conformities (NC) or Observations (OBS) � deviations from procedures or standards.",
+        "� Hazards � potential sources of harm or unsafe conditions.",
+        "� Near Misses or Unsafe Acts/Conditions � situations that could have led to an incident if not corrected."
+      ]
+    },
+    {
+      "TopicTitle": "Company Approach",
+      "Details": [
+        "The company follows immediate reporting, prompt investigation, and effective follow-up.",
+        "All crew members are encouraged to report hazards and near misses to foster a proactive safety culture.",
+        "Findings from investigations are used to enhance safety awareness and prevent recurrence."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main purpose of investigating undesired events?",
+      "Options": [
+        "A. To identify persons to blame",
+        "B. To understand root causes and prevent recurrence",
+        "C. To complete paperwork for audits",
+        "D. To record events for the company newsletter"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Investigations aim to find root causes and implement preventive measures to reduce risk and avoid recurrence."
+    },
+    {
+      "QuestionText": "2. Which of the following is NOT classified as an undesired event?",
+      "Options": [
+        "A. Near Miss",
+        "B. Non-Conformity",
+        "C. Routine maintenance task",
+        "D. Hazard"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "Routine maintenance is a normal operation, not an undesired event; accidents, hazards, NCs, and near misses are."
+    },
+    {
+      "QuestionText": "3. What does ALARP stand for?",
+      "Options": [
+        "A. As Low As Reasonably Practicable",
+        "B. As Long As Reports Permit",
+        "C. All Levels Are Risk Protected",
+        "D. Actions Limited Against Risk Procedures"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "ALARP means reducing risk to a level that is as low as reasonably practicable � balancing risk reduction and practicality."
+    },
+    {
+      "QuestionText": "4. What is the responsibility of those conducting the investigation?",
+      "Options": [
+        "A. To identify who should be penalized",
+        "B. To determine corrective and preventive actions and verify their effectiveness",
+        "C. To send the report to external authorities only",
+        "D. To delay reporting until the next audit"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Investigators must identify causes, propose corrective and preventive actions, and ensure those actions are effective."
+    },
+    {
+      "QuestionText": "5. Why is prompt reporting of undesired events important?",
+      "Options": [
+        "A. It helps maintain an accurate ship�s logbook",
+        "B. It allows timely investigation and risk control before recurrence",
+        "C. It satisfies administrative requirements only",
+        "D. It reduces the number of safety meetings"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Immediate reporting enables timely analysis and action, reducing the chance of the event recurring or escalating."
+    },
+    {
+      "QuestionText": "6. What is the company�s overall goal when analyzing investigation findings?",
+      "Options": [
+        "A. To increase workload onboard",
+        "B. To determine improvements to the Safety Management System (SMS)",
+        "C. To fill out additional documentation",
+        "D. To report data to insurance companies"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Investigation findings are analyzed to identify trends and areas where the SMS can be strengthened for better safety performance."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "section": "Chapter 6.3",
+  "questions": [
+    {
+      "question": "What is the main objective of the Maritime Labour Convention (MLC) 2006 as applied within the Company’s SMS?",
+      "options": [
+        "To increase port state inspection frequency for ships",
+        "To safeguard seafarers’ wellbeing and ensure their health and safety in all aspects of onboard life and work",
+        "To define shipboard operational efficiency standards",
+        "To regulate only working hours and rest periods of seafarers"
+      ],
+      "answer": "To safeguard seafarers’ wellbeing and ensure their health and safety in all aspects of onboard life and work",
+      "explanation": "The MLC’s purpose is to protect seafarers’ wellbeing, health, and safety across all areas of living and working conditions onboard."
+    },
+    {
+      "question": "How does the MLC contribute to global consistency in the shipping industry?",
+      "options": [
+        "By creating national labor regulations for each flag state",
+        "By establishing an international instrument of control and common standards for seafaring issues",
+        "By focusing only on shipowners’ liability clauses",
+        "By promoting regional agreements for seafarer unions"
+      ],
+      "answer": "By establishing an international instrument of control and common standards for seafaring issues",
+      "explanation": "The MLC serves as a global framework aligning seafarer welfare standards across nations and stakeholders."
+    },
+    {
+      "question": "What is one of the main benefits of implementing MLC requirements onboard?",
+      "options": [
+        "Reduced port formalities",
+        "Prevention of substandard working and living conditions while ensuring a safe environment for personnel",
+        "Higher insurance premiums for shipowners",
+        "Increased flexibility in manning requirements"
+      ],
+      "answer": "Prevention of substandard working and living conditions while ensuring a safe environment for personnel",
+      "explanation": "The MLC prevents poor standards and enhances living and working conditions to safeguard crew welfare."
+    },
+    {
+      "question": "Which of the following best describes the structure of the MLC?",
+      "options": [
+        "A single uniform code of conduct for seafarers",
+        "Three related parts: Articles, Regulations, and the Code",
+        "Two main parts: Technical Rules and Compliance Guidance",
+        "Separate regional conventions per maritime zone"
+      ],
+      "answer": "Three related parts: Articles, Regulations, and the Code",
+      "explanation": "The MLC consists of Articles, Regulations, and the Code—each addressing different aspects of rights, obligations, and enforcement."
+    },
+    {
+      "question": "What is the purpose of including the 16 general areas in the Declaration of Maritime Labour Compliance (DMLC)?",
+      "options": [
+        "To serve as a checklist ensuring all MLC requirements are implemented and verified",
+        "To establish the ship’s crew list and manning certificate",
+        "To define national reporting obligations for shipowners",
+        "To replace the ISM Code certification"
+      ],
+      "answer": "To serve as a checklist ensuring all MLC requirements are implemented and verified",
+      "explanation": "The 16 general areas ensure full compliance and documentation of MLC provisions within the ship’s DMLC."
+    },
+    {
+      "question": "Which of the following is NOT one of the 16 general areas that must be addressed in the DMLC?",
+      "options": [
+        "Medical certification",
+        "Payment of wages",
+        "Cargo operations and stowage planning",
+        "Health and safety and accident prevention"
+      ],
+      "answer": "Cargo operations and stowage planning",
+      "explanation": "The DMLC covers welfare, safety, and employment conditions—not operational cargo management."
+    },
+    {
+      "question": "What does the MLC seek to achieve regarding the treatment of seafarers worldwide?",
+      "options": [
+        "A competitive advantage for lower-wage nations",
+        "Fair and equal treatment of all seafarers through a global level playing field",
+        "National preference for domestic seafarers",
+        "Freedom for shipowners to set individual working terms"
+      ],
+      "answer": "Fair and equal treatment of all seafarers through a global level playing field",
+      "explanation": "By setting common minimum standards, the MLC ensures fairness and prevents exploitation or competitive undercutting of seafarers’ conditions."
+    },
+    {
+      "question": "How does the MLC promote the interests of seafarers in a changing industry?",
+      "options": [
+        "By supporting innovations within MLC implementation and enhancing welfare systems",
+        "By limiting seafarer mobility between flags",
+        "By discouraging ship automation and modernization",
+        "By transferring welfare responsibilities to port states"
+      ],
+      "answer": "By supporting innovations within MLC implementation and enhancing welfare systems",
+      "explanation": "The MLC evolves with industry advancements while keeping seafarer welfare as its focus."
+    }
+  ]
+}

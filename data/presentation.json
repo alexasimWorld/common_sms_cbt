@@ -1,0 +1,18 @@
+{
+  "slides": [
+    {
+      "title": "Welcome to Our Company",
+      "text": "We are leaders in maritime innovation and sustainable shipping solutions.",
+      "image": "assets/images/commonpro/slide1.jpg"
+    },
+    {
+      "title": "Our Mission",
+      "text": "To provide safe, efficient, and environmentally responsible operations.",
+      "image": "assets/images/commonpro/slide2.jpg"
+    },
+    {
+      "title": "Global Presence",
+      "text": "With offices in 12 countries, we deliver services worldwide."
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "section": "Chapter 7.3",
+  "questions": [
+    {
+      "question": "What is the primary objective of the Company’s Mooring and Anchoring Policy?",
+      "options": [
+        "To ensure ships moor efficiently to minimize port time",
+        "To equip ships with safe mooring systems that comply with industry standards and Company procedures",
+        "To allow each ship to determine its own mooring methods based on experience",
+        "To reduce the number of mooring lines required for each operation"
+      ],
+      "answer": "To equip ships with safe mooring systems that comply with industry standards and Company procedures",
+      "explanation": "The policy ensures that all ships are properly equipped and follow established safety and procedural standards during mooring and anchoring operations."
+    },
+    {
+      "question": "According to the policy, mooring arrangements must comply with which external criteria in addition to Company procedures?",
+      "options": [
+        "Terminal safety criteria",
+        "Flag State manning levels",
+        "Charter party clauses",
+        "Port agent recommendations"
+      ],
+      "answer": "Terminal safety criteria",
+      "explanation": "The policy mandates compliance with safety requirements issued by visiting terminals alongside Company procedures and industry standards."
+    },
+    {
+      "question": "How does the Company ensure continued compliance with new regulations on mooring equipment and lines?",
+      "options": [
+        "By delegating inspections entirely to classification societies",
+        "By enforcing in-service inspection and maintenance regimes for mooring systems",
+        "By relying solely on shipboard self-assessments",
+        "By requesting reports from terminal operators"
+      ],
+      "answer": "By enforcing in-service inspection and maintenance regimes for mooring systems",
+      "explanation": "The Company maintains regulatory compliance through structured inspection and maintenance programs for mooring gear and lines."
+    },
+    {
+      "question": "What is the Company’s approach toward learning and improvement in mooring practices?",
+      "options": [
+        "Ignore minor incidents to maintain operational continuity",
+        "Conduct reviews of mooring practices and apply lessons learned from incidents and near misses",
+        "Focus on equipment replacement rather than review processes",
+        "Allow each vessel to decide if reviews are necessary"
+      ],
+      "answer": "Conduct reviews of mooring practices and apply lessons learned from incidents and near misses",
+      "explanation": "Systematic reviews of operations and incorporation of lessons learned are part of the Company’s continuous improvement culture."
+    },
+    {
+      "question": "Which action ensures organizational awareness and risk mitigation in mooring system management?",
+      "options": [
+        "Periodic verification of cargo manifold pressure limits",
+        "Reviewing system design, assessing risks, and implementing mitigation measures",
+        "Reducing the number of lines used during mooring",
+        "Allowing ad hoc modifications to deck fittings"
+      ],
+      "answer": "Reviewing system design, assessing risks, and implementing mitigation measures",
+      "explanation": "The Company mandates structured review, documentation, and risk control for all mooring systems to maintain safety integrity."
+    },
+    {
+      "question": "How does the Company promote safety in new building and second-hand tonnage projects?",
+      "options": [
+        "By applying latest industry standards for new builds and planning upgrades for older vessels",
+        "By focusing exclusively on new ship deliveries",
+        "By limiting compliance to existing fleet only",
+        "By delegating safety design to shipyards without review"
+      ],
+      "answer": "By applying latest industry standards for new builds and planning upgrades for older vessels",
+      "explanation": "The Company ensures new vessels meet modern safety design standards and develops upgrade timelines for second-hand ships."
+    },
+    {
+      "question": "Which personnel are directly responsible for ensuring safe mooring and anchoring operations onboard?",
+      "options": [
+        "Port agents and terminal representatives",
+        "Master, Chief Officer, and Deck Officers in charge",
+        "Chief Engineer and Engine Room staff",
+        "Designated Person Ashore only"
+      ],
+      "answer": "Master, Chief Officer, and Deck Officers in charge",
+      "explanation": "These officers bear operational responsibility for safe execution and supervision of mooring and anchoring activities."
+    },
+    {
+      "question": "What must Masters and Deck Officers ensure regarding mooring equipment certification?",
+      "options": [
+        "That certificates are stored ashore for company records",
+        "That all certificates for mooring equipment and lines are available onboard",
+        "That certificates are renewed only when requested by port authorities",
+        "That expired certificates are retained for historical reference"
+      ],
+      "answer": "That all certificates for mooring equipment and lines are available onboard",
+      "explanation": "The SMS requires current certificates for all mooring equipment, lines, and shackles to be maintained and accessible onboard."
+    },
+    {
+      "question": "Why are mooring and anchoring operations considered particularly hazardous?",
+      "options": [
+        "Because of their routine nature leading to complacency",
+        "Because they involve heavy loads under tension, moving equipment, and high risk of injury or failure",
+        "Because they require minimal supervision",
+        "Because they only depend on environmental conditions"
+      ],
+      "answer": "Because they involve heavy loads under tension, moving equipment, and high risk of injury or failure",
+      "explanation": "Mooring and anchoring operations are inherently dangerous due to dynamic loads, equipment strain, and proximity to moving lines."
+    }
+  ]
+}

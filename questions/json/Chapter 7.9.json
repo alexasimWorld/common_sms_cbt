@@ -1,0 +1,102 @@
+{
+  "SectionTitle": "7.9: Daily Work Plan Meetings & Tool Box Talk",
+  "SectionNotes": "Managers and Masters, supported by the ship’s Safety Officer and the Senior Officers, ensure and monitor the proper implementation of safe working practices.",
+  "Topics": [
+    {
+      "TopicTitle": "Daily Work Plan Meetings",
+      "Subtopics": [
+        {
+          "Role": "Master",
+          "Responsibilities": [
+            "Arrange/head daily work meetings, attended by all personnel who will be involved in the works scheduled to be conducted within each day.",
+            "Discuss already planned works or any additional work since the last meeting.",
+            "Provide an agreed working schedule.",
+            "Consider any interdepartmental and safety conflicts of the planned work.",
+            "Ensure that the actions of one ship's Department do not adversely affect any other.",
+            "Emphasize on safety precautions, hazard analysis/RA, PPE, work permits, isolation and tagging arrangements and any other required safe working practices and give any special instructions to crew.",
+            "Carry out toolbox talk before any operation/task.",
+            "Post the daily meeting minutes with a work plan (form 021.7.9.PERMIT.Daily Work Planning Meeting Minutes) detailing jobs and responsibilities in the common public room(s)."
+          ]
+        },
+        {
+          "Role": "All Meeting Participants",
+          "Responsibilities": [
+            "Address and prioritize scheduled works considering the work significance, urgency and complexity.",
+            "Account for any unscheduled priority works and critical equipment maintenance.",
+            "Identify possible work complications such as unforeseen component damage.",
+            "Verify availability of required spares, condition of equipment and special tools.",
+            "Consider the ship’s trading schedule and personnel allocation within work/rest hour limits.",
+            "If shore personnel or specialists are required, inform the Office timely to avoid delays.",
+            "NEVER attempt any jobs unless discussed in the daily meeting.",
+            "If something unexpected occurs, discuss all safety aspects and start the work under a Senior Officer's supervision, subject to issuance of an unscheduled work permit (form 012.7.9.PERMIT.Unscheduled Work Permit), if required."
+          ]
+        }
+      ]
+    },
+    {
+      "TopicTitle": "Tool Box Talk",
+      "Description": "A discussion among the members of a working team focusing on safety issues related to the intended work.",
+      "Details": [
+        "Conducted at any time and at anyone’s initiative but preferably by the team’s leader at the worksite or a comfortable location before beginning the work.",
+        "Normally not minuted, but may be documented in form 021.7.9.PERMIT.Daily Work Planning Meeting Minutes."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main purpose of the Daily Work Plan Meeting on board?",
+      "Options": [
+        "A. To distribute personal protective equipment to all crew members",
+        "B. To discuss and schedule all planned and additional works safely and efficiently",
+        "C. To report accidents and incidents to the office",
+        "D. To perform maintenance checks on safety equipment"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The Daily Work Plan Meeting ensures all scheduled and additional works are safely discussed, coordinated, and prioritized among departments."
+    },
+    {
+      "QuestionText": "2. Who is responsible for arranging and heading the Daily Work Plan Meeting?",
+      "Options": [
+        "A. Chief Engineer",
+        "B. Safety Officer",
+        "C. Master",
+        "D. Senior Officer of each department"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "The Master arranges and heads the meeting to ensure all operations are properly coordinated and safe working practices are followed."
+    },
+    {
+      "QuestionText": "3. What should be done if an unexpected job arises during the day?",
+      "Options": [
+        "A. Start work immediately to save time",
+        "B. Proceed without informing anyone",
+        "C. Discuss safety aspects and start under Senior Officer supervision after obtaining an unscheduled work permit",
+        "D. Wait until the next scheduled meeting"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "Unscheduled jobs must be discussed for safety and carried out under supervision with a valid permit to ensure compliance with safety procedures."
+    },
+    {
+      "QuestionText": "4. What does a Toolbox Talk mainly focus on?",
+      "Options": [
+        "A. Job progress reporting",
+        "B. Safety issues related to the intended work",
+        "C. Crew welfare and rest hours",
+        "D. Ship’s trading schedule"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "A Toolbox Talk is a short discussion focusing on safety issues related to the specific task about to be performed."
+    },
+    {
+      "QuestionText": "5. Where should the Daily Work Plan Meeting minutes be posted?",
+      "Options": [
+        "A. On the ship’s bridge",
+        "B. In the engine control room",
+        "C. In common public room(s)",
+        "D. Only in the Master’s office"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "Meeting minutes with job details and responsibilities should be posted in public areas to ensure visibility to all crew members."
+    }
+  ]
+}

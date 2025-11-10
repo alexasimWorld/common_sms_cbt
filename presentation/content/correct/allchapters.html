@@ -1,0 +1,1781 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>MasterDocument</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+    <!-- CHAPTER START -->
+    <p>Chapter 1 — General Issues</p>
+    <p>1️⃣ Purpose and Scope</p>
+    <p>
+        The Safety Management System (SMS) provides a structured and
+        documented framework to ensure safe, efficient, and compliant operations
+        across all Company activities. It aligns with the ISM Code, MLC 2006,
+        and ISO 9001, promoting continual improvement in health, safety,
+        environmental, and quality performance.
+    </p>
+    <p>2️⃣ System Structure and Operation</p>
+    <p>
+        The SMS is based on adequate resources, effective procedures, and
+        proactive risk management. It includes event reporting, preventive
+        maintenance, and periodic evaluations through internal audits and
+        management reviews to ensure ongoing suitability and improvement.
+    </p>
+    <p>3️⃣ Application Field and Distribution</p>
+    <p>
+        The SMS applies to all Company functions, ashore and onboard,
+        including every vessel under management. Controlled copies are
+        maintained electronically and distributed under HSQE supervision,
+        ensuring that personnel always have access to current and approved
+        procedures.
+    </p>
+    <p>4️⃣ Working Language and Communication</p>
+    <p>
+        English is designated as the official communication language between
+        Company offices and ships, and the common working language onboard. This
+        standard ensures clarity, consistent interpretation of instructions, and
+        efficient communication across multinational crews.
+    </p>
+    <p>5️⃣ Context and Compliance Framework</p>
+    <p>
+        The SMS considers the Company’s internal and external operational
+        context, as well as the needs of stakeholders and regulatory
+        obligations. It integrates these factors to maintain compliance with
+        international and national requirements while supporting safe and
+        sustainable operations.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 1 introduces the structure and purpose of the Safety
+        Management System. It outlines its scope, resources, communication
+        standards, and compliance principles, establishing a solid foundation
+        for safety, quality, and environmental performance throughout the
+        Company.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 2 — Company’s Policies and Management Commitment</p>
+    <p>1️⃣ Mission, Vision, and Core Values</p>
+    <p>
+        The Company’s mission is to set the standards for safe and
+        environmentally responsible sea transportation through modern,
+        well-maintained ships and motivated personnel, targeting zero
+        incidents.
+    </p>
+    <p>
+        Its vision is to remain a leading provider of global cargo transport
+        by promoting safety culture, embracing technology, and achieving
+        efficiency through superior management.
+    </p>
+    <p>
+        Core values define the expected behavior of all personnel and shape
+        the Company’s professional identity.
+    </p>
+    <p>2️⃣ Company Policy Concept</p>
+    <p>
+        All personnel must understand and apply the Company’s policies
+        described in the SMS Appendices.
+    </p>
+    <p>
+        These include principles of non-discrimination, anti-harassment,
+        confidentiality, and responsible communication.
+    </p>
+    <p>
+        Policies are posted at all Company locations and vessels, reviewed
+        annually, and ensure that all activities ashore and onboard align with
+        corporate objectives.
+    </p>
+    <p>3️⃣ Responsibilities and Management System Support</p>
+    <p>
+        Top Management demonstrates commitment to the SMS by establishing
+        policies, defining objectives, and developing strategic plans to address
+        risks and opportunities.
+    </p>
+    <p>
+        It ensures adequate infrastructure, competent personnel, and a safe
+        work environment both onboard and ashore.
+    </p>
+    <p>
+        All employees receive SMS information in a language they understand
+        to maintain operational conformity and safety.
+    </p>
+    <p>4️⃣ Management Commitment and Continuous Improvement</p>
+    <p>
+        Management promotes HSQE excellence through leadership and consistent
+        application of the SMS.
+    </p>
+    <p>
+        It ensures supervision of all work, investigation of incidents, and
+        open communication between ship and shore.
+    </p>
+    <p>
+        Personnel participation and feedback are integral to achieving
+        sustainable improvements and higher operational standards.
+    </p>
+    <p>5️⃣ Continuous Improvement Model</p>
+    <p>The Company follows a “Plan – Act – Measure – Improve” cycle.</p>
+    <p>
+        Policies define purpose and responsibilities (Plan); consistent
+        implementation ensures effectiveness (Act); performance is monitored and
+        evaluated (Measure); and results guide further development
+        (Improve).
+    </p>
+    <p>
+        This structured process delivers measurable progress and long-term
+        efficiency.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 2 describes how the Company’s mission, vision, and core
+        values translate into clear policies, defined responsibilities, and
+        management commitment.
+    </p>
+    <p>
+        It explains how leadership ensures continual improvement through
+        structured planning, performance measurement, and engagement at all
+        organizational levels.
+    </p>
+    <p>
+        <!-- CHAPTER START -->
+        Chapter 3 — Company and Shipboard Organization, Responsibilities and
+        Authorities
+    </p>
+    <p>1️⃣ Company Organization</p>
+    <p>
+        The Company maintains a structured organization of qualified
+        managers, engineers, and officers dedicated to safe and efficient fleet
+        operations. Departments collaborate to ensure compliance with HSQE
+        standards, resource adequacy, and continuous personnel training for
+        optimal performance.
+    </p>
+    <p>2️⃣ Shore Responsibilities</p>
+    <p>
+        Managers and key shore personnel coordinate departmental activities,
+        verify SMS implementation, and maintain safe working conditions. They
+        lead by example, review performance, monitor audits, and promote
+        proactive participation and continuous improvement within all
+        departments.
+    </p>
+    <p>3️⃣ Shipboard Organization</p>
+    <p>
+        Each vessel follows an onboard organization chart defining ranks,
+        authority, and lines of communication. All seagoing personnel understand
+        their responsibilities and are accountable for safety, environmental
+        protection, and adherence to Company policies during daily
+        operations.
+    </p>
+    <p>4️⃣ Shipboard Safety Organization</p>
+    <p>
+        The Safety Organization onboard ensures proper hazard control and
+        risk management. Masters, Officers, and crew share responsibility for
+        maintaining safe work environments, conducting inspections, reporting
+        unsafe acts, and ensuring all operations follow approved safety
+        procedures.
+    </p>
+    <p>5️⃣ Safety and Environmental Committee</p>
+    <p>
+        Each vessel holds monthly Safety Committee meetings to review
+        shipboard safety, training effectiveness, and incident trends. Minutes
+        and recommendations are distributed to all personnel and forwarded to
+        the Company for review and follow-up actions to enhance HSQE
+        performance.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 3 explains how Company and shipboard structures define
+        authority, communication, and responsibility. It highlights leadership,
+        accountability, and shared safety culture between shore and ship to
+        ensure effective management and continuous improvement.
+    </p>
+    <p>
+        <!-- CHAPTER START -->
+        Chapter 4 — Designated Person Ashore (DPA) / Quality Management
+        Representative (QMR)
+    </p>
+    <p>1️⃣ Function and Role</p>
+    <p>
+        The Designated Person Ashore (DPA) ensures the effective development,
+        implementation, and maintenance of the Company’s Safety Management
+        System. The DPA monitors the HSQE aspects of all fleet operations,
+        ensuring compliance with international regulations and internal safety
+        standards.
+    </p>
+    <p>2️⃣ Quality Management Responsibilities</p>
+    <p>
+        The Quality Management Representative (QMR) oversees the quality and
+        customer satisfaction elements of ship management. This role ensures
+        that performance indicators are tracked, quality procedures are
+        implemented correctly, and corrective actions are initiated when
+        required.
+    </p>
+    <p>3️⃣ Combined Designation</p>
+    <p>
+        Within the Company’s SMS, the term “DPA” encompasses both DPA and QMR
+        functions. This integrated approach streamlines management control,
+        improves communication, and maintains alignment between safety,
+        environmental, and quality objectives across the fleet.
+    </p>
+    <p>4️⃣ Deputy DPA</p>
+    <p>
+        A Deputy DPA is formally appointed to perform all duties in the
+        absence of the DPA. This ensures continuity of oversight and
+        uninterrupted safety management support. The Deputy DPA holds equal
+        authority to act on safety and quality matters when delegated.
+    </p>
+    <p>5️⃣ Reporting Line</p>
+    <p>
+        The DPA reports directly to the General Manager, maintaining an open
+        channel between Company leadership and operational personnel. This
+        direct reporting relationship ensures that safety and quality issues
+        receive prompt attention at the highest management level.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 4 outlines the duties and authority of the DPA and QMR,
+        emphasizing their combined responsibility for implementing and
+        monitoring the Safety Management System. It highlights continuity
+        through the Deputy DPA role and the direct reporting link to top
+        management.
+    </p>
+    <p>Chapter 5 — Master’s Responsibility and Authority</p>
+    <p>1️⃣ Qualifications and General Role</p>
+    <p>
+        The Master acts as the Company’s representative onboard, holding
+        ultimate responsibility for the ship’s safety, crew welfare, and
+        environmental protection. He must possess valid certificates, leadership
+        ability, sound judgment, and the capacity to manage, motivate, and train
+        crew effectively in compliance with Company and international
+        standards.
+    </p>
+    <p>2️⃣ Operational and Administrative Duties</p>
+    <p>
+        The Master ensures the safe, efficient, and cost-effective operation
+        of the vessel. Duties include voyage preparation, cargo safety,
+        maintenance oversight, and compliance with international conventions. He
+        must maintain accurate records, submit reports promptly, and monitor
+        crew certification, welfare, and discipline.
+    </p>
+    <p>3️⃣ HSQE and Crew Motivation</p>
+    <p>
+        The Master implements Company policies and SMS procedures onboard,
+        ensuring that safety and environmental standards are upheld. He promotes
+        crew participation in safety practices, leads Safety Committee meetings,
+        and provides guidance to ensure continuous improvement and HSQE
+        awareness among all personnel.
+    </p>
+    <p>4️⃣ Navigational and Technical Oversight</p>
+    <p>
+        The Master ensures safe navigation, compliance with COLREGS, and
+        effective bridge team management. He verifies vessel readiness before
+        departure, supervises inspections and maintenance, and confirms all
+        lifesaving and firefighting equipment are operational, maintaining the
+        ship in a state of readiness.
+    </p>
+    <!-- CHAPTER START -->
+    <p>5️⃣ Authority, Communication, and Reporting</p>
+    <p>
+        The Master maintains direct communication with Company Managers, the
+        DPA, and the General Manager. He exercises overriding authority in all
+        matters affecting safety and pollution prevention, empowered to take any
+        action—regardless of commercial impact—to safeguard life, property, and
+        the environment.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 5 defines the Master’s ultimate authority and responsibility
+        for safe vessel operation. It outlines qualifications, duties,
+        communication, and decision-making power, emphasizing leadership, safety
+        culture, and the obligation to protect people, property, and the
+        environment.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 6.1 — Resources and Personnel (Crew)</p>
+    <p>1️⃣ General Principles</p>
+    <p>
+        The Company ensures that all seafarers are properly qualified,
+        experienced, medically fit, and competent to perform their assigned
+        duties. Strict selection procedures, training programs, and appraisal
+        systems are in place to verify that every crew member meets Flag State
+        and industry standards while promoting safety, professionalism, and
+        motivation.
+    </p>
+    <p>2️⃣ Resource Management and Planning</p>
+    <p>
+        Human resource planning ensures adequate manning levels on all
+        vessels. Preference is given to personnel with prior Company experience,
+        promoting familiarity with procedures and culture. Continuous
+        development programs train seafarers to apply the SMS, safeguard health,
+        and align with Company objectives for safety and environmental
+        protection.
+    </p>
+    <p>3️⃣ Recruitment and Familiarization</p>
+    <p>
+        The Company conducts recruitment directly or through approved manning
+        agencies under defined standards. Pre-joining familiarization ensures
+        officers and ratings understand vessel-specific systems, emergency
+        duties, and Company policies. No person under 18 years of age may be
+        employed or permitted to work onboard.
+    </p>
+    <p>4️⃣ Training, Appraisal, and Development</p>
+    <p>
+        Training programs—ashore and onboard—cover technical skills, safety
+        practices, and leadership competence. Regular appraisals measure
+        performance and identify training needs. Promotion is based on merit,
+        experience, and demonstrated ability to uphold SMS principles and
+        operational excellence.
+    </p>
+    <p>5️⃣ Conduct, Discipline, and Equal Opportunity</p>
+    <p>
+        The Company applies progressive discipline to correct behavior while
+        ensuring fairness and due process. It enforces a strict zero-tolerance
+        policy against discrimination, harassment, bullying, sexual assault, or
+        sexual harassment. Diversity, dignity, and equal opportunity are core
+        values upheld in all shipboard and shore operations.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 6.1 defines the Company’s policies for crew selection,
+        training, appraisal, and discipline. It ensures competent, well-trained,
+        and motivated personnel while fostering fairness, equality, and a safe
+        working environment across the fleet.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 6.2 — Resources and Personnel (Shore)</p>
+    <p>1️⃣ General Requirements</p>
+    <p>
+        This chapter defines the procedures for selecting, appointing, and
+        managing qualified and competent shore personnel. The Company employs
+        sufficient staff to support all managed vessels, ensuring HSQE processes
+        are efficiently implemented and personnel conditions of employment are
+        properly administered.
+    </p>
+    <p>2️⃣ Qualification and Validation</p>
+    <p>
+        The Company verifies all declared qualifications, certificates, and
+        employment records for accuracy and authenticity. Continuous
+        professional development is maintained through training, participation
+        in seminars, and engagement in industry forums to preserve and expand
+        staff competence.
+    </p>
+    <p>3️⃣ Appraisal and Development</p>
+    <p>
+        A structured appraisal system evaluates the performance and
+        competence of shore employees. It identifies training needs and
+        development opportunities, ensuring that personnel remain capable of
+        meeting organizational objectives while enhancing their professional
+        growth.
+    </p>
+    <p>4️⃣ Retention and Motivation</p>
+    <p>
+        The Company promotes continuity by retaining key staff and fostering
+        job satisfaction through merit-based recognition. Equal opportunities
+        are provided to all employees regardless of gender, origin, or belief,
+        maintaining a professional and inclusive work environment.
+    </p>
+    <p>5️⃣ Training and Support</p>
+    <p>
+        Training needs are monitored and addressed through refresher courses,
+        internal programs, and mentorship. Shore personnel are encouraged to
+        participate in workshops and conferences, reinforcing knowledge exchange
+        and alignment with evolving industry standards.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 6.2 outlines the policies for managing shore personnel. It
+        ensures adequate staffing, competence verification, performance
+        evaluation, and continuous development to maintain a motivated, skilled,
+        and reliable workforce supporting fleet operations.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 6.3 — Maritime Labour Convention (MLC) Compliance</p>
+    <p>1️⃣ General Overview</p>
+    <p>
+        The Maritime Labour Convention (MLC 2006) establishes minimum global
+        standards for seafarers’ working and living conditions. It safeguards
+        health, safety, welfare, and fair treatment while ensuring equal rights
+        and consistent protection across the shipping industry.
+    </p>
+    <p>2️⃣ Structure and Purpose</p>
+    <p>
+        The MLC comprises Articles, Regulations, and a Code divided into
+        mandatory (Part A) and guideline (Part B) sections. It defines the
+        responsibilities of Flag Administrations, Companies, and seafarers to
+        maintain compliance and continuous improvement in labor standards.
+    </p>
+    <p>3️⃣ Areas of Application</p>
+    <p>
+        The Convention addresses sixteen core areas including age,
+        certification, manning, hours of work, accommodation, food, health
+        protection, medical care, and social security. Each area must be
+        implemented through Company procedures and verified by the Competent
+        Authority.
+    </p>
+    <p>4️⃣ Documentation and Certification</p>
+    <p>
+        Each vessel must carry a Maritime Labour Certificate and a
+        Declaration of Maritime Labour Compliance (DMLC). These documents
+        confirm that the Company meets all required standards and that shipboard
+        conditions are inspected, monitored, and certified by authorities.
+    </p>
+    <p>5️⃣ Implementation and Oversight</p>
+    <p>
+        The Company integrates MLC requirements into its Safety Management
+        System to prevent substandard conditions and support seafarers’ rights.
+        Compliance is maintained through audits, inspections, and regular
+        reviews ensuring welfare, safety, and professional dignity for all crew
+        members.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 6.3 outlines the Company’s full adherence to the MLC 2006,
+        ensuring that all seafarers enjoy safe, fair, and humane working
+        conditions. It formalizes welfare, certification, and compliance
+        controls under international maritime labor standards.
+    </p>
+    <p>
+        <!-- CHAPTER START -->
+        Chapter 6.4 — Maritime Labour Convention (MLC) — Detailed
+        Requirements
+    </p>
+    <p>1️⃣ General Overview</p>
+    <p>
+        The Maritime Labour Convention (MLC 2006) establishes uniform
+        international standards for the health, safety, and welfare of
+        seafarers. It aims to prevent substandard working conditions, ensure
+        fair treatment, and create a consistent legal framework applicable to
+        all seafaring nations.
+    </p>
+    <p>2️⃣ Structure and Implementation</p>
+    <p>
+        The MLC consists of Articles, Regulations, and a Code divided into
+        mandatory (Part A) and guideline (Part B) sections. It is organized
+        under five Titles covering minimum requirements, employment conditions,
+        accommodation and welfare, medical care, and compliance with enforcement
+        measures.
+    </p>
+    <p>3️⃣ Key Compliance Areas</p>
+    <p>
+        Sixteen core areas are addressed, including minimum age, medical
+        certification, qualifications, working hours, manning levels,
+        accommodation, food and catering, medical care, complaint procedures,
+        and wage protection. Each requirement must be implemented and verified
+        through the Company’s SMS and DMLC.
+    </p>
+    <p>4️⃣ Certification and Documentation</p>
+    <p>
+        Each vessel must maintain a valid Maritime Labour Certificate and
+        Declaration of Maritime Labour Compliance (DMLC). These confirm that
+        onboard conditions meet the Convention’s standards and that the Company
+        operates under verified procedures approved by the competent
+        authority.
+    </p>
+    <p>5️⃣ Monitoring and Continuous Improvement</p>
+    <p>
+        The Company ensures ongoing MLC compliance through audits, internal
+        reviews, and inspections. Feedback from crew and authorities is used to
+        enhance welfare, working conditions, and operational integrity, ensuring
+        that MLC principles are consistently upheld across the fleet.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 6.4 defines the detailed MLC requirements governing
+        seafarers’ living and working conditions. It outlines the regulatory
+        structure, compliance areas, and certification process that ensure fair
+        treatment, welfare, and safety onboard all Company vessels.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 7.1 — General Provisions for Key Shipboard Operations</p>
+    <p>1️⃣ Safe and Compliant Operations</p>
+    <p>
+        All shipboard activities must be conducted safely, efficiently, and
+        in full compliance with Company procedures, applicable laws, and
+        international regulations. Each operation follows planned steps designed
+        to prevent incidents and ensure safe working practices at all times.
+    </p>
+    <p>2️⃣ Risk Identification and Control</p>
+    <p>
+        The Company identifies all shipboard operations with potential
+        hazards and applies risk management controls to reduce or eliminate
+        them. These include safe work permits, qualified personnel assignment,
+        and procedures ensuring that no task proceeds under unsafe
+        conditions.
+    </p>
+    <p>3️⃣ Process Planning and Documentation</p>
+    <p>
+        Processes are planned and developed to meet service realization
+        requirements. Managers prepare or revise operational instructions
+        considering new regulations, audit findings, and feedback from vessels.
+        Approved changes are documented and distributed under controlled
+        conditions.
+    </p>
+    <p>4️⃣ Review, Approval, and Amendment Control</p>
+    <p>
+        The General Manager reviews and approves all new or amended
+        procedures. The DPA updates the SMS accordingly and distributes
+        controlled copies to all holders, while Masters confirm receipt and
+        destroy obsolete versions to maintain procedural accuracy.
+    </p>
+    <p>5️⃣ Master’s Authority</p>
+    <p>
+        The SMS never restricts the Master’s overriding authority to take
+        action necessary to protect life, property, and the environment. When
+        external instructions conflict with Company procedures, the Master must
+        follow SMS requirements or seek specific clarification from the
+        office.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 7.1 defines how key shipboard operations are planned,
+        documented, and controlled to maintain safety and compliance. It
+        reinforces the Master’s ultimate authority and the Company’s commitment
+        to continuous improvement through effective risk and document
+        management.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 7.2 — Navigation</p>
+    <p>1️⃣ Navigation Policy</p>
+    <p>
+        The primary objective of the Company’s navigation policy is to
+        safeguard life, property, cargo, and the marine environment. All
+        navigation is performed in accordance with international conventions,
+        national regulations, and Company procedures ensuring safe, compliant
+        voyages.
+    </p>
+    <p>2️⃣ Bridge Team Management (BTM)</p>
+    <p>
+        Navigation follows the Bridge Team Management (BTM) concept to
+        eliminate single-person errors. Officers cooperate as a team, maintain
+        continuous situational awareness, and support each other in
+        decision-making to uphold navigational safety.
+    </p>
+    <p>3️⃣ Officer Competence and Equipment Knowledge</p>
+    <p>
+        All deck officers must be fully familiar with Company navigation
+        procedures, COLREGS, ship maneuvering characteristics, and navigational
+        equipment operation. Regular training and performance reviews ensure
+        competence and professional readiness.
+    </p>
+    <p>4️⃣ Chart and Publication Management</p>
+    <p>
+        The Company’s contracted chart agents supply up-to-date ENCs and
+        navigational publications. The designated officer maintains chart
+        corrections and ensures all required materials are available and current
+        before and during every voyage.
+    </p>
+    <p>5️⃣ Master’s Responsibility and Voyage Planning</p>
+    <p>
+        The Master holds full responsibility for the vessel’s safe
+        navigation. Passage plans are prepared and approved prior to departure,
+        incorporating weather, traffic, and vessel condition. Safety always
+        takes precedence over commercial or schedule pressures.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 7.2 outlines the Company’s navigation policy emphasizing
+        teamwork, competence, and strict adherence to procedures. It reinforces
+        that navigational safety and environmental protection remain the
+        Master’s highest responsibilities at all times.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 7.3 — Mooring and Anchoring Operations</p>
+    <p>1️⃣ Policy and General Principles</p>
+    <p>
+        All Company vessels must be equipped with mooring and anchoring
+        systems that meet current industry and regulatory standards. Equipment
+        must be properly maintained, certified, and suitable for the vessel’s
+        size and operational requirements, ensuring safe mooring under all
+        conditions.
+    </p>
+    <p>2️⃣ Equipment Maintenance and Inspection</p>
+    <p>
+        The Company performs periodic inspections and maintenance of all
+        mooring and anchoring gear. Reviews assess equipment performance,
+        identify areas for improvement, and ensure modifications follow the
+        latest industry best practices and safety recommendations.
+    </p>
+    <p>3️⃣ Personnel Responsibilities and Training</p>
+    <p>
+        Mooring and anchoring operations are inherently hazardous and must
+        only be carried out under competent supervision. All personnel involved
+        receive appropriate training, follow SMS procedures, and remain alert to
+        snap-back zones, load risks, and communication signals during
+        operations.
+    </p>
+    <p>4️⃣ Operational Procedures and Controls</p>
+    <p>
+        Each operation must be pre-planned, assigning specific duties to
+        responsible officers and crew. The Master and Chief Officer verify the
+        readiness of all mooring lines, tails, shackles, and anchors. Standard
+        checklists and permits are used to control risks before, during, and
+        after operations.
+    </p>
+    <p>5️⃣ Continuous Review and Compliance</p>
+    <p>
+        The Company continually reviews mooring and anchoring practices
+        through audits and incident feedback. Lessons learned are integrated
+        into future procedures, ensuring safe practices, compliance with
+        terminal criteria, and adherence to evolving international
+        standards.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 7.3 defines the Company’s policy for mooring and anchoring
+        operations. It establishes equipment standards, crew training,
+        procedural control, and continuous improvement to maintain safe and
+        compliant operations across the fleet.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 7.4 — Engine Room Operations</p>
+    <p>1️⃣ General Provisions</p>
+    <p>
+        All engineering operations must be carried out safely, efficiently,
+        and in strict compliance with international regulations, manufacturer’s
+        instructions, and the Company’s Safety Management System. Preventive
+        maintenance and condition-based monitoring ensure machinery reliability
+        and operational readiness.
+    </p>
+    <p>2️⃣ Chief Engineer’s Oversight</p>
+    <p>
+        The Chief Engineer holds full responsibility for all engine room
+        activities. He ensures that maintenance schedules, operational checks,
+        and repairs are performed as planned. Daily standing orders,
+        inspections, and test routines maintain system integrity and promote
+        safety awareness among all crew members.
+    </p>
+    <p>3️⃣ Superintendent and Technical Management</p>
+    <p>
+        Superintendent Engineers verify the implementation of engine room
+        procedures during ship visits, ensuring conformance with established
+        Company standards. The Technical Manager reviews audit results and
+        inspection records to confirm that maintenance quality and safety levels
+        are consistently upheld.
+    </p>
+    <p>4️⃣ Safety, Emergencies, and Best Practice</p>
+    <p>
+        Engineering operations must always follow the Code of Safe Working
+        Practices (COSWP) and the maker’s guidelines. Crew members are required
+        to perform shutdown and alarm tests at defined intervals, ensuring
+        readiness for any operational or emergency condition within the engine
+        room.
+    </p>
+    <p>5️⃣ Verification and Documentation</p>
+    <p>
+        Verification procedures ensure that maintenance standards and safety
+        protocols are properly followed. Forms and audit checklists support the
+        tracking of performance, providing transparency and accountability
+        across shipboard and shore-based engineering functions.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 7.4 establishes the foundation for safe, compliant, and
+        well-documented engine room operations. It emphasizes preventive
+        maintenance, procedural discipline, and verification by Chief Engineers,
+        Superintendents, and Technical Managers to maintain consistent
+        engineering excellence.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 7.5 — Bulk Cargo Handling and Ballast Operations</p>
+    <p>1️⃣ General Policy</p>
+    <p>
+        Cargo and ballast operations must be conducted safely, efficiently,
+        and in compliance with the Company’s SMS, the IMSBC Code, and
+        international regulations. Masters and Chief Officers are responsible
+        for ensuring safe planning, supervision, and documentation during all
+        stages of operations.
+    </p>
+    <p>2️⃣ Cargo Operations and Precautions</p>
+    <p>
+        Before loading, cargo holds must be clean, dry, and inspected.
+        Officers verify cargo information, reactivity, and compatibility while
+        ensuring correct stowage and trimming. Snap-back zones, lighting safety,
+        and restricted entry areas are strictly enforced throughout
+        operations.
+    </p>
+    <p>3️⃣ Ballast Water Management</p>
+    <p>
+        Ballast operations are performed according to the approved Ballast
+        Water Management Plan (BWMP). Officers monitor stability, stress, and
+        ballast sequences, preventing hydraulic shock and ensuring tanks are
+        inspected, vented, and maintained under safe conditions.
+    </p>
+    <p>4️⃣ Ship-to-Ship (STS) and Specialized Cargoes</p>
+    <p>
+        STS cargo transfers, lightering, or transshipments follow strict
+        Company procedures. Weather, swell, and lighting limitations are
+        observed. Specialized or hazardous bulk cargoes are handled per the
+        IMSBC Code with continuous supervision and environmental
+        precautions.
+    </p>
+    <p>5️⃣ Documentation, Monitoring, and Records</p>
+    <p>
+        All cargo and ballast activities are logged in Company forms and
+        checklists. Loading computers, tank soundings, and ballast treatment
+        systems are verified at each stage. Records ensure full traceability and
+        compliance with Flag and Port State requirements.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 7.5 defines procedures for bulk cargo and ballast operations
+        under the Company’s SMS. It emphasizes planning, hazard control, ballast
+        management, and precise documentation to maintain safe, compliant, and
+        efficient shipboard operations.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 7.6 — Environmental Procedures</p>
+    <p>1️⃣ Compliance Framework</p>
+    <p>
+        The Company ensures full compliance with MARPOL, OPA-90, and other
+        environmental conventions through its Safety Management System. All
+        ships follow legal and industry requirements to control discharges,
+        emissions, and waste management processes.
+    </p>
+    <p>2️⃣ Pollution Prevention Measures</p>
+    <p>
+        Operations involving oily bilge water, sludge, sewage, or garbage are
+        carried out under approved procedures and recorded in official logs. All
+        discharges to sea, land, or air are monitored, treated, and managed to
+        prevent pollution and protect the marine environment.
+    </p>
+    <p>3️⃣ Air Emission and Energy Control</p>
+    <p>
+        The Company complies with MARPOL Annex VI requirements, maintaining
+        certified engines, monitoring SOx and NOx emissions, and recording use
+        of ozone-depleting substances. Energy performance is optimized through
+        continuous monitoring, following ISO 50001 principles.
+    </p>
+    <p>4️⃣ Waste, Ballast, and Recycling</p>
+    <p>
+        Ballast water operations follow approved management plans, ensuring
+        treatment and safe exchange. Waste segregation, garbage control, and
+        ship recycling are performed under verified procedures, supporting
+        sustainability and compliance with the Inventory of Hazardous Materials
+        (IHM).
+    </p>
+    <p>5️⃣ Environmental Management and Review</p>
+    <p>
+        Environmental performance is reviewed through audits, inspections,
+        and crew feedback. The Company applies the Plan–Do–Check–Act model to
+        identify risks, set objectives, and enhance awareness, achieving
+        measurable improvements in environmental protection and energy
+        efficiency.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 7.6 establishes the Company’s environmental protection
+        framework, aligning MARPOL compliance with ISO 14001 and ISO 50001
+        standards. It ensures pollution prevention, emission control, and
+        continuous environmental performance improvement across all
+        operations.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 7.7 — Drug and Alcohol (D&amp;A) Control</p>
+    <p>1️⃣ Policy Overview</p>
+    <p>
+        The Company’s Drug and Alcohol (D&amp;A) policy applies to all
+        seafarers, contractors, visitors, and personnel onboard. It prohibits
+        the possession, use, or distribution of drugs and restricts alcohol
+        consumption to approved limits, ensuring that all personnel remain fit
+        for duty and free from impairment.
+    </p>
+    <p>2️⃣ Purpose and Objectives</p>
+    <p>
+        The D&amp;A policy aims to prevent accidents, promote safe working
+        conditions, and maintain professional integrity. It defines prevention
+        measures, testing programs, and disciplinary actions to eliminate the
+        influence of drugs and alcohol in shipboard operations.
+    </p>
+    <p>3️⃣ Alcohol Consumption Control</p>
+    <p>
+        Alcohol is strictly limited to one 330 ml beer (&lt;3.5% ABV) per
+        person per day, for a maximum of two days per week, and only with the
+        Master’s approval. Consumption is prohibited within four hours of
+        watchkeeping or duty, and entirely banned within 24 hours before
+        entering U.S. waters.
+    </p>
+    <p>4️⃣ Drug Prohibition and Testing</p>
+    <p>
+        Possession or use of illegal drugs is a dismissible offence. The
+        Company performs pre-employment, random, and post-incident drug tests in
+        accordance with international standards. All test results are
+        confidential but strictly enforced to protect personnel and operational
+        safety.
+    </p>
+    <p>5️⃣ Awareness and Disciplinary Measures</p>
+    <p>
+        The Company promotes awareness through training and communication to
+        prevent D&amp;A misuse. Violations are subject to disciplinary action,
+        including dismissal and possible legal prosecution. Preventive education
+        reinforces responsibility, self-control, and adherence to Company
+        values.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 7.7 outlines the Company’s strict policy against drug and
+        alcohol misuse. It defines responsibilities, preventive measures, and
+        enforcement procedures ensuring safety, professionalism, and compliance
+        with maritime and labor regulations.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 7.8 — Communications</p>
+    <p>1️⃣ General Principles</p>
+    <p>
+        Effective communication is essential for the safe and efficient
+        management of ships and shore operations. All Company personnel must
+        ensure clarity, accuracy, and timeliness in both routine and emergency
+        communications to support safe navigation and continuous operational
+        awareness.
+    </p>
+    <p>2️⃣ Communication Scope</p>
+    <p>
+        This procedure defines communication protocols between the Company
+        and managed ships, internal Company departments, external stakeholders,
+        and third parties. It also covers shipboard communications, distress
+        alerts, danger messages, and ship reporting requirements under
+        international conventions.
+    </p>
+    <p>3️⃣ Confidentiality and Control</p>
+    <p>
+        Personnel involved in preparing or handling messages must preserve
+        the confidentiality of all Company information. Sensitive data,
+        including reports and correspondence, must be transmitted through
+        authorized channels and handled in accordance with regulatory and
+        internal requirements.
+    </p>
+    <p>4️⃣ Roles and Responsibilities</p>
+    <p>
+        Shore management, Masters, and Officers share responsibility for
+        accurate and prompt communication. The Company provides training and
+        technology to support effective coordination, ensuring all communication
+        systems are functional, tested, and properly maintained.
+    </p>
+    <p>5️⃣ Emergency and Safety Communications</p>
+    <p>
+        Distress, urgency, and safety messages are handled per GMDSS
+        procedures using approved equipment and frequencies. Radio logs, backup
+        power sources, and equipment checks ensure reliability and readiness
+        during emergencies and critical shipboard operations.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 7.8 establishes procedures for all ship-to-shore, internal,
+        and emergency communications. It ensures accuracy, confidentiality, and
+        compliance with international regulations to maintain safe, reliable,
+        and efficient information exchange across the Company’s operations.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 7.9 — Procedures for Safe Work Performance</p>
+    <p>1️⃣ General Purpose and Responsibilities</p>
+    <p>
+        Managers and Masters are responsible for implementing safe working
+        practices, ensuring all crew are briefed, trained, and supervised. The
+        system promotes hazard identification, teamwork, and proactive safety
+        culture through structured daily planning and risk assessment.
+    </p>
+    <p>2️⃣ Daily Work Plan Meetings</p>
+    <p>
+        The Master holds daily meetings to review scheduled jobs, hazards,
+        PPE requirements, and interdepartmental coordination. Each meeting
+        confirms that resources, spares, and competent personnel are available,
+        while preventing conflicts between simultaneous shipboard tasks.
+    </p>
+    <p>3️⃣ Tool Box Talks (TBT)</p>
+    <p>
+        Tool Box Talks are short safety discussions held before any job. They
+        allow team members to identify hazards, agree on control measures, and
+        confirm task understanding. These informal sessions strengthen safety
+        awareness and encourage open communication among crew.
+    </p>
+    <p>4️⃣ Permit-to-Work (PTW) System</p>
+    <p>
+        High-risk jobs such as hot work, enclosed space entry, and electrical
+        or pressure-related work require formal permits. The PTW defines the
+        scope, safety checks, and authorization levels, ensuring that tasks are
+        performed only under controlled and approved conditions.
+    </p>
+    <p>5️⃣ Continuous Monitoring and Improvement</p>
+    <p>
+        All permits, checklists, and reports are reviewed to verify
+        compliance and lessons learned. The Company regularly evaluates the
+        effectiveness of its safety systems, updating procedures and training to
+        maintain the highest operational safety standards.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 7.9 defines the Company’s structured approach to safe work
+        performance. It establishes daily work planning, Tool Box Talks, and the
+        Permit-to-Work system as essential tools for risk control, teamwork, and
+        continuous safety improvement onboard.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 7.10 — Health, Hygiene, and Medical Issues</p>
+    <p>1️⃣ Health and Safety Principles</p>
+    <p>
+        The Company is committed to maintaining a healthy, hygienic, and safe
+        working environment for all employees and crew. Risks are prevented or
+        minimized through proper planning, equipment maintenance, and continuous
+        training in occupational health and hygiene.
+    </p>
+    <p>2️⃣ Responsibilities and Objectives</p>
+    <p>
+        Management ensures that work is organized and performed with due
+        regard to personal health, hygiene, and safety. Regular inspections,
+        medical checks, and staff familiarization promote awareness of health
+        risks and support the prevention of illness or injury.
+    </p>
+    <p>3️⃣ Hygiene and Living Conditions</p>
+    <p>
+        Cleanliness of accommodation, food storage, and catering areas is
+        maintained to high standards. Routine cleaning, pest control, and safe
+        food-handling practices reduce contamination risks, ensuring healthy
+        living and working conditions onboard.
+    </p>
+    <p>4️⃣ Medical Care and First Aid</p>
+    <p>
+        Each vessel maintains a hospital space, medical locker, and first aid
+        supplies in accordance with MLC and Flag requirements. Trained personnel
+        administer first aid, keep medical records, and arrange telemedical
+        advice or evacuation when necessary.
+    </p>
+    <p>5️⃣ Health Monitoring and Preventive Actions</p>
+    <p>
+        The Company evaluates workplace hazards such as noise, temperature,
+        and chemical exposure. Preventive actions include PPE use, ventilation
+        control, and regular safety briefings to ensure long-term crew
+        well-being and regulatory compliance.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 7.10 outlines Company procedures to protect crew health
+        through hygiene control, preventive safety measures, and medical
+        readiness. It promotes continuous monitoring and improvement of living,
+        catering, and occupational conditions onboard.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 7.11 — Fatigue</p>
+    <p>1️⃣ Definition and Significance</p>
+    <p>
+        Fatigue is a reduction in mental or physical performance caused by
+        lack of rest, long working hours, or disruption of natural sleep
+        patterns. It affects alertness, coordination, and decision-making,
+        posing a serious risk to shipboard safety and efficiency.
+    </p>
+    <p>2️⃣ Causes of Fatigue</p>
+    <p>
+        Fatigue may result from inadequate sleep, monotonous work, extended
+        watch schedules, or environmental factors such as noise, vibration, and
+        stress. Both physical exertion and emotional strain can reduce
+        concentration and increase the likelihood of human error.
+    </p>
+    <p>3️⃣ Effects and Identification</p>
+    <p>
+        Fatigue leads to slower reaction times, poor judgment, irritability,
+        and decreased communication efficiency. Masters and officers must
+        monitor crew performance, recognize warning signs early, and take
+        corrective action before safety is compromised.
+    </p>
+    <p>4️⃣ Prevention and Control Measures</p>
+    <p>
+        Adequate rest hours, proper scheduling, and work rotation are
+        essential to prevent fatigue. Regular breaks, balanced nutrition, and
+        maintaining quiet rest areas contribute to alertness and overall
+        well-being. Crew members must report excessive tiredness without fear of
+        penalty.
+    </p>
+    <p>5️⃣ Hours of Rest Compliance</p>
+    <p>
+        All personnel must comply with the STCW and MLC rest-hour
+        requirements. The minimum rest is 10 hours in any 24-hour period and 77
+        hours in any seven-day period. Records of work and rest hours are
+        maintained and verified during audits and inspections.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 7.11 defines fatigue as a safety-critical risk affecting
+        alertness and decision-making. It establishes rest-hour requirements,
+        monitoring, and preventive practices ensuring that all seafarers remain
+        fit, alert, and compliant with international maritime standards.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 8 — Emergency Preparedness</p>
+    <p>1️⃣ Purpose and Scope</p>
+    <p>
+        The Company maintains an integrated system of Emergency Response
+        Plans (ERP) covering all potential incidents that may affect personnel,
+        the ship, the environment, or cargo. Each vessel implements these plans
+        alongside statutory documents such as SOPEP and NT-VRP.
+    </p>
+    <p>2️⃣ Initial Assessment</p>
+    <p>
+        Upon an emergency, the Master must immediately assess the situation,
+        identify risks, and determine the need for external assistance.
+        Priorities are clearly defined: protect life first, then the ship, the
+        environment, and finally the cargo. The assessment establishes the
+        foundation for all response actions.
+    </p>
+    <p>3️⃣ Reporting and Communication</p>
+    <p>
+        The Master must ensure prompt reporting to the Company, coastal and
+        port authorities, and other relevant contacts. Reports must include
+        situation details, damage extent, assistance required, and ongoing
+        corrective actions, ensuring transparency and coordination throughout
+        the event.
+    </p>
+    <p>4️⃣ Emergency Response Actions</p>
+    <p>
+        The Company’s Emergency Response Team (ERT) coordinates with the
+        vessel to manage incidents effectively. Responsibilities include crew
+        welfare, documentation, contact with external agencies, and media
+        handling. All actions are logged to maintain traceability and
+        post-incident review capability.
+    </p>
+    <p>5️⃣ Training, Drills, and Evaluation</p>
+    <p>
+        Both shore-based and shipboard personnel conduct regular drills,
+        exercises, and training to maintain readiness. Evaluation of these
+        drills identifies lessons learned and supports continuous improvement of
+        the ERP system to strengthen preparedness across all operational
+        scenarios.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 8 defines the Company’s system for effective emergency
+        preparedness and response. It establishes clear priorities, reporting
+        channels, and coordination procedures to protect life, property, and the
+        environment through planning, training, and continuous improvement.
+    </p>
+    <p>
+        <!-- CHAPTER START -->
+        Chapter 9 — Reporting, Root Cause Analysis, and Investigation of
+        Non-Conformities, Incidents, and Near Misses
+    </p>
+    <p>1️⃣ Purpose and Objectives</p>
+    <p>
+        The Company’s reporting system ensures that all undesired
+        events—accidents, incidents, non-conformities, near-misses, and unsafe
+        acts—are promptly identified, reported, and analyzed. Its goal is to
+        eliminate or reduce risk to the lowest reasonably practicable level
+        through structured root cause analysis.
+    </p>
+    <p>2️⃣ Responsibilities and Just Culture</p>
+    <p>
+        Management, Masters, and Officers share responsibility for promoting
+        a “Just Culture,” encouraging open reporting without fear of punishment.
+        Errors or omissions are treated as learning opportunities unless caused
+        by negligence or willful violation of established procedures.
+    </p>
+    <p>3️⃣ Reporting and Investigation Process</p>
+    <p>
+        Undesired events are documented using standardized Company forms. The
+        Master initiates immediate notification to the office, secures evidence,
+        and prevents recurrence. The DPA assigns investigators who gather facts,
+        analyze causes, and recommend corrective and preventive actions.
+    </p>
+    <p>4️⃣ Root Cause Analysis and Corrective Actions</p>
+    <p>
+        Investigations identify direct, underlying, and root causes through
+        structured methodologies such as DNV M-SCAT. Corrective and preventive
+        actions are developed, implemented, and verified for effectiveness
+        before case closure, ensuring lessons are integrated into Company
+        procedures.
+    </p>
+    <p>5️⃣ Continuous Improvement and Records</p>
+    <p>
+        Investigation reports and statistics are reviewed during management
+        meetings to identify trends and improvement areas. The Company maintains
+        transparent records of all non-conformities and uses findings to
+        strengthen the SMS, enhance training, and prevent recurrence.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 9 defines the Company’s system for reporting, analyzing, and
+        learning from all undesired events. It promotes transparency, continuous
+        improvement, and a Just Culture to prevent recurrence and maintain high
+        safety and quality standards across all operations.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 10 — Maintenance of the Ship and Equipment</p>
+    <p>1️⃣ Ship Maintenance Policy</p>
+    <p>
+        The Company maintains all vessels in full compliance with
+        international and national regulations, classification rules, and
+        industry standards. Maintenance ensures reliability of systems,
+        minimizes breakdowns, and sustains safe, cost-effective operations at
+        all times.
+    </p>
+    <p>2️⃣ Planned Maintenance System (PMS)</p>
+    <p>
+        A structured PMS schedules and records all maintenance tasks for
+        critical machinery, deck, and safety systems. Jobs are planned based on
+        manufacturer guidance, Class requirements, and operational feedback,
+        ensuring timely completion and traceable documentation.
+    </p>
+    <p>3️⃣ Responsibilities and Control</p>
+    <p>
+        The Master and Chief Engineer are responsible for implementing the
+        PMS onboard, while shore technical staff monitor performance, analyze
+        equipment trends, and plan corrective actions. The system ensures that
+        ship and shore teams cooperate seamlessly in maintenance management.
+    </p>
+    <p>4️⃣ Equipment and System Guidelines</p>
+    <p>
+        Detailed procedures cover maintenance for engines, pumps, piping,
+        electrical systems, mooring gear, firefighting appliances, and hull
+        coatings. Each activity follows approved instructions, ensuring safety,
+        environmental protection, and consistent performance standards.
+    </p>
+    <p>5️⃣ Inspections, Repairs, and Continuous Improvement</p>
+    <p>
+        Regular shipboard inspections and condition assessments identify
+        defects, triggering timely repairs. Drydocking, class surveys, and
+        audits verify compliance and system integrity. Lessons learned are
+        incorporated into updated procedures for continual improvement of fleet
+        maintenance.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 10 establishes the Company’s structured system for ship and
+        equipment maintenance. It integrates planned maintenance, inspections,
+        and repair procedures to ensure reliability, compliance, and sustained
+        operational safety throughout the vessel’s life cycle.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 11 — Document / Data Control</p>
+    <p>1️⃣ Purpose and Scope</p>
+    <p>
+        This chapter ensures that all SMS documents and records are properly
+        reviewed, approved, distributed, and controlled. It establishes
+        procedures for identifying, maintaining, and updating documents to
+        prevent the use of obsolete or invalid information.
+    </p>
+    <p>2️⃣ Identification and Issue Control</p>
+    <p>
+        All SMS documents include clear identification data: Company name,
+        chapter, title, issue and revision numbers, dates, and page numbering.
+        Each document is reviewed during Management Review Committee meetings to
+        incorporate new requirements or procedural improvements.
+    </p>
+    <p>3️⃣ Distribution and Change Management</p>
+    <p>
+        Controlled copies of the SMS are distributed to relevant personnel
+        ashore and onboard through secure channels. Any change to procedures or
+        forms must be reviewed, approved, and recorded. Obsolete documents are
+        promptly removed to maintain data integrity.
+    </p>
+    <p>4️⃣ Records, Storage, and Retention</p>
+    <p>
+        Records must remain legible, traceable, and readily retrievable. They
+        are stored securely in both paper and electronic form, with defined
+        retention periods according to Company policy. Disposal of expired
+        records is documented and approved.
+    </p>
+    <p>5️⃣ Electronic Systems and Certificates</p>
+    <p>
+        Electronic Certificates and Record Books (e-Certificates, ERBs) are
+        maintained where approved by the Flag Administration. Electronic
+        documentation follows strict data protection, classification, and
+        software control standards to ensure system reliability and
+        security.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 11 defines the control and management of SMS documents and
+        data. It ensures that all information remains accurate, traceable, and
+        secure throughout its lifecycle, supporting operational consistency,
+        regulatory compliance, and continuous improvement.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 12 — Verification, Review, and Evaluation</p>
+    <p>1️⃣ Purpose and Overview</p>
+    <p>
+        The Company ensures continuous verification, review, and evaluation
+        of its Safety Management System (SMS) through planned audits,
+        inspections, and assessments. These activities confirm that established
+        procedures are properly implemented and remain effective across all
+        operations.
+    </p>
+    <p>2️⃣ Internal Audits and Verification</p>
+    <p>
+        Internal audits are conducted both ashore and onboard to evaluate
+        compliance with SMS requirements and international standards. Findings
+        are recorded, and corrective actions are followed up to ensure that
+        non-conformities are promptly addressed and prevented from
+        recurring.
+    </p>
+    <p>3️⃣ Specialized Audits and Assessments</p>
+    <p>
+        The Company performs additional audits covering navigation, cargo,
+        mooring, engineering, contractors, and manning agents. These assessments
+        verify operational standards, equipment reliability, and personnel
+        competence under Company procedures and regulatory expectations.
+    </p>
+    <p>4️⃣ Remote and Unscheduled Audits</p>
+    <p>
+        Unscheduled or remote audits may be carried out in response to
+        incidents, deficiencies, or special requests from management. Such
+        reviews provide flexibility in monitoring performance and enable
+        immediate feedback to maintain continuous compliance and safety
+        performance.
+    </p>
+    <p>5️⃣ Management Reviews and Continuous Improvement</p>
+    <p>
+        Results from all audits and verifications are analyzed during
+        Masters’ Reviews, Safety Meetings, and Management Review Committee (MRC)
+        sessions. Performance data and audit trends are evaluated to improve the
+        SMS, allocate resources, and define measurable objectives for
+        improvement.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 12 establishes the Company’s audit and review system for
+        verifying the effectiveness of its Safety Management System. It ensures
+        structured internal audits, periodic reviews, and management evaluations
+        that drive continual improvement and operational excellence.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 13 — Management of Change (MoC)</p>
+    <p>1️⃣ Purpose and Objectives</p>
+    <p>
+        The Management of Change (MoC) process ensures that all modifications
+        within the Company or vessels are implemented under controlled and
+        authorized conditions. It prevents unplanned disruptions, ensures
+        regulatory compliance, and minimizes operational and safety risks.
+    </p>
+    <p>2️⃣ Identification of Change</p>
+    <p>
+        Changes may arise from new regulations, technical improvements,
+        vessel acquisitions or disposals, operational adjustments, or personnel
+        restructuring. Each proposed change must be clearly identified,
+        documented, and communicated for proper evaluation and control.
+    </p>
+    <p>3️⃣ Evaluation and Risk Assessment</p>
+    <p>
+        Every proposed change is assessed for potential impacts on safety,
+        environmental protection, quality, and resources. The evaluation process
+        determines the level of risk, identifies mitigation measures, and
+        confirms that no adverse effects compromise ship or shore
+        operations.
+    </p>
+    <p>4️⃣ Approval and Implementation</p>
+    <p>
+        Authorized managers review and approve change requests before
+        implementation. The DPA or responsible department coordinates actions,
+        updates relevant SMS documentation, and ensures that affected personnel
+        are trained and briefed on new requirements.
+    </p>
+    <p>5️⃣ Monitoring and Continuous Review</p>
+    <p>
+        After implementation, each change is monitored and verified for
+        effectiveness. Lessons learned are analyzed and incorporated into future
+        revisions of procedures to enhance control, consistency, and continuous
+        improvement within the SMS framework.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 13 establishes the Company’s Management of Change system,
+        ensuring that all operational or organizational changes are properly
+        evaluated, authorized, and monitored. It promotes structured risk
+        control, compliance, and continual improvement across all
+        activities.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 14 — Risk Assessment (RA) and Risk Management (RM)</p>
+    <p>1️⃣ Purpose and Scope</p>
+    <p>
+        The Company applies a structured Risk Assessment (RA) and Risk
+        Management (RM) process to identify, evaluate, and control hazards that
+        could affect health, safety, environment, or operations. All activities
+        are assessed to ensure that risks are reduced to the As Low As
+        Reasonably Practicable (ALARP) level.
+    </p>
+    <p>2️⃣ Responsibilities and Team Structure</p>
+    <p>
+        All employees ashore and onboard must identify potential hazards and
+        request an RA when needed. RAs are performed by competent RA Teams
+        consisting of trained officers and staff. The DPA, Managers, and Masters
+        oversee the process and ensure that results are reviewed, approved, and
+        implemented effectively.
+    </p>
+    <p>3️⃣ Risk Assessment Procedure</p>
+    <p>
+        The process includes hazard identification, risk analysis, and
+        implementation of control measures. The risk is determined by the
+        product of frequency and consequence (R = F × C). Each RA defines
+        preventive and mitigation measures to minimize exposure and residual
+        risk, ensuring operational safety.
+    </p>
+    <p>4️⃣ Approval and Follow-Up</p>
+    <p>
+        Risk Assessments are approved according to their category and
+        residual risk level. Routine and medium-risk RAs are approved onboard or
+        ashore, while high-risk or non-routine assessments require higher
+        management review. All actions are tracked, documented, and verified
+        until closure.
+    </p>
+    <p>5️⃣ Review and Continuous Improvement</p>
+    <p>
+        RAs are reviewed during Management Review Committee (MRC) meetings or
+        when significant operational changes occur. The DPA maintains the RA
+        library, ensuring all documents remain current and reflect lessons
+        learned from incidents, audits, or new regulatory developments.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 14 establishes the Company’s formal system for Risk
+        Assessment and Risk Management. It defines responsibilities, procedures,
+        and approval processes ensuring all operational hazards are
+        systematically identified, controlled, and reviewed for continuous
+        improvement.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 15 — New Acquisitions and Shipbuilding Projects</p>
+    <p>1️⃣ Purpose and Scope</p>
+    <p>
+        This chapter provides procedures for acquiring new or second-hand
+        vessels, managing newbuilding projects, and releasing ships from
+        management. It ensures that all preparatory actions are completed safely
+        and that associated risks are identified, assessed, and controlled.
+    </p>
+    <p>2️⃣ Responsibilities and Planning</p>
+    <p>
+        Management oversees due diligence, contractual arrangements, and
+        compliance verification for each new project. Responsibilities include
+        confirming vessel condition, reviewing documentation, and coordinating
+        with Class, Flag, and makers to ensure smooth delivery and
+        operation.
+    </p>
+    <p>3️⃣ Integration of Newly Acquired Ships</p>
+    <p>
+        For second-hand vessels, the Company verifies technical condition,
+        equipment functionality, and SMS familiarization. Officers and crew
+        receive full induction on Company policies, reporting tools, and safety
+        systems before assuming operational responsibility.
+    </p>
+    <p>4️⃣ Newbuilding and Quality Control</p>
+    <p>
+        For newbuildings, the Company supervises the design, construction,
+        and trials under approved plans. Quality control covers inspection,
+        testing, calibration, and adherence to standards at shipyards,
+        subcontractors, and vendor facilities to ensure specification
+        compliance.
+    </p>
+    <p>5️⃣ Post-Delivery and Warranty Management</p>
+    <p>
+        After delivery, the vessel enters service under Company management
+        following final verification and documentation checks. The warranty
+        period is monitored to track performance, resolve deficiencies, and
+        confirm full operational readiness.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 15 establishes Company procedures for ship acquisition,
+        construction, and delivery. It ensures proper evaluation, risk
+        management, familiarization, and quality control from planning to
+        post-delivery, maintaining operational safety and compliance.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 16 — Quality Management</p>
+    <p>1️⃣ Purpose and Context</p>
+    <p>
+        The Company’s Quality Management System (QMS) aligns with ISO 9001
+        and forms an integral part of the SMS. It ensures that all activities
+        meet customer, statutory, and regulatory requirements through a
+        structured Plan–Do–Check–Act (PDCA) approach. The scope, exclusions, and
+        control boundaries are defined within the Company’s SMS framework.
+    </p>
+    <p>2️⃣ Leadership and Responsibilities</p>
+    <p>
+        Top Management demonstrates commitment by defining policies,
+        objectives, and responsibilities for all departments. It ensures
+        sufficient resources, qualified personnel, and effective communication
+        across ship and shore teams. Customer satisfaction and continual
+        improvement remain the core management focus.
+    </p>
+    <p>3️⃣ Risk, Opportunity, and Objective Planning</p>
+    <p>
+        The Company identifies risks and opportunities affecting service
+        delivery and records them in the Risk and Opportunities Register.
+        Quality objectives are measurable and reviewed periodically to ensure
+        operational performance, efficiency, and compliance with contractual and
+        regulatory expectations.
+    </p>
+    <p>4️⃣ Resources, Competence, and Communication</p>
+    <p>
+        Quality performance relies on trained, competent personnel supported
+        by adequate infrastructure and technology. Regular training, awareness
+        programs, and communication ensure personnel understand the Quality
+        Policy, their roles, and the potential impacts of non-conformance on
+        safety and service reliability.
+    </p>
+    <p>5️⃣ Performance Evaluation and Improvement</p>
+    <p>
+        Internal audits, management reviews, and customer feedback form the
+        backbone of continuous improvement. Results are analyzed to identify
+        non-conformities, initiate corrective actions, and enhance customer
+        satisfaction. Outsourced services are monitored to maintain consistency
+        and control of all quality-related processes.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 16 establishes the Company’s Quality Management framework in
+        line with ISO 9001. It defines leadership, risk planning, communication,
+        and improvement processes ensuring that all services meet customer
+        expectations and regulatory requirements through continual evaluation
+        and control.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 17 — Contractors Management</p>
+    <p>1️⃣ Purpose and Objective</p>
+    <p>
+        This chapter defines procedures for the qualification, selection,
+        evaluation, and monitoring of all Contractors engaged by the Company. It
+        ensures that all third parties perform their duties safely, effectively,
+        and in compliance with the Company’s HSQE and operational standards.
+    </p>
+    <p>2️⃣ Responsibilities and Oversight</p>
+    <p>
+        Managers and Superintendents set evaluation criteria, review
+        contracts, and maintain the Approved Contractors List. The Master and
+        Safety Officer ensure that onboard Contractors receive safety induction,
+        participate in work-planning meetings, and comply with the Company’s
+        operational and safety policies.
+    </p>
+    <p>3️⃣ Contractor Qualification and Approval</p>
+    <p>
+        Prequalification assesses each Contractor’s certifications, HSQE
+        policies, equipment standards, and past performance. Only those
+        demonstrating compliance with ISO 9001, ISO 14001, and safety standards
+        are approved. Unlisted Contractors may only be used with prior
+        management authorization.
+    </p>
+    <p>4️⃣ Performance Monitoring and Feedback</p>
+    <p>
+        Contractor performance is monitored both ashore and onboard. Masters
+        provide feedback reports covering safety, quality, and environmental
+        compliance. Poor performance, incidents, or non-conformities may result
+        in corrective actions or deletion from the Approved Contractors
+        List.
+    </p>
+    <p>5️⃣ Continuous Improvement and Record Control</p>
+    <p>
+        The Company maintains transparent contractor performance records and
+        conducts periodic reviews. Lessons learned, complaints, and audits are
+        used to improve contractor management, enhance HSQE performance, and
+        ensure alignment with international and Company standards.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 17 defines how the Company selects, monitors, and evaluates
+        Contractors. It establishes qualification criteria, approval processes,
+        and performance reviews to ensure all contracted services meet HSQE,
+        safety, and quality requirements.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 18 — Third Party Ship Inspections</p>
+    <p>1️⃣ Purpose and Scope</p>
+    <p>
+        The Company standardizes the process for all third-party ship
+        inspections, including Class surveys, Port State Control (PSC), P&amp;I
+        Club, RightShip or charterer vetting, terminal, and Flag Administration
+        inspections. The goal is to ensure consistent preparation, coordination,
+        and follow-up.
+    </p>
+    <p>2️⃣ Responsibilities and Coordination</p>
+    <p>
+        The Master and Chief Engineer ensure the vessel’s readiness,
+        documentation accuracy, and crew familiarity with SMS procedures. Shore
+        management coordinates inspection schedules, maintains records, and
+        provides immediate assistance when findings or deficiencies arise.
+    </p>
+    <p>3️⃣ Inspection Management</p>
+    <p>
+        All inspections are managed using standardized checklists and
+        planning tools. Officers conduct pre-inspection self-checks to verify
+        compliance with statutory, class, and operational requirements. Any
+        non-conformities are corrected before inspection to maintain full
+        compliance.
+    </p>
+    <p>4️⃣ Surveys and Certification</p>
+    <p>
+        Vessels maintain valid statutory and class certificates covering
+        structure, machinery, and safety systems. Life-saving appliances,
+        firefighting equipment, and other critical systems are inspected and
+        certified by approved service providers according to defined
+        intervals.
+    </p>
+    <p>5️⃣ Reporting and Follow-Up</p>
+    <p>
+        Inspection results are reviewed by the DPA and relevant managers.
+        Corrective actions are tracked until closure, and lessons learned are
+        shared across the fleet. Records are archived to demonstrate compliance
+        and support continual improvement during future inspections.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 18 establishes the Company’s system for managing all
+        third-party inspections and certifications. It defines responsibilities,
+        ensures preparation and coordination, and promotes continuous
+        improvement to maintain safe and compliant ship operations.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 19 — Purchasing</p>
+    <p>1️⃣ Purpose and Scope</p>
+    <p>
+        The purchasing system ensures that all products and services procured
+        meet specified quality, safety, and environmental standards. All
+        purchases are authorized through written requisitions in the Company’s
+        ERP system to guarantee proper control and traceability.
+    </p>
+    <p>2️⃣ Procurement Principles</p>
+    <p>
+        Purchasing relies on competitive bidding and negotiation with
+        approved suppliers. Confidentiality is maintained at all stages, and
+        procurement decisions are based on fitness for purpose, safety, delivery
+        reliability, environmental compliance, and cost-effectiveness.
+    </p>
+    <p>3️⃣ Responsibilities and Supplier Evaluation</p>
+    <p>
+        Suppliers and contractors are evaluated and approved based on their
+        ability to meet Company standards. Performance reviews and periodic
+        re-evaluations ensure that only reliable, compliant, and ethical
+        suppliers remain on the Approved Vendors List.
+    </p>
+    <p>4️⃣ Conflict of Interest and Ethical Conduct</p>
+    <p>
+        Personnel must avoid any conflict of interest in purchasing
+        activities. Gifts or favors from suppliers are strictly prohibited. Any
+        potential conflict must be reported immediately to the Purchasing
+        Manager or Master to maintain transparency and integrity.
+    </p>
+    <p>5️⃣ Onboard and Emergency Purchasing</p>
+    <p>
+        The Master is not authorized to make local purchases without Company
+        approval, except in emergencies. Emergency procurements are reported
+        immediately with full documentation to ensure proper validation,
+        accountability, and budget control.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 19 defines the Company’s purchasing process, emphasizing
+        supplier qualification, ethical conduct, and strict requisition control.
+        It ensures transparency, compliance, and value in every procurement,
+        maintaining safety and environmental standards across all
+        operations.
+    </p>
+    <!-- CHAPTER START -->
+    <p>Chapter 20 — Cybersecurity</p>
+    <p>1️⃣ Objectives and Purpose</p>
+    <p>
+        The Cybersecurity system protects the Company’s information, assets,
+        and shipboard systems by safeguarding confidentiality, integrity, and
+        availability. It establishes accountability, promotes awareness, and
+        ensures continuity of operations in the event of cyber incidents.
+    </p>
+    <p>2️⃣ Cyber Risk Management</p>
+    <p>
+        The Company identifies and assesses IT and OT systems that could
+        impact operations if disrupted. Risk management includes recognizing
+        threats and vulnerabilities, implementing protection and detection
+        measures, and ensuring that networks, access control, and communication
+        boundaries remain secure.
+    </p>
+    <p>3️⃣ Governance and Leadership</p>
+    <p>
+        Top Management provides resources and direction for maintaining cyber
+        resilience. It enforces cybersecurity policies, monitors awareness
+        levels, conducts training, and promotes adherence to preventive
+        practices while reviewing performance and improving procedures
+        continuously.
+    </p>
+    <p>4️⃣ Controls and Preventive Measures</p>
+    <p>
+        Cyber protection is achieved through secured configurations,
+        controlled network access, restricted use of removable media, and
+        defined privileges for remote and local access. Training, equipment
+        disposal procedures, and maintenance of protective software support the
+        overall defense framework.
+    </p>
+    <p>5️⃣ Incident Response and Recovery</p>
+    <p>
+        In the event of a cyber incident, the Company ensures prompt
+        detection, reporting, and containment. Recovery procedures restore
+        affected systems and data using backups and contingency plans, ensuring
+        that shipboard and shore-based operations continue without major
+        disruption.
+    </p>
+    <p>✅ Summary</p>
+    <p>
+        Chapter 20 defines the Company’s Cybersecurity management system. It
+        establishes leadership, risk assessment, prevention, and recovery
+        measures to safeguard IT/OT systems, ensuring business continuity, data
+        protection, and sustained operational security across all
+        activities.
+    </p>
+</body>
+</html>

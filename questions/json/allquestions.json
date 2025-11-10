@@ -1,0 +1,3279 @@
+﻿{
+  "section": "Chapter 1",
+  "questions": [
+    {
+      "question": "A superintendent designs a campaign to reduce near-miss events and raise environmental performance. Which purpose of the Company�s SMS best justifies this initiative?",
+      "options": [
+        "To meet flag state reporting obligations only",
+        "To promote HSQE excellence through leadership and a disciplined, documented system",
+        "To minimize document storage costs by digitizing records",
+        "To limit legal liability after incidents occur"
+      ],
+      "answer": "To promote HSQE excellence through leadership and a disciplined, documented system",
+      "explanation": "The SMS explicitly aims to promote Health, Safety, Security, Quality, and Environmental excellence via strong leadership and a documented management system."
+    },
+    {
+      "question": "You�re auditing the Safety Management System Manual (SMSM). Which set of compliance frameworks should the manual describe according to Company policy?",
+      "options": [
+        "SOLAS and STCW only",
+        "ILO Conventions and ISO 14001 only",
+        "ISM Code, MLC 2006, and ISO 9001",
+        "OCIMF SIRE and TMSA only"
+      ],
+      "answer": "ISM Code, MLC 2006, and ISO 9001",
+      "explanation": "The SMSM�s purpose is to describe compliance with the ISM Code, the Maritime Labour Convention (MLC 2006), and ISO 9001 (Quality Management Systems)."
+    },
+    {
+      "question": "A department head is updating SMS documentation. Which of the following is LEAST aligned with what the documentation must include?",
+      "options": [
+        "Clear definition of policies, objectives, and targets within the SMS scope",
+        "Defined responsibilities, authorities, and interrelations for staff who affect HSQE processes",
+        "Documented procedures and appropriate SMS references",
+        "Marketing collateral outlining the company�s brand identity and color palette"
+      ],
+      "answer": "Marketing collateral outlining the company�s brand identity and color palette",
+      "explanation": "System documentation must define scope, responsibilities/authority, and procedures with references�not unrelated marketing materials."
+    },
+    {
+      "question": "During an onboard briefing, the Master asks what event types the crew should report under the SMS. Which answer is most complete?",
+      "options": [
+        "Only nonconformities and incidents",
+        "Incidents and personnel accidents; near-misses are optional",
+        "Only unsafe acts; unsafe conditions are handled in maintenance",
+        "Nonconformities, incidents, personnel accidents, near-misses, unsafe conditions, and unsafe acts"
+      ],
+      "answer": "Nonconformities, incidents, personnel accidents, near-misses, unsafe conditions, and unsafe acts",
+      "explanation": "The SMS requires procedures to report and analyze undesired events including all those listed, ensuring systematic learning and prevention."
+    },
+    {
+      "question": "The technical team wants to shift from reactive fixes to a proactive approach. According to the SMS, which maintenance philosophy should be emphasized?",
+      "options": [
+        "Breakdown maintenance only, to optimize spares usage",
+        "Condition monitoring and prevention-based maintenance",
+        "Calendar-based replacement of all components every year",
+        "Vendor-driven maintenance without internal review"
+      ],
+      "answer": "Condition monitoring and prevention-based maintenance",
+      "explanation": "The SMS calls for condition monitoring and prevention-based maintenance to safeguard the ship�s condition."
+    },
+    {
+      "question": "Management asks how the Company evaluates whether the SMS is working effectively. Which combination reflects the required evaluation mechanisms?",
+      "options": [
+        "Quarterly budget reviews and port state MOUs",
+        "Internal audits, Management reviews, and Master�s reviews",
+        "Class annual surveys and PSC inspections only",
+        "External financial audits and charterer vettings"
+      ],
+      "answer": "Internal audits, Management reviews, and Master�s reviews",
+      "explanation": "System performance and effectiveness are evaluated through internal audits, Management reviews, and Master�s reviews per the SMS."
+    },
+    {
+      "question": "The Company plans to establish a new shore office. When determining SMS boundaries and applicability, which factor is most directly relevant?",
+      "options": [
+        "Only the vessel�s load line and deadweight",
+        "The Company�s functions, physical boundaries, and organizational units ashore and onboard",
+        "The ship�s commercial trading routes",
+        "Charter party terms for laytime and demurrage"
+      ],
+      "answer": "The Company�s functions, physical boundaries, and organizational units ashore and onboard",
+      "explanation": "SMS boundaries consider the Company�s functions and physical/organizational units both ashore and onboard, ensuring coverage as the organization changes."
+    },
+    {
+      "question": "A document controller revises procedures for drawings received from equipment makers. Which control must the SMS include?",
+      "options": [
+        "Optional indexing for external documents, no retention of records",
+        "Document and data control including documents of external origin, plus record-keeping",
+        "Archiving only electronic documents; paper documents are excluded",
+        "Retention of non-referenced documents for historical interest"
+      ],
+      "answer": "Document and data control including documents of external origin, plus record-keeping",
+      "explanation": "The SMS requires document/data control (including external documents) and record-keeping to demonstrate compliance and effective operation."
+    },
+    {
+      "question": "A mixed-nationality crew joins a Company vessel. What is the official communication language between the Company and ships, and the common working language onboard?",
+      "options": [
+        "Greek",
+        "English",
+        "Spanish",
+        "Language decided by the senior officer onboard"
+      ],
+      "answer": "English",
+      "explanation": "The SMS specifies English as the official communication and common working language onboard the ships."
+    },
+    {
+      "question": "A bulk carrier under the Company�s management queries whether the SMS applies to it and to shore-based support activities. What is the correct interpretation?",
+      "options": [
+        "The SMS applies to tankers only, not to bulk carriers",
+        "The SMS applies only onboard; shore activities are excluded",
+        "The SMS applies to all Company activities and the specified ship types, including bulk carriers",
+        "The SMS applies only during audits and inspections"
+      ],
+      "answer": "The SMS applies to all Company activities and the specified ship types, including bulk carriers",
+      "explanation": "The SMS applies to all Company activities and the listed ship types; the document explicitly mentions bulk carriers."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 2",
+  "questions": [
+    {
+      "question": "A superintendent summarizes the Company's mission during an internal briefing. Which statement best represents it?",
+      "options": [
+        "To be the most profitable ship-management company in the region",
+        "To set standards for safe and environmentally friendly sea transportation using modern ships and motivated personnel with zero incidents",
+        "To dominate the global tanker market through cost reduction",
+        "To offer shipping services focused only on environmental innovation"
+      ],
+      "answer": "To set standards for safe and environmentally friendly sea transportation using modern ships and motivated personnel with zero incidents",
+      "explanation": "The mission emphasizes safety, environmental protection, professionalism, and zero incidents, defining the Company�s operational purpose."
+    },
+    {
+      "question": "During a Management Review, the team discusses long-term direction. Which vision statement aligns with the Company�s declared Vision?",
+      "options": [
+        "To be a leading Company of choice for global sea transportation of cargoes",
+        "To maximize quarterly profits for shareholders",
+        "To establish the largest fleet in Europe by tonnage",
+        "To provide low-cost shipping by reducing crew training"
+      ],
+      "answer": "To be a leading Company of choice for global sea transportation of cargoes",
+      "explanation": "The Vision describes leadership and preference as a global carrier, not fleet size or financial goals alone."
+    },
+    {
+      "question": "A department head designs a workshop on Core Values. Which behavior best demonstrates compliance with those values?",
+      "options": [
+        "Delegating all decisions to subordinates without oversight",
+        "Leading by example with persistence, vigilance, and determination",
+        "Prioritizing personal convenience over Company policy",
+        "Keeping Core Values as posters only without daily application"
+      ],
+      "answer": "Leading by example with persistence, vigilance, and determination",
+      "explanation": "Managers must embody the Core Values through action and leadership by example, not just policy reference."
+    },
+    {
+      "question": "Which description best explains how the Company�s SMS responsibilities are distributed?",
+      "options": [
+        "They are limited to shipboard staff only",
+        "They extend throughout the organization from the General Manager downwards",
+        "They apply solely to the Quality Department",
+        "They are delegated entirely to third-party contractors"
+      ],
+      "answer": "They extend throughout the organization from the General Manager downwards",
+      "explanation": "The SMS framework assigns safety and environmental responsibilities to all levels, ensuring accountability company-wide."
+    },
+    {
+      "question": "An officer wants to publish an article about shipboard innovations. What must they do first according to Company Policy?",
+      "options": [
+        "Post freely if content is positive",
+        "Obtain prior written approval from the General Manager",
+        "Send it to the flag administration for clearance",
+        "Submit it anonymously to an online forum"
+      ],
+      "answer": "Obtain prior written approval from the General Manager",
+      "explanation": "Publishing any article concerning Company or ship activities requires prior GM approval under the Articles for Publication policy."
+    },
+    {
+      "question": "A crew member shares vessel operational data with a surveyor. Which boundary defines acceptable disclosure under the Confidential Information policy?",
+      "options": [
+        "Any information that enhances the Company�s reputation",
+        "Information necessary for the specific operation only",
+        "All data except financial information",
+        "All details requested by any external party"
+      ],
+      "answer": "Information necessary for the specific operation only",
+      "explanation": "Disclosure is limited to the information required for the specific operational need to protect confidentiality."
+    },
+    {
+      "question": "A shore employee makes an offensive joke to a colleague. Which Company Policy is violated?",
+      "options": [
+        "Environmental Policy",
+        "Harassment and Non-Discrimination Policy",
+        "Confidential Information Policy",
+        "Articles for Publication Policy"
+      ],
+      "answer": "Harassment and Non-Discrimination Policy",
+      "explanation": "The Company explicitly prohibits harassment, bullying, sexual assault, and discrimination of any form."
+    },
+    {
+      "question": "A vessel noticeboard displays the Company�s posted policies. What is the purpose of posting them and how often are they reviewed?",
+      "options": [
+        "To meet class requirements only; reviewed every five years",
+        "To inform all personnel and ensure they remain valid through annual or as-needed reviews",
+        "To satisfy marketing requirements; never reviewed",
+        "To remind visiting inspectors; updated quarterly only"
+      ],
+      "answer": "To inform all personnel and ensure they remain valid through annual or as-needed reviews",
+      "explanation": "Policies are displayed in prominent positions and reviewed annually or when necessary to confirm continued validity."
+    },
+    {
+      "question": "A vendor requests access to Company policies. Are these documents publicly available?",
+      "options": [
+        "No, they are strictly internal documents",
+        "Yes, they are available to the public, customers, vendors, and suppliers",
+        "Only Masters may access them",
+        "Only external auditors may view them on request"
+      ],
+      "answer": "Yes, they are available to the public, customers, vendors, and suppliers",
+      "explanation": "The SMS states that Company policies are available to stakeholders including the public, customers, vendors, and suppliers."
+    },
+    {
+      "question": "A manager instructs subordinates to ignore Core Values if operational pressure arises. What does this indicate regarding leadership expectations?",
+      "options": [
+        "It aligns with efficiency over ethics",
+        "It contradicts the requirement for Managers to lead by example based on Core Values",
+        "It demonstrates proper flexibility in crisis management",
+        "It supports delegation under high workload"
+      ],
+      "answer": "It contradicts the requirement for Managers to lead by example based on Core Values",
+      "explanation": "Leaders must consistently uphold Core Values; disregarding them under pressure undermines the Company�s cultural foundation."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 3",
+  "questions": [
+    {
+      "question": "During an internal audit, a reviewer asks what the vertical and horizontal lines in the Company Organization Chart signify. What is the correct interpretation?",
+      "options": [
+        "Vertical lines indicate departmental collaboration, horizontal lines indicate rank order",
+        "Vertical lines indicate hierarchical seniority, horizontal lines indicate communication and collaboration",
+        "Both indicate equal communication authority across positions",
+        "Horizontal lines show seniority, vertical lines show communication channels"
+      ],
+      "answer": "Vertical lines indicate hierarchical seniority, horizontal lines indicate communication and collaboration",
+      "explanation": "In the Company Organization Chart, vertical lines represent rank hierarchy, while horizontal lines denote communication and collaboration among departments."
+    },
+    {
+      "question": "A new crewmember asks how they acknowledge their understanding of duties and responsibilities under the SMS. Which form applies?",
+      "options": [
+        "002.3.ORG.Inspection Report by Office Personnel",
+        "003.3.ORG.Post Management Visit Crew Survey",
+        "005.6.1.CREW.Policy Acceptance for seagoing personnel",
+        "001.3.ORG.Safety & Environmental Committee Meeting form"
+      ],
+      "answer": "005.6.1.CREW.Policy Acceptance for seagoing personnel",
+      "explanation": "Seagoing personnel sign Policy Acceptance form 005.6.1.CREW to confirm understanding of their duties and responsibilities."
+    },
+    {
+      "question": "While inspecting a ship, a Port Captain notices crew working without PPE. According to SMS, how should the Port Captain act?",
+      "options": [
+        "Report to the GM after departure only",
+        "Lead by example by wearing correct PPE and conduct a safety meeting with the Officers and crew",
+        "Allow the work to continue but file a written note later",
+        "Stop the operation immediately and leave the vessel"
+      ],
+      "answer": "Lead by example by wearing correct PPE and conduct a safety meeting with the Officers and crew",
+      "explanation": "Technical and Port Captains must lead by example and conduct safety meetings during visits to assess SMS implementation."
+    },
+    {
+      "question": "Following a GM�s ship visit, what optional step may the Master take to evaluate the crew�s perception of the visit?",
+      "options": [
+        "Request completion of form 003.3.ORG.Post Management Visit Crew Survey",
+        "Submit form 002.3.ORG.Inspection Report by Office Personnel",
+        "Hold an emergency drill with feedback",
+        "Send a verbal summary to the DPA"
+      ],
+      "answer": "Request completion of form 003.3.ORG.Post Management Visit Crew Survey",
+      "explanation": "After management visits, Masters may administer form 003.3.ORG.Post Management Visit Crew Survey to collect feedback from the crew."
+    },
+    {
+      "question": "Which statement best defines the Master's responsibilities under the ship�s Safety Organization?",
+      "options": [
+        "Manage safety matters only after incidents occur",
+        "Manage all safety-related matters onboard, verify Safety Officer�s work, and ensure compliance with policies and procedures",
+        "Focus solely on compliance with PSC inspections",
+        "Delegate all safety matters to the Chief Officer"
+      ],
+      "answer": "Manage all safety-related matters onboard, verify Safety Officer�s work, and ensure compliance with policies and procedures",
+      "explanation": "The Master ensures safe working conditions, oversees safety management, and maintains compliance with the Company�s SMS and policies."
+    },
+    {
+      "question": "An Officer assigns a job to a crewmember. According to SMS requirements, what must the Officer confirm before work starts?",
+      "options": [
+        "That the crewmember has completed onboard familiarization only",
+        "That the crewmember has the skills for the job, there is a safe work plan, and the workplace is safe",
+        "That the crewmember accepts responsibility in writing",
+        "That the DPA has been informed"
+      ],
+      "answer": "That the crewmember has the skills for the job, there is a safe work plan, and the workplace is safe",
+      "explanation": "Officers must ensure competence, adequate planning, and a safe workplace before any job starts."
+    },
+    {
+      "question": "A seafarer stops work due to a perceived hazard. What must the Master do before resuming operations?",
+      "options": [
+        "Ensure the hazard is eliminated before work resumes",
+        "Document the seafarer�s refusal as insubordination",
+        "Instruct another person to complete the job immediately",
+        "Report the case directly to the DPA without taking action"
+      ],
+      "answer": "Ensure the hazard is eliminated before work resumes",
+      "explanation": "If any employee reports potential risk, the Master must eliminate the hazard before work can continue."
+    },
+    {
+      "question": "Who has the right to request an explanation if they believe their assigned work is disproportionately risky?",
+      "options": [
+        "Only the Safety Officer",
+        "Any seafarer, directed to the Safety Officer or a Senior Officer",
+        "Only the Master",
+        "Only members of the Safety Committee"
+      ],
+      "answer": "Any seafarer, directed to the Safety Officer or a Senior Officer",
+      "explanation": "Each seafarer has the right to question unsafe assignments and request clarification from the Safety or Senior Officer."
+    },
+    {
+      "question": "What is the main function of the ship�s Safety Organization?",
+      "options": [
+        "To handle documentation of nonconformities only",
+        "To prevent incidents by identifying and addressing hazardous situations",
+        "To plan crew rotations and rest hours",
+        "To evaluate commercial voyage performance"
+      ],
+      "answer": "To prevent incidents by identifying and addressing hazardous situations",
+      "explanation": "The Safety Organization�s primary purpose is preventive�identifying and mitigating hazards before they lead to incidents."
+    },
+    {
+      "question": "When must the Master hold a Safety Committee meeting?",
+      "options": [
+        "At least once per quarter",
+        "At least once monthly, after serious incidents, or when otherwise necessary",
+        "Only when requested by the DPA",
+        "Every six months during ISM audits"
+      ],
+      "answer": "At least once monthly, after serious incidents, or when otherwise necessary",
+      "explanation": "The SMS requires monthly Safety Committee meetings and additional ones after serious incidents or when needed."
+    },
+    {
+      "question": "How many Safety Representatives are required in the Safety Committee, and what is the composition principle?",
+      "options": [
+        "At least 5 elected representatives; composition should not be top-heavy with Senior staff",
+        "2 elected representatives; composition primarily senior officers",
+        "No limit; members chosen only by the Master",
+        "Only permanent members from senior ranks"
+      ],
+      "answer": "At least 5 elected representatives; composition should not be top-heavy with Senior staff",
+      "explanation": "The Committee includes at least 5 elected Safety Representatives and maintains balanced participation, not dominated by senior officers."
+    },
+    {
+      "question": "Where should Safety Committee meetings be held according to SMS?",
+      "options": [
+        "On the Bridge for convenience",
+        "In the Master�s office",
+        "Never on the Bridge or in the ship�s office",
+        "In any available area without restriction"
+      ],
+      "answer": "Never on the Bridge or in the ship�s office",
+      "explanation": "Meetings must not be held on the Bridge or in the ship�s office to ensure open participation and avoid operational disturbance."
+    },
+    {
+      "question": "Which actions must follow after Safety Committee meetings?",
+      "options": [
+        "File notes without sharing with crew",
+        "Record minutes on form 001.3.ORG.Safety & Environmental Committee Meeting, post copies onboard, and send to DPA",
+        "Send verbal updates to managers only",
+        "Forward summary to Port State Control"
+      ],
+      "answer": "Record minutes on form 001.3.ORG.Safety & Environmental Committee Meeting, post copies onboard, and send to DPA",
+      "explanation": "Proper documentation ensures transparency�minutes are recorded, posted onboard, and reviewed by the DPA."
+    },
+    {
+      "question": "How soon must the DPA respond to Safety Committee meeting minutes?",
+      "options": [
+        "Within one week of receipt",
+        "At the next management review",
+        "Only during annual audits",
+        "Immediately during a visit"
+      ],
+      "answer": "Within one week of receipt",
+      "explanation": "The DPA must review and respond to Safety Committee minutes within one week and inform Management of important issues."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 4",
+  "questions": [
+    {
+      "question": "During an internal audit, a reviewer asks about the DPA�s principal responsibilities within the SMS. Which statement best summarizes them?",
+      "options": [
+        "Ensure the development and implementation of the SMS and monitor HSQE aspects of Company and fleet operations",
+        "Oversee only commercial performance and chartering matters",
+        "Supervise vessel classification and certification activities exclusively",
+        "Perform voyage optimization and fuel performance monitoring"
+      ],
+      "answer": "Ensure the development and implementation of the SMS and monitor HSQE aspects of Company and fleet operations",
+      "explanation": "The DPA�s core role is to ensure that the SMS is developed, implemented, and effectively monitored in all HSQE areas for Company and fleet operations."
+    },
+    {
+      "question": "What additional responsibility does the QMR hold compared to the DPA under the Company�s structure?",
+      "options": [
+        "Monitoring quality and customer satisfaction aspects of managed ships' operations",
+        "Supervising bunkering and cargo operations",
+        "Authorizing all purchasing and crewing transactions",
+        "Conducting navigation audits onboard"
+      ],
+      "answer": "Monitoring quality and customer satisfaction aspects of managed ships' operations",
+      "explanation": "While the DPA covers HSQE, the QMR focuses on quality assurance and customer satisfaction monitoring across managed ships."
+    },
+    {
+      "question": "Why is the term 'DPA' used throughout the SMS instead of 'DPA/QMR'?",
+      "options": [
+        "To simplify reference and represent both roles collectively within the management system",
+        "Because the QMR position was removed from the Company structure",
+        "To comply with flag administration terminology only",
+        "Because QMR responsibilities were delegated to Masters"
+      ],
+      "answer": "To simplify reference and represent both roles collectively within the management system",
+      "explanation": "The SMS specifies that 'DPA' is used throughout to refer collectively to DPA and QMR responsibilities for simplicity and consistency."
+    },
+    {
+      "question": "Who assumes responsibility for DPA duties in the DPA�s absence?",
+      "options": [
+        "The General Manager",
+        "The Deputy DPA",
+        "The Safety Officer",
+        "The Master of the senior vessel in the fleet"
+      ],
+      "answer": "The Deputy DPA",
+      "explanation": "When the DPA is absent, the Deputy DPA is responsible for carrying out all DPA duties to ensure continuity of oversight."
+    },
+    {
+      "question": "To whom does the DPA report within the Company�s organizational hierarchy?",
+      "options": [
+        "Directly to the Flag Administration",
+        "To the General Manager",
+        "To the Safety Committee",
+        "To the Port Captain"
+      ],
+      "answer": "To the General Manager",
+      "explanation": "The DPA reports directly to the General Manager, ensuring a clear line of authority and accountability within the Company."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 5",
+  "questions": [
+    {
+      "question": "Which combination of qualifications best reflects the Company's expectations for a Master?",
+      "options": [
+        "STCW certification only and cargo handling experience",
+        "All STCW certificates for the ship type, ability to lead and motivate crew, assess human performance, and strong English communication skills",
+        "Academic degree in marine biology and basic navigation knowledge",
+        "Only charter-party and accounting knowledge"
+      ],
+      "answer": "All STCW certificates for the ship type, ability to lead and motivate crew, assess human performance, and strong English communication skills",
+      "explanation": "The Master must meet STCW requirements and demonstrate leadership, communication, and management competence beyond technical certification."
+    },
+    {
+      "question": "Why is the Master described as 'the link between the ship and the Company'?",
+      "options": [
+        "Because the Master reports directly to charterers",
+        "Because the Master�s decisions and actions onboard are binding on behalf of the Company",
+        "Because the Master manages crew payroll and budgets only",
+        "Because the Master serves as a communication relay without authority"
+      ],
+      "answer": "Because the Master�s decisions and actions onboard are binding on behalf of the Company",
+      "explanation": "The Master represents the Company onboard, and their operational decisions legally and functionally bind the Company."
+    },
+    {
+      "question": "In relation to commercial operations, how is the Master's responsibility toward cargo owners defined?",
+      "options": [
+        "Deliver cargo safely and promptly, avoiding loss, damage, and reputational harm",
+        "Ensure minimum demurrage and lowest freight rate",
+        "Rely on charterers to coordinate all cargo matters",
+        "Delegate cargo delivery entirely to the Chief Officer"
+      ],
+      "answer": "Deliver cargo safely and promptly, avoiding loss, damage, and reputational harm",
+      "explanation": "The Master is responsible toward cargo owners for ensuring safe, timely delivery without incident or reputational impact."
+    },
+    {
+      "question": "A Master encounters conflicting commercial instructions and safety considerations. What must take precedence?",
+      "options": [
+        "Commercial requirements to maintain schedule",
+        "Company�s business objectives",
+        "Safety of human life, the ship, the cargo, and the environment",
+        "Charterer�s contractual demands"
+      ],
+      "answer": "Safety of human life, the ship, the cargo, and the environment",
+      "explanation": "The Company recognizes the Master�s overriding authority to prioritize safety over commercial interests in any conflict."
+    },
+    {
+      "question": "What does the SMS specify about the Master�s overriding authority?",
+      "options": [
+        "Decisions must always be pre-approved by the DPA",
+        "The Master may take any necessary decision for safety even if it conflicts with the SMS",
+        "Overriding authority applies only during drills",
+        "The Master must consult charterers before exercising authority"
+      ],
+      "answer": "The Master may take any necessary decision for safety even if it conflicts with the SMS",
+      "explanation": "The SMS explicitly recognizes the Master�s right and duty to act independently for safety, even if this contradicts standard procedures."
+    },
+    {
+      "question": "Which communication requirement applies to the Master under the Company�s SMS?",
+      "options": [
+        "Only urgent matters need to be reported to the Company",
+        "Report any condition affecting flawless operations and consult the Company in case of doubt",
+        "Report only after Port State inspections",
+        "Communicate through agents only when required"
+      ],
+      "answer": "Report any condition affecting flawless operations and consult the Company in case of doubt",
+      "explanation": "The Master must maintain communication and seek Company assistance whenever operational integrity is in question."
+    },
+    {
+      "question": "Who substitutes the Master in their absence, and to whom does this substitute report?",
+      "options": [
+        "Chief Officer, reporting to the Company�s Managers, DPA, and GM",
+        "Chief Engineer, reporting to the Port Captain",
+        "Designated Person Ashore, reporting to Class",
+        "Chief Officer, reporting only to the charterer"
+      ],
+      "answer": "Chief Officer, reporting to the Company�s Managers, DPA, and GM",
+      "explanation": "When the Master is absent, the Chief Officer substitutes and reports to the Company�s Managers, DPA, and General Manager."
+    },
+    {
+      "question": "The Master reviews new operational instructions and doubts the ship�s ability to comply safely. What is the correct action?",
+      "options": [
+        "Attempt to comply and report later",
+        "Inform the Company immediately about the doubt before acting",
+        "Ignore the instruction and proceed as usual",
+        "Wait for the next port to clarify"
+      ],
+      "answer": "Inform the Company immediately about the doubt before acting",
+      "explanation": "If compliance is doubtful, the Master must inform the Company before acting to prevent unsafe outcomes."
+    },
+    {
+      "question": "What is the Company's stance regarding the Master�s accountability during office personnel visits?",
+      "options": [
+        "Office presence relieves the Master from responsibility",
+        "Master retains full authority and responsibility regardless of office staff presence",
+        "Responsibility transfers temporarily to the visiting officer",
+        "Authority alternates based on rank"
+      ],
+      "answer": "Master retains full authority and responsibility regardless of office staff presence",
+      "explanation": "Even when office staff are onboard, the Master remains fully responsible for the ship�s safe and efficient operation."
+    },
+    {
+      "question": "Which of the following demonstrates a critical skill listed among the Master�s qualifications?",
+      "options": [
+        "Ability to create company marketing materials",
+        "Ability to assess human performance and motivate crew",
+        "Familiarity with insurance underwriting",
+        "Knowledge of naval architecture design codes"
+      ],
+      "answer": "Ability to assess human performance and motivate crew",
+      "explanation": "The SMS requires the Master to evaluate human performance and inspire effective teamwork onboard."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 6.1",
+  "questions": [
+    {
+      "question": "What is the primary objective of the Company�s crew resource policy as described in this chapter?",
+      "options": [
+        "To employ the least expensive crew available",
+        "To select, recruit, and administer experienced, qualified, medically fit, and competent seafarers through a controlled process",
+        "To delegate all crew management to third-party agencies",
+        "To focus recruitment only on newly graduated cadets"
+      ],
+      "answer": "To select, recruit, and administer experienced, qualified, medically fit, and competent seafarers through a controlled process",
+      "explanation": "The Company�s policy establishes systematic controls to ensure that all seafarers are competent, qualified, and fit for service."
+    },
+    {
+      "question": "How does the Company verify that seafarers meet the standards of competence and performance?",
+      "options": [
+        "By conducting random interviews at ports",
+        "Through an appraisal system verifying competence and qualification",
+        "By relying solely on manning agencies� endorsements",
+        "By accepting self-declarations from the crew"
+      ],
+      "answer": "Through an appraisal system verifying competence and qualification",
+      "explanation": "A structured appraisal system ensures that each seafarer�s competence and qualifications are evaluated and maintained."
+    },
+    {
+      "question": "Which of the following is a key focus of the Company�s approach to human resources?",
+      "options": [
+        "Retaining and developing people in key roles while promoting seafarers� continuity and motivation",
+        "Replacing crew frequently to minimize cost",
+        "Outsourcing all shipboard training programs",
+        "Focusing only on shore staff development"
+      ],
+      "answer": "Retaining and developing people in key roles while promoting seafarers� continuity and motivation",
+      "explanation": "The Company emphasizes stability, motivation, and development of key personnel as part of its proactive HR policy."
+    },
+    {
+      "question": "What is the Company�s policy regarding the employment of persons under 18 years old onboard?",
+      "options": [
+        "Permitted with parental consent",
+        "Prohibited entirely",
+        "Allowed for cadet training voyages only",
+        "Permitted under special flag dispensation"
+      ],
+      "answer": "Prohibited entirely",
+      "explanation": "Employment or work onboard of any person under 18 years of age is explicitly prohibited."
+    },
+    {
+      "question": "Before dismissing a seafarer for poor performance, what must the Master ensure?",
+      "options": [
+        "That a warning and an opportunity to improve have been given",
+        "That the DPA has issued a dismissal order",
+        "That all colleagues agree with the dismissal",
+        "That the ship�s Safety Committee approves"
+      ],
+      "answer": "That a warning and an opportunity to improve have been given",
+      "explanation": "Disciplinary action must follow fair process�warning, chance to improve, and objective documentation per labor agreements."
+    },
+    {
+      "question": "What type of wording must be avoided in documentation concerning disciplinary actions?",
+      "options": [
+        "Objective and factual language",
+        "Subjective or generalized wording such as 'malicious' or 'on several occasions'",
+        "References to specific incidents",
+        "Direct quotations from witnesses"
+      ],
+      "answer": "Subjective or generalized wording such as 'malicious' or 'on several occasions'",
+      "explanation": "The SMS cautions against subjective or vague wording to maintain fairness and factual accuracy in records."
+    },
+    {
+      "question": "How does the Company address acts of discrimination, harassment, bullying, sexual assault, or sexual harassment?",
+      "options": [
+        "By treating them as minor disciplinary matters",
+        "By enforcing a zero-tolerance policy and encouraging immediate reporting and investigation",
+        "By delegating resolution entirely to the ship�s Master",
+        "By handling cases informally without documentation"
+      ],
+      "answer": "By enforcing a zero-tolerance policy and encouraging immediate reporting and investigation",
+      "explanation": "The Company maintains zero tolerance and promotes reporting, investigation, and preventive onboard programs."
+    },
+    {
+      "question": "Who serves as the first point of reference for a seafarer wishing to make a harassment or discrimination complaint?",
+      "options": [
+        "Designated Person Ashore (DPA)",
+        "Safety Officer",
+        "Master",
+        "Crew Representative"
+      ],
+      "answer": "Master",
+      "explanation": "The Master is the initial contact for any seafarer raising a complaint unless the Master is personally involved."
+    },
+    {
+      "question": "If the Master is involved in a harassment or bullying case, who becomes the contact point for the affected seafarer?",
+      "options": [
+        "The Port Captain",
+        "The Designated Person Ashore (DPA)",
+        "The Flag Administration",
+        "The Shipowner directly"
+      ],
+      "answer": "The Designated Person Ashore (DPA)",
+      "explanation": "When the Master is implicated, the DPA acts as the contact point to ensure impartial handling of the complaint."
+    },
+    {
+      "question": "What informal option is available to a victim when resolving a harassment or bullying complaint?",
+      "options": [
+        "Public hearing at the Safety Committee",
+        "Written reprimand without discussion",
+        "An informal meeting where the perpetrator may apologize and commit not to repeat the behavior",
+        "Immediate dismissal of the perpetrator without review"
+      ],
+      "answer": "An informal meeting where the perpetrator may apologize and commit not to repeat the behavior",
+      "explanation": "The SMS allows informal resolution if the victim agrees, enabling discussion, apology, and commitment to behavioral change."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 6.2",
+  "questions": [
+    {
+      "question": "What is the overall objective of the Company�s policy for managing shore personnel?",
+      "options": [
+        "To ensure shore staff are selected, appointed, and administered as experienced, qualified, and competent professionals",
+        "To reduce the number of shore staff to cut operating expenses",
+        "To assign temporary staff to all shore positions to increase flexibility",
+        "To centralize all HR decisions under the DPA only"
+      ],
+      "answer": "To ensure shore staff are selected, appointed, and administered as experienced, qualified, and competent professionals",
+      "explanation": "The Company applies controls to ensure shore personnel are capable, qualified, and effectively managed to support safe and efficient ship management."
+    },
+    {
+      "question": "Why does the Company emphasize employing sufficient shore personnel?",
+      "options": [
+        "To provide full supervision of managed ships and ensure efficient implementation of HSQE processes",
+        "To handle external marketing campaigns",
+        "To reduce reliance on third-party technical service providers",
+        "To comply solely with flag administration manning levels"
+      ],
+      "answer": "To provide full supervision of managed ships and ensure efficient implementation of HSQE processes",
+      "explanation": "Adequate shore staffing ensures both operational control and compliance with HSQE standards across managed vessels."
+    },
+    {
+      "question": "How does the Company verify the authenticity of shore employees� qualifications and records?",
+      "options": [
+        "By assuming that all certificates issued by recognized institutions are valid",
+        "By checking that declared qualifications are valid, genuine, and that pre-employment records are accurate",
+        "By delegating verification entirely to recruitment agencies",
+        "By requesting self-declarations only"
+      ],
+      "answer": "By checking that declared qualifications are valid, genuine, and that pre-employment records are accurate",
+      "explanation": "The Company verifies both documentation and background details to ensure all shore employees meet required standards."
+    },
+    {
+      "question": "What method is used to assess and support the continued competence of shore personnel?",
+      "options": [
+        "A peer voting system within departments",
+        "An appraisal system verifying qualifications and facilitating further development",
+        "Annual written exams without review",
+        "Outsourcing evaluations to external consultants only"
+      ],
+      "answer": "An appraisal system verifying qualifications and facilitating further development",
+      "explanation": "Regular appraisals help confirm competence and identify development needs for continuous improvement."
+    },
+    {
+      "question": "How does the Company retain and enhance the skills of key shore personnel such as Managers and Superintendents?",
+      "options": [
+        "Through initial on-the-job refresher training and participation in industry seminars and forums",
+        "By offering extended shore leave periods",
+        "By rotating them between unrelated departments",
+        "By delegating training responsibilities entirely to ship crews"
+      ],
+      "answer": "Through initial on-the-job refresher training and participation in industry seminars and forums",
+      "explanation": "Continuous professional development ensures key shore staff maintain current knowledge and skills relevant to the maritime industry."
+    },
+    {
+      "question": "What principle underpins the Company�s policy on equal opportunities and motivation for shore staff?",
+      "options": [
+        "Meritocracy, providing advancement based on ability and contribution",
+        "Seniority, regardless of performance",
+        "Preference for internal recommendations only",
+        "Rotation policy based on availability"
+      ],
+      "answer": "Meritocracy, providing advancement based on ability and contribution",
+      "explanation": "The Company promotes merit-based advancement, fairness, and equal opportunities to encourage motivation and commitment."
+    },
+    {
+      "question": "How does the Company maintain commitment and motivation among shore personnel?",
+      "options": [
+        "By encouraging job satisfaction and personal development",
+        "By offering bonuses based solely on company profit",
+        "By implementing rigid schedules without feedback mechanisms",
+        "By outsourcing HR management"
+      ],
+      "answer": "By encouraging job satisfaction and personal development",
+      "explanation": "The SMS emphasizes engagement and satisfaction as drivers of motivation and performance among shore employees."
+    },
+    {
+      "question": "What additional function does the Company�s personnel management system serve beyond compliance?",
+      "options": [
+        "It supports long-term retention and development of people in key roles",
+        "It focuses exclusively on recruitment targets",
+        "It limits training opportunities to control costs",
+        "It centralizes payroll operations"
+      ],
+      "answer": "It supports long-term retention and development of people in key roles",
+      "explanation": "The personnel system is designed not only for compliance but also to sustain continuity and growth in essential positions."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 6.3",
+  "questions": [
+    {
+      "question": "What is the main objective of the Maritime Labour Convention (MLC) 2006 as applied within the Company�s SMS?",
+      "options": [
+        "To increase port state inspection frequency for ships",
+        "To safeguard seafarers� wellbeing and ensure their health and safety in all aspects of onboard life and work",
+        "To define shipboard operational efficiency standards",
+        "To regulate only working hours and rest periods of seafarers"
+      ],
+      "answer": "To safeguard seafarers� wellbeing and ensure their health and safety in all aspects of onboard life and work",
+      "explanation": "The MLC�s purpose is to protect seafarers� wellbeing, health, and safety across all areas of living and working conditions onboard."
+    },
+    {
+      "question": "How does the MLC contribute to global consistency in the shipping industry?",
+      "options": [
+        "By creating national labor regulations for each flag state",
+        "By establishing an international instrument of control and common standards for seafaring issues",
+        "By focusing only on shipowners� liability clauses",
+        "By promoting regional agreements for seafarer unions"
+      ],
+      "answer": "By establishing an international instrument of control and common standards for seafaring issues",
+      "explanation": "The MLC serves as a global framework aligning seafarer welfare standards across nations and stakeholders."
+    },
+    {
+      "question": "What is one of the main benefits of implementing MLC requirements onboard?",
+      "options": [
+        "Reduced port formalities",
+        "Prevention of substandard working and living conditions while ensuring a safe environment for personnel",
+        "Higher insurance premiums for shipowners",
+        "Increased flexibility in manning requirements"
+      ],
+      "answer": "Prevention of substandard working and living conditions while ensuring a safe environment for personnel",
+      "explanation": "The MLC prevents poor standards and enhances living and working conditions to safeguard crew welfare."
+    },
+    {
+      "question": "Which of the following best describes the structure of the MLC?",
+      "options": [
+        "A single uniform code of conduct for seafarers",
+        "Three related parts: Articles, Regulations, and the Code",
+        "Two main parts: Technical Rules and Compliance Guidance",
+        "Separate regional conventions per maritime zone"
+      ],
+      "answer": "Three related parts: Articles, Regulations, and the Code",
+      "explanation": "The MLC consists of Articles, Regulations, and the Code�each addressing different aspects of rights, obligations, and enforcement."
+    },
+    {
+      "question": "What is the purpose of including the 16 general areas in the Declaration of Maritime Labour Compliance (DMLC)?",
+      "options": [
+        "To serve as a checklist ensuring all MLC requirements are implemented and verified",
+        "To establish the ship�s crew list and manning certificate",
+        "To define national reporting obligations for shipowners",
+        "To replace the ISM Code certification"
+      ],
+      "answer": "To serve as a checklist ensuring all MLC requirements are implemented and verified",
+      "explanation": "The 16 general areas ensure full compliance and documentation of MLC provisions within the ship�s DMLC."
+    },
+    {
+      "question": "Which of the following is NOT one of the 16 general areas that must be addressed in the DMLC?",
+      "options": [
+        "Medical certification",
+        "Payment of wages",
+        "Cargo operations and stowage planning",
+        "Health and safety and accident prevention"
+      ],
+      "answer": "Cargo operations and stowage planning",
+      "explanation": "The DMLC covers welfare, safety, and employment conditions�not operational cargo management."
+    },
+    {
+      "question": "What does the MLC seek to achieve regarding the treatment of seafarers worldwide?",
+      "options": [
+        "A competitive advantage for lower-wage nations",
+        "Fair and equal treatment of all seafarers through a global level playing field",
+        "National preference for domestic seafarers",
+        "Freedom for shipowners to set individual working terms"
+      ],
+      "answer": "Fair and equal treatment of all seafarers through a global level playing field",
+      "explanation": "By setting common minimum standards, the MLC ensures fairness and prevents exploitation or competitive undercutting of seafarers� conditions."
+    },
+    {
+      "question": "How does the MLC promote the interests of seafarers in a changing industry?",
+      "options": [
+        "By supporting innovations within MLC implementation and enhancing welfare systems",
+        "By limiting seafarer mobility between flags",
+        "By discouraging ship automation and modernization",
+        "By transferring welfare responsibilities to port states"
+      ],
+      "answer": "By supporting innovations within MLC implementation and enhancing welfare systems",
+      "explanation": "The MLC evolves with industry advancements while keeping seafarer welfare as its focus."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 6.4",
+  "questions": [
+    {
+      "question": "How are the core principles and obligations of the Maritime Labour Convention (MLC) 2006 structured?",
+      "options": [
+        "They are detailed only in the Code Part B guidelines",
+        "They are set out in the Articles and Regulations, with implementation details in the Code",
+        "They are contained solely within the Declaration of Maritime Labour Compliance (DMLC)",
+        "They are published separately by each flag administration"
+      ],
+      "answer": "They are set out in the Articles and Regulations, with implementation details in the Code",
+      "explanation": "The Articles and Regulations define core rights and obligations, while the Code provides the practical implementation standards."
+    },
+    {
+      "question": "Which two parts make up the MLC Code, and what is the main difference between them?",
+      "options": [
+        "Part A (mandatory standards) and Part B (non-mandatory guidelines)",
+        "Part 1 (national) and Part 2 (international)",
+        "Part A (administrative) and Part B (operational)",
+        "Part I (optional provisions) and Part II (recommended practices)"
+      ],
+      "answer": "Part A (mandatory standards) and Part B (non-mandatory guidelines)",
+      "explanation": "The Code consists of mandatory standards (Part A) and guidance (Part B), supporting consistent MLC implementation."
+    },
+    {
+      "question": "What are the five Titles under which the MLC Regulations and Code are organized?",
+      "options": [
+        "Title 1: Minimum requirements; Title 2: Conditions of employment; Title 3: Accommodation, recreation, food and catering; Title 4: Health protection, medical care, welfare and social security; Title 5: Compliance and enforcement",
+        "Title 1: Maritime safety; Title 2: Pollution prevention; Title 3: Crew welfare; Title 4: Insurance; Title 5: Certification",
+        "Title 1: Management; Title 2: HR; Title 3: Technical; Title 4: Operational; Title 5: Audit",
+        "Title 1: Recruitment; Title 2: Pay; Title 3: Training; Title 4: Welfare; Title 5: Environment"
+      ],
+      "answer": "Title 1: Minimum requirements; Title 2: Conditions of employment; Title 3: Accommodation, recreation, food and catering; Title 4: Health protection, medical care, welfare and social security; Title 5: Compliance and enforcement",
+      "explanation": "These five Titles cover all essential areas of seafarers� working and living conditions and the mechanisms for enforcement."
+    },
+    {
+      "question": "Which statement best describes the organization of the MLC�s Regulations and Code under the Titles?",
+      "options": [
+        "Each Title focuses on unrelated administrative issues",
+        "Each Title groups provisions around a specific right, principle, or enforcement measure",
+        "Titles are chronological records of the MLC�s revision history",
+        "Titles represent national annexes of the MLC"
+      ],
+      "answer": "Each Title groups provisions around a specific right, principle, or enforcement measure",
+      "explanation": "Each MLC Title focuses on a thematic area, ensuring comprehensive coverage of seafarer rights and enforcement mechanisms."
+    },
+    {
+      "question": "What are the two important terms introduced in this Chapter that relate to MLC compliance documentation?",
+      "options": [
+        "ISM Manual and Safety Management Certificate",
+        "Declaration of Maritime Labour Compliance (DMLC) and Maritime Labour Certificate",
+        "Ship Safety Equipment Certificate and DOC",
+        "Port State Control Report and Class Endorsement"
+      ],
+      "answer": "Declaration of Maritime Labour Compliance (DMLC) and Maritime Labour Certificate",
+      "explanation": "These two documents demonstrate compliance with MLC requirements�the DMLC details implementation, and the MLC Certificate verifies compliance."
+    },
+    {
+      "question": "What is the function of the Declaration of Maritime Labour Compliance (DMLC) under the MLC framework?",
+      "options": [
+        "To record cargo manifest and stability data",
+        "To outline how the ship and Company comply with each applicable MLC requirement",
+        "To provide a list of company policies unrelated to crew welfare",
+        "To serve as the ship�s certificate of registry"
+      ],
+      "answer": "To outline how the ship and Company comply with each applicable MLC requirement",
+      "explanation": "The DMLC serves as the compliance roadmap, showing how MLC requirements are implemented by the Company and verified by authorities."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 7.1",
+  "questions": [
+    {
+      "question": "What is the overarching principle governing the conduct of all shipboard operations under the Company�s SMS?",
+      "options": [
+        "To prioritize speed and commercial efficiency above all else",
+        "To conduct all operations safely, efficiently, and in compliance with Company procedures, laws, and industry best practices",
+        "To follow only flag state regulations regardless of Company policies",
+        "To allow operational discretion without procedural oversight"
+      ],
+      "answer": "To conduct all operations safely, efficiently, and in compliance with Company procedures, laws, and industry best practices",
+      "explanation": "The SMS mandates that all shipboard operations must be executed safely and efficiently within legal, regulatory, and procedural frameworks."
+    },
+    {
+      "question": "What is the purpose of identifying shipboard operations and their associated risks within the SMS?",
+      "options": [
+        "To document hazards for recordkeeping only",
+        "To define risk management controls and establish relevant safety procedures",
+        "To delegate risk ownership to charterers",
+        "To meet ISO audit formalities only"
+      ],
+      "answer": "To define risk management controls and establish relevant safety procedures",
+      "explanation": "The Company identifies shipboard activities and risks to apply proper control measures and ensure safe operations."
+    },
+    {
+      "question": "Which system is used to authorize and control high-risk tasks on board?",
+      "options": [
+        "The Company�s 'Permit to Work System'",
+        "The Crew Performance Review System",
+        "The Voyage Planning System",
+        "The Port State Safety Checklist"
+      ],
+      "answer": "The Company�s 'Permit to Work System'",
+      "explanation": "The Permit to Work system governs high-risk tasks, ensuring safety assessments and safeguards are in place before work begins."
+    },
+    {
+      "question": "What is the purpose of the Company�s 'Permit to Work System'?",
+      "options": [
+        "To manage crew leave schedules",
+        "To assess, authorize, and monitor potentially hazardous work under controlled conditions",
+        "To validate voyage passage plans",
+        "To document ship maintenance logs"
+      ],
+      "answer": "To assess, authorize, and monitor potentially hazardous work under controlled conditions",
+      "explanation": "The Permit to Work system ensures work does not proceed under unsafe conditions and that hazards are identified and controlled."
+    },
+    {
+      "question": "What is included in the Company�s procedures for developing or amending plans and instructions for operations?",
+      "options": [
+        "Random review by Masters",
+        "Systematic planning, development, and record-keeping for both shore and shipboard operations",
+        "Ad hoc approval by superintendents without documentation",
+        "Delegation entirely to external consultants"
+      ],
+      "answer": "Systematic planning, development, and record-keeping for both shore and shipboard operations",
+      "explanation": "The SMS requires that all new or amended operational procedures are developed systematically and properly documented."
+    },
+    {
+      "question": "Which safety principle applies to the design of workplace procedures and work organization?",
+      "options": [
+        "Eliminate or reduce occupational health and safety risks at their source",
+        "Assign complex tasks to less experienced personnel for learning purposes",
+        "Focus primarily on minimizing operational costs",
+        "Adapt procedures only after incidents occur"
+      ],
+      "answer": "Eliminate or reduce occupational health and safety risks at their source",
+      "explanation": "The SMS directs that workplace procedures and organization should remove or minimize OH&S risks directly at the source."
+    },
+    {
+      "question": "What is the Master's authority concerning SMS procedures in exceptional situations?",
+      "options": [
+        "The Master must always adhere strictly to the SMS, regardless of circumstances",
+        "The Master may take any steps necessary for safety and environmental protection even if they conflict with the SMS",
+        "The Master�s authority is limited to normal operational conditions",
+        "The DPA must pre-approve any deviation from the SMS before action"
+      ],
+      "answer": "The Master may take any steps necessary for safety and environmental protection even if they conflict with the SMS",
+      "explanation": "The SMS explicitly states that the Master retains overriding authority to act independently in emergencies or exceptional cases."
+    },
+    {
+      "question": "Why does the SMS emphasize maintaining suitable equipment and monitoring devices onboard?",
+      "options": [
+        "To comply with PSC inspection expectations only",
+        "To ensure effective monitoring, measurement, and validation of processes critical to safety and environmental protection",
+        "To reduce equipment redundancy",
+        "To simplify shipboard record-keeping"
+      ],
+      "answer": "To ensure effective monitoring, measurement, and validation of processes critical to safety and environmental protection",
+      "explanation": "Proper equipment and monitoring tools ensure operational processes meet safety and environmental standards."
+    },
+    {
+      "question": "How does the Company ensure continuous improvement in its operational safety management?",
+      "options": [
+        "By maintaining approved processes, validation, and documented evidence of compliance",
+        "By allowing each ship to develop its own independent procedures",
+        "By limiting updates to major incidents only",
+        "By removing records once audits are completed"
+      ],
+      "answer": "By maintaining approved processes, validation, and documented evidence of compliance",
+      "explanation": "Continuous improvement relies on process validation, proper documentation, and evidence of compliance with safety standards."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 7.2",
+  "questions": [
+    {
+      "question": "What is the primary objective of the Company�s Navigation Policy?",
+      "options": [
+        "To reduce voyage duration and fuel consumption",
+        "To ensure the safety of the crew, ship, cargo, and environment through proper navigation procedures",
+        "To follow commercial priorities established by charterers",
+        "To delegate navigation decisions entirely to the Officer of the Watch"
+      ],
+      "answer": "To ensure the safety of the crew, ship, cargo, and environment through proper navigation procedures",
+      "explanation": "The policy prioritizes safety and environmental protection above all operational or commercial concerns."
+    },
+    {
+      "question": "What concept underlies the Company�s navigation approach to prevent human error?",
+      "options": [
+        "Bridge Resource Management (BRM)",
+        "Bridge Team Management (BTM)",
+        "Navigation Safety System (NSS)",
+        "Electronic Chart Display and Information System (ECDIS)"
+      ],
+      "answer": "Bridge Team Management (BTM)",
+      "explanation": "The policy is based on the BTM concept, which ensures effective teamwork and prevents one-person navigation errors."
+    },
+    {
+      "question": "What are all deck officers required to know under the Navigation Policy?",
+      "options": [
+        "Only local pilotage procedures",
+        "The Company�s navigation procedures, COLREGS, their duties, navigational equipment, and the ship�s maneuvering capabilities",
+        "Only how to operate ECDIS and radar",
+        "The ship�s commercial routes and cargo details"
+      ],
+      "answer": "The Company�s navigation procedures, COLREGS, their duties, navigational equipment, and the ship�s maneuvering capabilities",
+      "explanation": "All officers must be familiar with Company navigation procedures, COLREGS, duties, and equipment operation to ensure safety."
+    },
+    {
+      "question": "How are navigational charts and publications kept up to date onboard?",
+      "options": [
+        "Officers manually sketch chart corrections",
+        "The designated officer updates ENCs and publications provided by contracted chart agents",
+        "Updates are made only when Port State Control requests it",
+        "The Master sends updates to agents after each voyage"
+      ],
+      "answer": "The designated officer updates ENCs and publications provided by contracted chart agents",
+      "explanation": "The SMS requires that contracted chart agents supply current ENCs and the designated officer ensures all updates are applied."
+    },
+    {
+      "question": "What must the navigation officer do before every voyage?",
+      "options": [
+        "Obtain the Master�s approval of the prepared passage plan",
+        "Submit the plan to the charterer for approval",
+        "Wait for the DPA�s permission before sailing",
+        "Request weather routing advice from insurers"
+      ],
+      "answer": "Obtain the Master�s approval of the prepared passage plan",
+      "explanation": "The navigation officer must prepare and submit the passage plan for the Master�s review and approval before departure."
+    },
+    {
+      "question": "How should the voyage be conducted once the passage plan is approved?",
+      "options": [
+        "Freely adjusted without documentation",
+        "Adhered to as planned, with modifications only for weather, traffic, or ship condition changes",
+        "Modified at the discretion of the OOW without Master consultation",
+        "Followed strictly without any possible changes"
+      ],
+      "answer": "Adhered to as planned, with modifications only for weather, traffic, or ship condition changes",
+      "explanation": "The voyage must follow the approved plan, allowing only necessary adjustments for safety and operational conditions."
+    },
+    {
+      "question": "What is the Master�s overarching responsibility under the Navigation Policy?",
+      "options": [
+        "To delegate navigation entirely to officers",
+        "To ensure the ship�s safe navigation in full compliance with laws, regulations, and Company procedures",
+        "To follow charterers� routing instructions as a priority",
+        "To monitor only external communications with agents"
+      ],
+      "answer": "To ensure the ship�s safe navigation in full compliance with laws, regulations, and Company procedures",
+      "explanation": "The Master holds ultimate responsibility for safe navigation and must ensure all navigational practices align with regulatory and Company standards."
+    },
+    {
+      "question": "What principle guides all decisions during navigation according to the Company�s policy?",
+      "options": [
+        "Commercial efficiency takes priority over safety",
+        "Safety of life and the ship always takes precedence over other considerations",
+        "Compliance with charterer instructions is the top priority",
+        "Navigational decisions are shared equally among the bridge team"
+      ],
+      "answer": "Safety of life and the ship always takes precedence over other considerations",
+      "explanation": "The policy clearly establishes that safety outweighs all commercial or operational pressures."
+    },
+    {
+      "question": "What does the policy state regarding individual responsibility during navigation?",
+      "options": [
+        "Responsibility rests solely with the Master",
+        "Every Master, Officer, and rating must apply knowledge and sound judgment at all times",
+        "Only the Officer of the Watch is accountable",
+        "Responsibility shifts to the DPA during difficult conditions"
+      ],
+      "answer": "Every Master, Officer, and rating must apply knowledge and sound judgment at all times",
+      "explanation": "No procedure relieves any individual from exercising sound professional judgment to maintain navigational safety."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 7.3",
+  "questions": [
+    {
+      "question": "What is the primary objective of the Company�s Mooring and Anchoring Policy?",
+      "options": [
+        "To ensure ships moor efficiently to minimize port time",
+        "To equip ships with safe mooring systems that comply with industry standards and Company procedures",
+        "To allow each ship to determine its own mooring methods based on experience",
+        "To reduce the number of mooring lines required for each operation"
+      ],
+      "answer": "To equip ships with safe mooring systems that comply with industry standards and Company procedures",
+      "explanation": "The policy ensures that all ships are properly equipped and follow established safety and procedural standards during mooring and anchoring operations."
+    },
+    {
+      "question": "According to the policy, mooring arrangements must comply with which external criteria in addition to Company procedures?",
+      "options": [
+        "Terminal safety criteria",
+        "Flag State manning levels",
+        "Charter party clauses",
+        "Port agent recommendations"
+      ],
+      "answer": "Terminal safety criteria",
+      "explanation": "The policy mandates compliance with safety requirements issued by visiting terminals alongside Company procedures and industry standards."
+    },
+    {
+      "question": "How does the Company ensure continued compliance with new regulations on mooring equipment and lines?",
+      "options": [
+        "By delegating inspections entirely to classification societies",
+        "By enforcing in-service inspection and maintenance regimes for mooring systems",
+        "By relying solely on shipboard self-assessments",
+        "By requesting reports from terminal operators"
+      ],
+      "answer": "By enforcing in-service inspection and maintenance regimes for mooring systems",
+      "explanation": "The Company maintains regulatory compliance through structured inspection and maintenance programs for mooring gear and lines."
+    },
+    {
+      "question": "What is the Company�s approach toward learning and improvement in mooring practices?",
+      "options": [
+        "Ignore minor incidents to maintain operational continuity",
+        "Conduct reviews of mooring practices and apply lessons learned from incidents and near misses",
+        "Focus on equipment replacement rather than review processes",
+        "Allow each vessel to decide if reviews are necessary"
+      ],
+      "answer": "Conduct reviews of mooring practices and apply lessons learned from incidents and near misses",
+      "explanation": "Systematic reviews of operations and incorporation of lessons learned are part of the Company�s continuous improvement culture."
+    },
+    {
+      "question": "Which action ensures organizational awareness and risk mitigation in mooring system management?",
+      "options": [
+        "Periodic verification of cargo manifold pressure limits",
+        "Reviewing system design, assessing risks, and implementing mitigation measures",
+        "Reducing the number of lines used during mooring",
+        "Allowing ad hoc modifications to deck fittings"
+      ],
+      "answer": "Reviewing system design, assessing risks, and implementing mitigation measures",
+      "explanation": "The Company mandates structured review, documentation, and risk control for all mooring systems to maintain safety integrity."
+    },
+    {
+      "question": "How does the Company promote safety in new building and second-hand tonnage projects?",
+      "options": [
+        "By applying latest industry standards for new builds and planning upgrades for older vessels",
+        "By focusing exclusively on new ship deliveries",
+        "By limiting compliance to existing fleet only",
+        "By delegating safety design to shipyards without review"
+      ],
+      "answer": "By applying latest industry standards for new builds and planning upgrades for older vessels",
+      "explanation": "The Company ensures new vessels meet modern safety design standards and develops upgrade timelines for second-hand ships."
+    },
+    {
+      "question": "Which personnel are directly responsible for ensuring safe mooring and anchoring operations onboard?",
+      "options": [
+        "Port agents and terminal representatives",
+        "Master, Chief Officer, and Deck Officers in charge",
+        "Chief Engineer and Engine Room staff",
+        "Designated Person Ashore only"
+      ],
+      "answer": "Master, Chief Officer, and Deck Officers in charge",
+      "explanation": "These officers bear operational responsibility for safe execution and supervision of mooring and anchoring activities."
+    },
+    {
+      "question": "What must Masters and Deck Officers ensure regarding mooring equipment certification?",
+      "options": [
+        "That certificates are stored ashore for company records",
+        "That all certificates for mooring equipment and lines are available onboard",
+        "That certificates are renewed only when requested by port authorities",
+        "That expired certificates are retained for historical reference"
+      ],
+      "answer": "That all certificates for mooring equipment and lines are available onboard",
+      "explanation": "The SMS requires current certificates for all mooring equipment, lines, and shackles to be maintained and accessible onboard."
+    },
+    {
+      "question": "Why are mooring and anchoring operations considered particularly hazardous?",
+      "options": [
+        "Because of their routine nature leading to complacency",
+        "Because they involve heavy loads under tension, moving equipment, and high risk of injury or failure",
+        "Because they require minimal supervision",
+        "Because they only depend on environmental conditions"
+      ],
+      "answer": "Because they involve heavy loads under tension, moving equipment, and high risk of injury or failure",
+      "explanation": "Mooring and anchoring operations are inherently dangerous due to dynamic loads, equipment strain, and proximity to moving lines."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 7.4",
+  "questions": [
+    {
+      "question": "What is the fundamental principle governing all engineering operations onboard according to the Company�s policy?",
+      "options": [
+        "To conduct engineering tasks quickly to save fuel",
+        "To carry out all engineering operations safely, efficiently, and in strict conformance with laws, regulations, and good engineering practices",
+        "To perform maintenance only during port stays",
+        "To prioritize cost savings over technical standards"
+      ],
+      "answer": "To carry out all engineering operations safely, efficiently, and in strict conformance with laws, regulations, and good engineering practices",
+      "explanation": "Engineering operations must always align with legal, regulatory, and best-practice standards to ensure safety and efficiency."
+    },
+    {
+      "question": "According to the policy, whose instructions must be strictly followed during maintenance and operations?",
+      "options": [
+        "The Port State Control inspector",
+        "The equipment maker�s instructions",
+        "The charterer�s representative",
+        "The Class surveyor�s verbal guidance"
+      ],
+      "answer": "The equipment maker�s instructions",
+      "explanation": "Following manufacturer instructions ensures maintenance and operation align with design specifications and safety standards."
+    },
+    {
+      "question": "What must engineering personnel ensure when performing tasks or supervising others?",
+      "options": [
+        "That operations follow COSWP recommendations and are carried out without risk",
+        "That only senior officers are involved in maintenance",
+        "That all work is delegated to external contractors",
+        "That tasks are completed as quickly as possible regardless of risk"
+      ],
+      "answer": "That operations follow COSWP recommendations and are carried out without risk",
+      "explanation": "Compliance with COSWP guidance minimizes hazards and ensures safe working practices in the Engine Room."
+    },
+    {
+      "question": "Why must double-unit machinery systems have equal operating time for both units?",
+      "options": [
+        "To comply with classification survey requirements",
+        "To ensure even wear, reliability, and operational readiness of both units",
+        "To maintain symmetry in the ship�s layout",
+        "To meet environmental reporting obligations"
+      ],
+      "answer": "To ensure even wear, reliability, and operational readiness of both units",
+      "explanation": "Balanced operation prevents uneven wear, ensuring both units remain serviceable and dependable when needed."
+    },
+    {
+      "question": "What specific tests must be conducted by Engine Room officers as part of regular safety checks?",
+      "options": [
+        "Steering gear emergency power tests only",
+        "Testing of automatic changeover devices during startup and shutdown, and system shutdowns at regular intervals",
+        "Hull integrity ultrasonic checks",
+        "Main engine cylinder pressure verification"
+      ],
+      "answer": "Testing of automatic changeover devices during startup and shutdown, and system shutdowns at regular intervals",
+      "explanation": "Regular testing ensures automatic systems and shutdown mechanisms function correctly during critical operations."
+    },
+    {
+      "question": "What verification responsibility does the Chief Engineer have during their contract?",
+      "options": [
+        "To confirm that Engine Room procedures and standards are properly maintained as per Chapter 12 and form 014.12.AUD.C/E�s Verification Assessment",
+        "To review the Master�s Safety Management audit",
+        "To conduct monthly deck maintenance reports",
+        "To oversee shipboard financial accounts"
+      ],
+      "answer": "To confirm that Engine Room procedures and standards are properly maintained as per Chapter 12 and form 014.12.AUD.C/E�s Verification Assessment",
+      "explanation": "The Chief Engineer must verify compliance with Company engineering standards and report findings through the designated audit form."
+    },
+    {
+      "question": "What is the primary reason for maintaining and frequently checking all machinery and equipment?",
+      "options": [
+        "To reduce audit workload during inspections",
+        "To ensure proper operation and prevent breakdowns or unsafe conditions",
+        "To satisfy oil major requirements only",
+        "To maintain the vessel�s aesthetic condition"
+      ],
+      "answer": "To ensure proper operation and prevent breakdowns or unsafe conditions",
+      "explanation": "Regular maintenance ensures reliability, safety, and compliance with operational and safety standards."
+    },
+    {
+      "question": "What best describes the Chief Engineer�s leadership role in the application of engineering procedures?",
+      "options": [
+        "To delegate all technical matters to junior engineers",
+        "To ensure consistent application of standards and verify procedural compliance within the Engine Room",
+        "To focus solely on administrative reporting",
+        "To review only environmental documentation"
+      ],
+      "answer": "To ensure consistent application of standards and verify procedural compliance within the Engine Room",
+      "explanation": "The Chief Engineer�s oversight ensures all personnel follow SMS and engineering standards for safety and operational efficiency."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 7.5",
+  "questions": [
+    {
+      "question": "What is the main purpose of the Company�s procedures for cargo handling operations?",
+      "options": [
+        "To minimize loading time and maximize commercial efficiency",
+        "To establish standardized procedures ensuring safe, efficient, and environmentally compliant cargo operations",
+        "To reduce crew involvement in cargo handling by outsourcing tasks",
+        "To simplify paperwork for port agents"
+      ],
+      "answer": "To establish standardized procedures ensuring safe, efficient, and environmentally compliant cargo operations",
+      "explanation": "The chapter introduces procedural controls designed to safeguard personnel, cargo, and the environment during all cargo-related operations."
+    },
+    {
+      "question": "Why is it important to have structured procedures for cargo operations onboard?",
+      "options": [
+        "Because they define safe practices, prevent incidents, and ensure compliance with Company and international standards",
+        "Because they allow more flexible working conditions for stevedores",
+        "Because they reduce the need for officer supervision during cargo handling",
+        "Because they eliminate the requirement for cargo plans"
+      ],
+      "answer": "Because they define safe practices, prevent incidents, and ensure compliance with Company and international standards",
+      "explanation": "Systematic cargo handling procedures are vital for maintaining safety, avoiding pollution, and meeting ISM and regulatory compliance."
+    },
+    {
+      "question": "Which principle should guide all cargo handling activities according to the Company�s safety management approach?",
+      "options": [
+        "Speed and quantity take priority over accuracy",
+        "Safety and environmental protection take precedence over commercial considerations",
+        "Cargo interests are responsible for onboard safety",
+        "Crew participation should be minimized to avoid liability"
+      ],
+      "answer": "Safety and environmental protection take precedence over commercial considerations",
+      "explanation": "The Company�s SMS philosophy emphasizes that cargo operations must always prioritize safety and environmental protection."
+    },
+    {
+      "question": "What is the expected outcome of applying Company cargo handling procedures correctly?",
+      "options": [
+        "Enhanced operational predictability, reduced incidents, and verified compliance with regulations",
+        "Increased crew rest periods during cargo operations",
+        "Minimized documentation workload",
+        "Delegation of all cargo operations to terminal staff"
+      ],
+      "answer": "Enhanced operational predictability, reduced incidents, and verified compliance with regulations",
+      "explanation": "Proper adherence to Company procedures ensures consistent performance, safety, and compliance in cargo operations."
+    },
+    {
+      "question": "How does implementing the Company�s cargo operation procedures support continuous improvement?",
+      "options": [
+        "By documenting and reviewing cargo handling experiences to improve future performance and training",
+        "By reducing Master�s oversight responsibilities",
+        "By allowing each vessel to define its own cargo policies",
+        "By focusing solely on commercial outcomes"
+      ],
+      "answer": "By documenting and reviewing cargo handling experiences to improve future performance and training",
+      "explanation": "Continuous improvement is achieved when cargo operation outcomes are reviewed and integrated into crew training and procedural updates."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 7.6",
+  "questions": [
+    {
+      "question": "What is the overarching purpose of the Company�s environmental protection policy described in this chapter?",
+      "options": [
+        "To ensure Company ships exceed voyage performance expectations",
+        "To guarantee compliance with MARPOL, Flag Administration regulations, and applicable industry standards",
+        "To promote cost efficiency by reducing equipment usage",
+        "To delegate environmental responsibilities to shore management only"
+      ],
+      "answer": "To guarantee compliance with MARPOL, Flag Administration regulations, and applicable industry standards",
+      "explanation": "The Company�s ships must operate in compliance with MARPOL, Flag, and other applicable regulatory and industry environmental standards."
+    },
+    {
+      "question": "According to this chapter, how does the Company manage the interaction between shipboard activities and the environment?",
+      "options": [
+        "By limiting ship operations only to open seas",
+        "By setting minimum SMS requirements to ensure compliance with applicable environmental rules and Company standards",
+        "By applying ad-hoc measures during inspections",
+        "By delegating full responsibility to classification societies"
+      ],
+      "answer": "By setting minimum SMS requirements to ensure compliance with applicable environmental rules and Company standards",
+      "explanation": "The Company�s SMS provides structured controls to manage shipboard environmental interactions and maintain compliance."
+    },
+    {
+      "question": "Which types of emissions and waste does the SMS aim to control and monitor under this section?",
+      "options": [
+        "Only bilge water discharges",
+        "Shipboard waste and emissions to sea, air, and land",
+        "Cargo residues only",
+        "Noise pollution exclusively"
+      ],
+      "answer": "Shipboard waste and emissions to sea, air, and land",
+      "explanation": "The policy mandates monitoring and control of all emissions and waste affecting sea, air, or land to protect the environment."
+    },
+    {
+      "question": "Why does the Company apply additional environmental standards beyond MARPOL requirements?",
+      "options": [
+        "To align with industry best practices and demonstrate proactive environmental stewardship",
+        "To reduce fuel costs through stricter internal controls",
+        "To simplify documentation requirements",
+        "To comply only with charterer preferences"
+      ],
+      "answer": "To align with industry best practices and demonstrate proactive environmental stewardship",
+      "explanation": "The Company goes beyond basic compliance to uphold environmental leadership and promote sustainable operations."
+    },
+    {
+      "question": "How does the SMS support compliance with international environmental obligations?",
+      "options": [
+        "By setting minimum requirements, implementing control measures, and verifying compliance with regulations through monitoring and records",
+        "By relying on crew self-assessment only",
+        "By outsourcing environmental reporting to port agents",
+        "By conducting random environmental checks without documentation"
+      ],
+      "answer": "By setting minimum requirements, implementing control measures, and verifying compliance with regulations through monitoring and records",
+      "explanation": "The SMS integrates policies, monitoring, and record-keeping to ensure continuous compliance with MARPOL and related laws."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 7.7",
+  "questions": [
+    {
+      "question": "What is the primary objective of the Company�s Drug & Alcohol (D&A) policy?",
+      "options": [
+        "To regulate the sale of alcoholic beverages onboard",
+        "To prevent possession and use of alcohol or illegal drugs and ensure no employee performs duty under influence",
+        "To allow moderate use of alcohol as morale support",
+        "To encourage controlled recreational drinking during rest hours"
+      ],
+      "answer": "To prevent possession and use of alcohol or illegal drugs and ensure no employee performs duty under influence",
+      "explanation": "The D&A policy ensures that no one onboard is impaired by drugs or alcohol, maintaining safety and compliance."
+    },
+    {
+      "question": "To whom does the Company�s D&A policy apply?",
+      "options": [
+        "Only to permanent shipboard crew members",
+        "To all seafarers, contractors, visitors, and any personnel onboard",
+        "To ship officers only",
+        "To Company shore staff only"
+      ],
+      "answer": "To all seafarers, contractors, visitors, and any personnel onboard",
+      "explanation": "The policy applies universally to all individuals on Company-managed ships, including contractors and visitors."
+    },
+    {
+      "question": "What is the maximum beer consumption allowed onboard under the D&A policy?",
+      "options": [
+        "1 can of beer per person per day with no other restrictions",
+        "1 can (330 ml) of beer below 3.5% alcohol per person per day, for up to 2 days per week, with Master's approval",
+        "2 cans of beer below 5% alcohol daily",
+        "Unlimited low-alcohol beer provided during meals"
+      ],
+      "answer": "1 can (330 ml) of beer below 3.5% alcohol per person per day, for up to 2 days per week, with Master's approval",
+      "explanation": "Limited beer consumption is allowed under strict control by the Master and only during approved meals."
+    },
+    {
+      "question": "When is the consumption of any alcohol strictly prohibited regardless of the 2-day allowance?",
+      "options": [
+        "Only during safety drills",
+        "At least 4 hours before returning to the ship or taking over a watch, and entirely while within US Territorial Waters",
+        "When the vessel is anchored",
+        "When cargo operations are completed"
+      ],
+      "answer": "At least 4 hours before returning to the ship or taking over a watch, and entirely while within US Territorial Waters",
+      "explanation": "The policy explicitly bans alcohol before duty and during navigation in US waters to maintain compliance and safety."
+    },
+    {
+      "question": "What is the maximum total permitted alcohol consumption per person in 24 hours?",
+      "options": [
+        "1.155 standard alcohol units (equivalent to 10ml pure alcohol per unit)",
+        "2.5 standard alcohol units",
+        "0.5 standard alcohol units",
+        "No numerical limit is specified"
+      ],
+      "answer": "1.155 standard alcohol units (equivalent to 10ml pure alcohol per unit)",
+      "explanation": "The Company limits alcohol consumption to 1.155 units per 24 hours to prevent impairment."
+    },
+    {
+      "question": "If a seafarer is suspected of being unfit for duty due to alcohol or drug influence, what must be done?",
+      "options": [
+        "Ignore unless performance drops",
+        "Inform a Senior Officer immediately",
+        "Wait until the next shift to confirm",
+        "Report only after completion of voyage"
+      ],
+      "answer": "Inform a Senior Officer immediately",
+      "explanation": "Immediate reporting ensures prompt action and preserves safety standards onboard."
+    },
+    {
+      "question": "What disciplinary action may result from using or possessing illegal drugs or substances onboard?",
+      "options": [
+        "Written warning",
+        "Temporary suspension",
+        "Dismissal and possible legal prosecution",
+        "Verbal reprimand"
+      ],
+      "answer": "Dismissal and possible legal prosecution",
+      "explanation": "Drug use, possession, or influence onboard is a dismissible offence and may involve legal authorities."
+    },
+    {
+      "question": "How must alcoholic beverages be stored onboard according to the policy?",
+      "options": [
+        "In crew cabins under lock and key",
+        "In a secure and locked place under the responsibility of the Master",
+        "In the ship�s bonded store freely accessible to all",
+        "In the messroom refrigerator"
+      ],
+      "answer": "In a secure and locked place under the responsibility of the Master",
+      "explanation": "All alcohol is to be securely locked and controlled solely by the Master."
+    },
+    {
+      "question": "What must crew and visitors avoid storing onboard under any circumstances?",
+      "options": [
+        "Soft drinks and snacks",
+        "Personal medical prescriptions",
+        "Any alcoholic beverages or drugs",
+        "Cleaning products"
+      ],
+      "answer": "Any alcoholic beverages or drugs",
+      "explanation": "The policy clearly prohibits bringing or storing any alcohol or drugs in private cabins or personal belongings."
+    }
+  ]
+}
+
+
+{
+  "section": "Chapter 7.8",
+  "questions": [
+    {
+      "question": "What is the primary importance of effective communication according to the Company�s policy?",
+      "options": [
+        "To enhance crew morale and comfort",
+        "To ensure safe and efficient ship management at all levels",
+        "To promote social interaction between vessels",
+        "To comply with commercial reporting requirements only"
+      ],
+      "answer": "To ensure safe and efficient ship management at all levels",
+      "explanation": "Effective communication is essential for maintaining both safety and operational efficiency across all Company and vessel activities."
+    },
+    {
+      "question": "What is the main purpose of the communication procedures described in this chapter?",
+      "options": [
+        "To define internal email usage limits",
+        "To provide standardized procedures and precautions for all types of ship and shore communications",
+        "To establish social media guidelines for the Company",
+        "To regulate internet access onboard"
+      ],
+      "answer": "To provide standardized procedures and precautions for all types of ship and shore communications",
+      "explanation": "The chapter outlines uniform procedures for routine, emergency, and safety-related communication to ensure consistency and compliance."
+    },
+    {
+      "question": "Which of the following types of communication is NOT included within the scope of this chapter?",
+      "options": [
+        "Routine communications between Company and managed ships",
+        "Distress, Urgency, and Safety communications",
+        "Ship reporting systems and requirements",
+        "Personal communications between crew members and their families"
+      ],
+      "answer": "Personal communications between crew members and their families",
+      "explanation": "The policy addresses operational, safety, and regulatory communication, excluding private or personal exchanges."
+    },
+    {
+      "question": "According to the Company�s communication policy, who must ensure the confidentiality of messages?",
+      "options": [
+        "Only the Master",
+        "All personnel involved in preparing or handling incoming and outgoing messages",
+        "The Designated Person Ashore only",
+        "Only radio operators"
+      ],
+      "answer": "All personnel involved in preparing or handling incoming and outgoing messages",
+      "explanation": "Every person handling Company communication has a duty to safeguard confidentiality in accordance with policy and regulations."
+    },
+    {
+      "question": "Which of the following topics are explicitly included in the communication procedures?",
+      "options": [
+        "Radio watchkeeping, radio equipment maintenance, and confidentiality of communications",
+        "Crew disciplinary communication and welfare programs",
+        "Marketing communication and public relations",
+        "Commercial correspondence with charterers only"
+      ],
+      "answer": "Radio watchkeeping, radio equipment maintenance, and confidentiality of communications",
+      "explanation": "The scope includes both operational communications and technical maintenance of radio systems to ensure readiness and compliance."
+    },
+    {
+      "question": "Why does the Company include reporting requirements for ships carrying dangerous or polluting goods in its communication procedures?",
+      "options": [
+        "To comply with international regulations and ensure immediate information flow in case of danger or pollution risk",
+        "To promote transparency in cargo trading",
+        "To reduce the need for cargo documentation",
+        "To meet charterers� commercial information demands"
+      ],
+      "answer": "To comply with international regulations and ensure immediate information flow in case of danger or pollution risk",
+      "explanation": "Timely reporting of dangerous or polluting goods enhances regulatory compliance and environmental protection."
+    },
+    {
+      "question": "What is one of the safety-related functions emphasized under the Company�s communication policy?",
+      "options": [
+        "Routine crew messaging via satellite phones",
+        "Distress, Urgency, and Safety communications as required by international conventions",
+        "Daily shipboard announcements and briefings",
+        "Social updates from shore management"
+      ],
+      "answer": "Distress, Urgency, and Safety communications as required by international conventions",
+      "explanation": "The SMS requires adherence to international protocols for distress, urgency, and safety messages as part of GMDSS compliance."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "7.9: Daily Work Plan Meetings & Tool Box Talk",
+  "SectionNotes": "Managers and Masters, supported by the ship’s Safety Officer and the Senior Officers, ensure and monitor the proper implementation of safe working practices.",
+  "Topics": [
+    {
+      "TopicTitle": "Daily Work Plan Meetings",
+      "Subtopics": [
+        {
+          "Role": "Master",
+          "Responsibilities": [
+            "Arrange/head daily work meetings, attended by all personnel who will be involved in the works scheduled to be conducted within each day.",
+            "Discuss already planned works or any additional work since the last meeting.",
+            "Provide an agreed working schedule.",
+            "Consider any interdepartmental and safety conflicts of the planned work.",
+            "Ensure that the actions of one ship's Department do not adversely affect any other.",
+            "Emphasize on safety precautions, hazard analysis/RA, PPE, work permits, isolation and tagging arrangements and any other required safe working practices and give any special instructions to crew.",
+            "Carry out toolbox talk before any operation/task.",
+            "Post the daily meeting minutes with a work plan (form 021.7.9.PERMIT.Daily Work Planning Meeting Minutes) detailing jobs and responsibilities in the common public room(s)."
+          ]
+        },
+        {
+          "Role": "All Meeting Participants",
+          "Responsibilities": [
+            "Address and prioritize scheduled works considering the work significance, urgency and complexity.",
+            "Account for any unscheduled priority works and critical equipment maintenance.",
+            "Identify possible work complications such as unforeseen component damage.",
+            "Verify availability of required spares, condition of equipment and special tools.",
+            "Consider the ship’s trading schedule and personnel allocation within work/rest hour limits.",
+            "If shore personnel or specialists are required, inform the Office timely to avoid delays.",
+            "NEVER attempt any jobs unless discussed in the daily meeting.",
+            "If something unexpected occurs, discuss all safety aspects and start the work under a Senior Officer's supervision, subject to issuance of an unscheduled work permit (form 012.7.9.PERMIT.Unscheduled Work Permit), if required."
+          ]
+        }
+      ]
+    },
+    {
+      "TopicTitle": "Tool Box Talk",
+      "Description": "A discussion among the members of a working team focusing on safety issues related to the intended work.",
+      "Details": [
+        "Conducted at any time and at anyone’s initiative but preferably by the team’s leader at the worksite or a comfortable location before beginning the work.",
+        "Normally not minuted, but may be documented in form 021.7.9.PERMIT.Daily Work Planning Meeting Minutes."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main purpose of the Daily Work Plan Meeting on board?",
+      "Options": [
+        "A. To distribute personal protective equipment to all crew members",
+        "B. To discuss and schedule all planned and additional works safely and efficiently",
+        "C. To report accidents and incidents to the office",
+        "D. To perform maintenance checks on safety equipment"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The Daily Work Plan Meeting ensures all scheduled and additional works are safely discussed, coordinated, and prioritized among departments."
+    },
+    {
+      "QuestionText": "2. Who is responsible for arranging and heading the Daily Work Plan Meeting?",
+      "Options": [
+        "A. Chief Engineer",
+        "B. Safety Officer",
+        "C. Master",
+        "D. Senior Officer of each department"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "The Master arranges and heads the meeting to ensure all operations are properly coordinated and safe working practices are followed."
+    },
+    {
+      "QuestionText": "3. What should be done if an unexpected job arises during the day?",
+      "Options": [
+        "A. Start work immediately to save time",
+        "B. Proceed without informing anyone",
+        "C. Discuss safety aspects and start under Senior Officer supervision after obtaining an unscheduled work permit",
+        "D. Wait until the next scheduled meeting"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "Unscheduled jobs must be discussed for safety and carried out under supervision with a valid permit to ensure compliance with safety procedures."
+    },
+    {
+      "QuestionText": "4. What does a Toolbox Talk mainly focus on?",
+      "Options": [
+        "A. Job progress reporting",
+        "B. Safety issues related to the intended work",
+        "C. Crew welfare and rest hours",
+        "D. Ship’s trading schedule"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "A Toolbox Talk is a short discussion focusing on safety issues related to the specific task about to be performed."
+    },
+    {
+      "QuestionText": "5. Where should the Daily Work Plan Meeting minutes be posted?",
+      "Options": [
+        "A. On the ship’s bridge",
+        "B. In the engine control room",
+        "C. In common public room(s)",
+        "D. Only in the Master’s office"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "Meeting minutes with job details and responsibilities should be posted in public areas to ensure visibility to all crew members."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "7.10: Health and Hygiene",
+  "SectionNotes": "The Company protects the health and safety of employees, crewmembers, and others by avoiding risks, reducing hazards, and ensuring hygienic working and living conditions both ashore and onboard.",
+  "Topics": [
+    {
+      "TopicTitle": "Health and Safety Commitments",
+      "Commitments": [
+        "Avoid all risks and combat risks at their source.",
+        "Replace dangerous practices, substances, or equipment with safer alternatives.",
+        "Evaluate unavoidable risks and act to minimize them.",
+        "Adopt procedures suitable to individual capabilities.",
+        "Consider new technologies and evolving work practices.",
+        "Prioritize collective protective measures over individual ones.",
+        "Provide clear information and safety instructions to all employees."
+      ]
+    },
+    {
+      "TopicTitle": "Purpose",
+      "Objectives": [
+        "Ensure healthy and hygienic conditions ashore and onboard.",
+        "Familiarize all personnel with health and hygiene principles and precautions.",
+        "Plan and perform work considering employees' health."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the company's primary aim regarding health and hygiene?",
+      "Options": [
+        "A. To ensure only office staff are safe",
+        "B. To protect employees, crewmembers, and others by maintaining healthy and hygienic conditions",
+        "C. To perform only medical inspections onboard",
+        "D. To reduce food consumption onboard"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The company�s policy focuses on ensuring the health and safety of everyone involved through hygienic and safe practices."
+    },
+    {
+      "QuestionText": "2. What should be done with dangerous substances or practices?",
+      "Options": [
+        "A. Keep them in use but add warning signs",
+        "B. Replace them with safer or less dangerous alternatives",
+        "C. Use them only when supervised",
+        "D. Ignore them unless accidents occur"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Replacing hazardous materials and methods with safer options is a key preventive action in occupational health."
+    },
+    {
+      "QuestionText": "3. Why must new technologies and changes in work practices be considered?",
+      "Options": [
+        "A. To increase workload",
+        "B. To keep up with market trends",
+        "C. To identify and reduce any new risks they might introduce",
+        "D. To justify purchasing new equipment"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "Evaluating the impact of new technology helps identify and control new types of risks that could affect health and safety."
+    },
+    {
+      "QuestionText": "4. Which type of protective measures are prioritized?",
+      "Options": [
+        "A. Individual protective measures",
+        "B. Collective protective measures",
+        "C. Optional protective equipment",
+        "D. Personal hygiene only"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Collective measures (e.g., ventilation, shielding) protect everyone and are prioritized over individual measures like PPE."
+    },
+    {
+      "QuestionText": "5. What is one key purpose of this policy?",
+      "Options": [
+        "A. To promote quick work completion",
+        "B. To ensure employees understand health principles and work safely",
+        "C. To encourage competition among departments",
+        "D. To focus on office administration"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The policy aims to educate and guide all employees on maintaining health and hygiene standards while working safely."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "8.0: Shipping Emergencies",
+  "SectionNotes": "A shipping emergency (or accident) is a major incident onboard that can endanger personnel, the ship, the environment, or cargo. This chapter describes the integrated system of shipboard emergency plans designed to ensure a coordinated and effective response.",
+  "Topics": [
+    {
+      "TopicTitle": "Definition",
+      "Description": [
+        "A shipping emergency or accident is a major onboard incident that may threaten the safety of personnel, the ship, the environment, or cargo."
+      ]
+    },
+    {
+      "TopicTitle": "Purpose of the Integrated System",
+      "Details": [
+        "The Integrated System of Shipboard Emergency Plans complements each vessel's SOPEP/NT-VRP.",
+        "It provides a unified framework for individual Emergency Response Plans (ERP) covering a variety of potential emergencies.",
+        "It ensures that plans address all possible emergencies and are accessible in hardcopy, including cybersecurity contingency plans (see Appendix 8).",
+        "All personnel are trained and capable of responding effectively to shipboard emergencies."
+      ]
+    },
+    {
+      "TopicTitle": "Master’s Authority and Responsibilities",
+      "Responsibilities": [
+        "The Master has the overriding authority and responsibility to take any action necessary to protect lives, the ship, cargo, and the environment.",
+        "Decide whether external assistance is required or if the emergency can be handled using the ship’s own resources.",
+        "Always prioritize actions in the following order: Safety of personnel → Safety of the ship → Safety of the environment → Safety of the cargo."
+      ]
+    },
+    {
+      "TopicTitle": "Office Emergencies",
+      "Details": [
+        "For emergencies affecting the office, refer to the BCP (Business Continuity Plan), OERP (Office Emergency Response Plan), and OSP (Office Security Plan) as applicable."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is considered a shipping emergency?",
+      "Options": [
+        "A. A minor maintenance issue onboard",
+        "B. A major incident that could endanger personnel, ship, environment, or cargo",
+        "C. A delay in cargo operations",
+        "D. A routine safety drill"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "A shipping emergency involves a serious onboard incident that can threaten lives, property, or the environment."
+    },
+    {
+      "QuestionText": "2. What is the purpose of the Integrated System of Shipboard Emergency Plans?",
+      "Options": [
+        "A. To replace SOPEP/NT-VRP completely",
+        "B. To provide a uniform framework for all shipboard emergency response plans",
+        "C. To train only the Master for emergencies",
+        "D. To document past accidents"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The Integrated System ensures a unified and structured approach to emergency preparedness and response on board."
+    },
+    {
+      "QuestionText": "3. Which of the following is part of the Master’s authority during an emergency?",
+      "Options": [
+        "A. Waiting for office instructions before taking action",
+        "B. Having the overriding authority to act for the safety of personnel, ship, cargo, and environment",
+        "C. Delegating all emergency decisions to department heads",
+        "D. Following only company procedures without deviation"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The Master holds overriding authority to make immediate decisions in the best interest of life, ship, cargo, and environment."
+    },
+    {
+      "QuestionText": "4. What should be the order of priorities during an emergency response?",
+      "Options": [
+        "A. Ship → Cargo → Environment → Personnel",
+        "B. Environment → Personnel → Ship → Cargo",
+        "C. Personnel → Ship → Environment → Cargo",
+        "D. Cargo → Environment → Ship → Personnel"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "The correct order of priorities is always: safety of personnel first, then ship, then environment, then cargo."
+    },
+    {
+      "QuestionText": "5. How should cybersecurity contingency plans be maintained?",
+      "Options": [
+        "A. Only as digital files onboard",
+        "B. In hardcopy format as part of the emergency system",
+        "C. Stored by the IT department ashore only",
+        "D. Not required for shipboard use"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Cybersecurity contingency plans must be kept available in hardcopy as part of the emergency documentation."
+    },
+    {
+      "QuestionText": "6. Where should office personnel refer during an emergency ashore?",
+      "Options": [
+        "A. The ship's SOPEP manual",
+        "B. The BCP, OERP, and OSP as applicable",
+        "C. The Master’s standing orders",
+        "D. The office health and safety poster"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Office staff must follow the Business Continuity Plan (BCP), Office Emergency Response Plan (OERP), or Office Security Plan (OSP) depending on the nature of the emergency."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "9.0: Undesired Events and Investigations",
+  "SectionNotes": "The Company ensures that all undesired events such as accidents, incidents, hazards, non-conformities, and near misses are reported, investigated, and analyzed to prevent recurrence and improve the Safety Management System (SMS).",
+  "Topics": [
+    {
+      "TopicTitle": "Purpose",
+      "Objectives": [
+        "Systematically identify all undesired events and perform root cause analysis to eliminate or reduce risks to an acceptable level (ALARP).",
+        "Identify the persons responsible for reporting, authorizing investigations, and implementing corrective/preventive actions.",
+        "Ensure verification of the effectiveness of corrective and preventive actions.",
+        "Analyze investigation findings to determine necessary improvements to the Safety Management System (SMS)."
+      ]
+    },
+    {
+      "TopicTitle": "Definition of Undesired Events",
+      "Details": [
+        "An undesired event is any occurrence that has or could have an adverse effect on safety, the environment, or operations.",
+        "These include:",
+        "� Accidents � events causing injury, pollution, or damage.",
+        "� Incidents � events that could have resulted in an accident but did not.",
+        "� Non-conformities (NC) or Observations (OBS) � deviations from procedures or standards.",
+        "� Hazards � potential sources of harm or unsafe conditions.",
+        "� Near Misses or Unsafe Acts/Conditions � situations that could have led to an incident if not corrected."
+      ]
+    },
+    {
+      "TopicTitle": "Company Approach",
+      "Details": [
+        "The company follows immediate reporting, prompt investigation, and effective follow-up.",
+        "All crew members are encouraged to report hazards and near misses to foster a proactive safety culture.",
+        "Findings from investigations are used to enhance safety awareness and prevent recurrence."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main purpose of investigating undesired events?",
+      "Options": [
+        "A. To identify persons to blame",
+        "B. To understand root causes and prevent recurrence",
+        "C. To complete paperwork for audits",
+        "D. To record events for the company newsletter"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Investigations aim to find root causes and implement preventive measures to reduce risk and avoid recurrence."
+    },
+    {
+      "QuestionText": "2. Which of the following is NOT classified as an undesired event?",
+      "Options": [
+        "A. Near Miss",
+        "B. Non-Conformity",
+        "C. Routine maintenance task",
+        "D. Hazard"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "Routine maintenance is a normal operation, not an undesired event; accidents, hazards, NCs, and near misses are."
+    },
+    {
+      "QuestionText": "3. What does ALARP stand for?",
+      "Options": [
+        "A. As Low As Reasonably Practicable",
+        "B. As Long As Reports Permit",
+        "C. All Levels Are Risk Protected",
+        "D. Actions Limited Against Risk Procedures"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "ALARP means reducing risk to a level that is as low as reasonably practicable � balancing risk reduction and practicality."
+    },
+    {
+      "QuestionText": "4. What is the responsibility of those conducting the investigation?",
+      "Options": [
+        "A. To identify who should be penalized",
+        "B. To determine corrective and preventive actions and verify their effectiveness",
+        "C. To send the report to external authorities only",
+        "D. To delay reporting until the next audit"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Investigators must identify causes, propose corrective and preventive actions, and ensure those actions are effective."
+    },
+    {
+      "QuestionText": "5. Why is prompt reporting of undesired events important?",
+      "Options": [
+        "A. It helps maintain an accurate ship�s logbook",
+        "B. It allows timely investigation and risk control before recurrence",
+        "C. It satisfies administrative requirements only",
+        "D. It reduces the number of safety meetings"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Immediate reporting enables timely analysis and action, reducing the chance of the event recurring or escalating."
+    },
+    {
+      "QuestionText": "6. What is the company�s overall goal when analyzing investigation findings?",
+      "Options": [
+        "A. To increase workload onboard",
+        "B. To determine improvements to the Safety Management System (SMS)",
+        "C. To fill out additional documentation",
+        "D. To report data to insurance companies"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Investigation findings are analyzed to identify trends and areas where the SMS can be strengthened for better safety performance."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "10.0: Ship Maintenance System",
+  "SectionNotes": "The Ship Maintenance System ensures that vessels are maintained in compliance with international and national regulations, classification society standards, and company requirements. It aims to maintain seaworthiness, reliability, and safety through systematic planning, monitoring, and verification of maintenance activities.",
+  "Topics": [
+    {
+      "TopicTitle": "Purpose",
+      "Objectives": [
+        "Ensure ship maintenance complies with international and national regulations, classification standards, industry guidelines, and company requirements.",
+        "Guarantee reliability of engineering equipment and systems, preventing sudden failures that could cause hazardous situations.",
+        "Maintain a maintenance process that is safe, sufficient, and cost-effective.",
+        "Monitor and verify that maintenance activities onboard are performed at proper intervals.",
+        "Ensure that shore personnel analyze ship equipment performance and provide feedback.",
+        "Maintain certification compliance with class and flag requirements."
+      ]
+    },
+    {
+      "TopicTitle": "Company Objectives",
+      "Details": [
+        "Promote and uphold good maintenance standards.",
+        "Maintain the ship�s seaworthiness and operational readiness at all times.",
+        "Minimize equipment breakdown risks.",
+        "Enhance reliability and performance of all systems and equipment.",
+        "Support innovation and development of new maintenance technologies.",
+        "Collaborate proactively with equipment manufacturers to improve maintenance quality and reliability."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main purpose of the Ship Maintenance System?",
+      "Options": [
+        "A. To ensure timely food and provisions for the crew",
+        "B. To maintain ships safely, efficiently, and in compliance with regulations and standards",
+        "C. To reduce crew workload",
+        "D. To handle financial audits onboard"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The system ensures safe, reliable, and compliant ship maintenance according to regulations, class standards, and company policies."
+    },
+    {
+      "QuestionText": "2. Why is it important to ensure reliability of engineering equipment and systems?",
+      "Options": [
+        "A. To reduce noise levels onboard",
+        "B. To avoid hazardous situations caused by unexpected failures",
+        "C. To meet port authority inspection schedules only",
+        "D. To simplify operational checklists"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Reliable equipment operation prevents sudden failures that can endanger personnel, the ship, or the environment."
+    },
+    {
+      "QuestionText": "3. What does the company strive to achieve through its maintenance policy?",
+      "Options": [
+        "A. Reduce maintenance frequency to save costs",
+        "B. Promote good maintenance standards and maintain seaworthiness at all times",
+        "C. Shift all maintenance responsibilities to manufacturers",
+        "D. Focus only on emergency repairs"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The company�s policy promotes good maintenance practices to ensure vessels remain safe, seaworthy, and operationally ready."
+    },
+    {
+      "QuestionText": "4. Which of the following ensures that maintenance activities are properly monitored?",
+      "Options": [
+        "A. The ship�s crew performs tasks without documentation",
+        "B. Monitoring and verification that maintenance occurs at proper intervals",
+        "C. Waiting for breakdowns before acting",
+        "D. Outsourcing all maintenance tasks without review"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Planned monitoring and verification ensure maintenance tasks are performed on schedule and prevent unplanned failures."
+    },
+    {
+      "QuestionText": "5. Who analyzes ship equipment performance to verify maintenance effectiveness?",
+      "Options": [
+        "A. The Master only",
+        "B. Appropriate shore personnel",
+        "C. The port authorities",
+        "D. The classification society inspectors only"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Designated shore personnel analyze ship performance data to verify effectiveness and suggest improvements."
+    },
+    {
+      "QuestionText": "6. How does the company contribute to improving maintenance technology?",
+      "Options": [
+        "A. By participating in innovative technology development and working with equipment makers proactively",
+        "B. By avoiding collaboration with manufacturers",
+        "C. By limiting maintenance to older equipment",
+        "D. By cutting technology budgets"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "The company encourages innovation and collaboration with equipment makers to enhance maintenance quality and reliability."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "11.0: Document and Data Control",
+  "SectionNotes": "This chapter ensures that all Safety Management System (SMS) documentation is properly reviewed, approved, controlled, and updated. It guarantees that all users access the correct version of procedures and records, and that obsolete documents are withdrawn from circulation.",
+  "Topics": [
+    {
+      "TopicTitle": "Purpose",
+      "Objectives": [
+        "Ensure all SMS documentation is reviewed, approved, and controlled.",
+        "Ensure all users have access to and use the latest approved issue of the SMS."
+      ]
+    },
+    {
+      "TopicTitle": "Document / Data Control",
+      "Details": [
+        "The company identifies and controls all SMS documents, ensuring controlled distribution of internal and external documents required for SMS implementation.",
+        "Updated versions of all SMS documents are made available to relevant users.",
+        "All new and revised SMS documents are reviewed and approved before release.",
+        "Invalid or obsolete documents are clearly identified and prevented from unintended use.",
+        "Changes decided by management are properly implemented and communicated.",
+        "All required records are identified, stored, protected, retrievable, retained, and disposed of appropriately.",
+        "Controlled documentation remains legible, identifiable, sorted, and marked with revision dates and status."
+      ]
+    },
+    {
+      "TopicTitle": "Identification, Issuing, Changes, and Distribution of the SMS",
+      "Details": [
+        "The Safety Management System (SMS) contains all documentation and procedures affecting the Company’s and managed ships’ activities.",
+        "The SMS structure includes the Safety Management System Manual (SMSM), containing all company procedures.",
+        "The SMS review is conducted at least concurrently with Management Review Committee (MRC) meetings to amend, improve, and incorporate company circulars as needed.",
+        "Casualty reports of external incidents are treated as Safety Bulletins and used as learning tools."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the primary purpose of controlling SMS documents?",
+      "Options": [
+        "A. To ensure every ship uses a unique version of procedures",
+        "B. To ensure that only reviewed, approved, and updated documents are used by all personnel",
+        "C. To keep documents confidential from the crew",
+        "D. To reduce the number of procedures in circulation"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Document control ensures only current, approved SMS documents are used throughout the company and onboard vessels."
+    },
+    {
+      "QuestionText": "2. How does the company prevent the unintended use of old or invalid documents?",
+      "Options": [
+        "A. By deleting all past records",
+        "B. By identifying and removing obsolete documents from circulation",
+        "C. By archiving them in the same folder as current documents",
+        "D. By distributing them as reference material"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Obsolete documents are identified and withdrawn to prevent accidental use of outdated procedures."
+    },
+    {
+      "QuestionText": "3. When is the SMS review conducted?",
+      "Options": [
+        "A. Only when requested by auditors",
+        "B. At least concurrently with Management Review Committee (MRC) meetings",
+        "C. Once every five years",
+        "D. Only after accidents occur"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The SMS review is performed alongside MRC meetings to ensure continuous improvement and alignment with company operations."
+    },
+    {
+      "QuestionText": "4. What is included in the Safety Management System (SMS)?",
+      "Options": [
+        "A. Only company circulars and forms",
+        "B. All documentation and procedures affecting the company’s and ships’ activities",
+        "C. Only technical manuals",
+        "D. Environmental records"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The SMS encompasses all documentation and procedures that guide safe and compliant company and ship operations."
+    },
+    {
+      "QuestionText": "5. What is the role of casualty reports from external incidents?",
+      "Options": [
+        "A. They are archived without review",
+        "B. They are treated as Safety Bulletins and serve as learning tools",
+        "C. They are discarded after one year",
+        "D. They are used only for insurance claims"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "External casualty reports are used as Safety Bulletins to help prevent similar incidents and enhance safety learning."
+    },
+    {
+      "QuestionText": "6. Why must SMS documentation remain legible and identifiable?",
+      "Options": [
+        "A. To comply with audit requirements and facilitate easy reference to current procedures",
+        "B. To save digital storage space",
+        "C. To allow easy modification by crew members",
+        "D. To reduce the number of hardcopy manuals onboard"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "Documents must remain legible and clearly identified to ensure users can access and follow the correct procedures easily."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "12.0: SMS Review, Verification, and Evaluation",
+  "SectionNotes": "The Company ensures the continuous review, verification, and evaluation of its Safety Management System (SMS) both ashore and onboard to confirm its effectiveness and identify areas for improvement.",
+  "Topics": [
+    {
+      "TopicTitle": "Continuous Review and Evaluation",
+      "Details": [
+        "The Safety Management System (SMS) is continuously reviewed and evaluated through internal audits, inspections, and management reviews.",
+        "These processes verify that the SMS remains effectively implemented and aligned with the Company�s safety and operational standards.",
+        "Regular reviews help identify potential weaknesses or areas where improvement is needed to enhance performance and compliance."
+      ]
+    },
+    {
+      "TopicTitle": "Verification of Delegated ISM Tasks",
+      "Details": [
+        "The Company periodically verifies that all personnel who carry out delegated ISM-related duties comply with Company requirements.",
+        "Verification ensures that responsibilities are performed consistently with the SMS and in accordance with the International Safety Management (ISM) Code.",
+        "This process maintains the reliability and integrity of safety and operational performance across the organization."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main purpose of continuously reviewing and evaluating the SMS?",
+      "Options": [
+        "A. To reduce documentation onboard",
+        "B. To ensure effective implementation and identify areas for improvement",
+        "C. To prepare for flag inspections only",
+        "D. To satisfy the annual audit requirement only"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Regular review and evaluation ensure the SMS is effectively implemented and continuously improved to meet company standards."
+    },
+    {
+      "QuestionText": "2. Which of the following methods is used to verify the SMS onboard and ashore?",
+      "Options": [
+        "A. External advertising campaigns",
+        "B. Internal audits, inspections, and reviews",
+        "C. Crew self-declarations only",
+        "D. Financial performance reports"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Internal audits, inspections, and reviews are key methods to verify the effectiveness of SMS implementation both onboard and ashore."
+    },
+    {
+      "QuestionText": "3. Why does the company verify delegated ISM-related tasks?",
+      "Options": [
+        "A. To ensure these tasks are performed according to company requirements and the ISM Code",
+        "B. To evaluate crew morale",
+        "C. To update crew contact lists",
+        "D. To simplify management reviews"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "Verification confirms that delegated ISM duties are carried out correctly and in conformity with company and ISM Code requirements."
+    },
+    {
+      "QuestionText": "4. What is the benefit of identifying potential improvement areas during SMS review?",
+      "Options": [
+        "A. It allows the company to reduce audit frequency",
+        "B. It supports continuous improvement and strengthens overall safety management",
+        "C. It limits responsibility for the DPA",
+        "D. It simplifies documentation formatting"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Identifying improvement areas promotes continual enhancement of the SMS, increasing safety and operational efficiency."
+    },
+    {
+      "QuestionText": "5. Who is responsible for ensuring SMS effectiveness onboard?",
+      "Options": [
+        "A. The Master and all department heads under company guidance",
+        "B. Only shore-based auditors",
+        "C. Port State Control inspectors",
+        "D. External contractors"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "The Master and senior officers ensure onboard SMS compliance, supported by company oversight and internal audits."
+    },
+    {
+      "QuestionText": "6. What does ISM stand for?",
+      "Options": [
+        "A. International Safety Management",
+        "B. Integrated Security Manual",
+        "C. Internal Ship Maintenance",
+        "D. International Shipping Mandate"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "ISM stands for International Safety Management, which defines standards for safe ship operation and pollution prevention."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "13.0: Management of Change",
+  "SectionNotes": "The Company ensures that all operational, procedural, or organizational changes are introduced in a controlled and authorized manner. Every change is assessed for potential risks, regulatory compliance, and operational impact before implementation.",
+  "Topics": [
+    {
+      "TopicTitle": "Purpose",
+      "Objectives": [
+        "Ensure implementation of all changes under controlled and authorized circumstances.",
+        "Identify and properly assess all implications of changes affecting the Company�s activities.",
+        "Determine and implement actions to prevent problems related to changes.",
+        "Ensure that risks associated with changes remain at acceptable levels.",
+        "Confirm that all changes comply with applicable regulations and industry standards."
+      ]
+    },
+    {
+      "TopicTitle": "Principles of Change Management",
+      "Details": [
+        "Any modification in company procedures, equipment, or personnel responsibilities must be evaluated before implementation.",
+        "The Change Management process involves risk assessment, approval, communication, and verification steps.",
+        "Changes should not compromise safety, environmental protection, or compliance with international and national regulations.",
+        "The outcome of the change must be monitored to ensure that the intended improvements are achieved without introducing new risks."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main goal of the Management of Change process?",
+      "Options": [
+        "A. To allow quick and unrecorded modifications",
+        "B. To ensure all changes are implemented under controlled and authorized conditions",
+        "C. To encourage frequent staff rotations",
+        "D. To reduce documentation requirements"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Change management ensures that any modification to operations or systems is controlled, authorized, and properly evaluated."
+    },
+    {
+      "QuestionText": "2. What must be done before implementing any change?",
+      "Options": [
+        "A. Wait for feedback from external auditors",
+        "B. Conduct a proper assessment of the change�s implications and risks",
+        "C. Implement immediately and assess later",
+        "D. Inform the crew verbally without documentation"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "All changes should be assessed for their impact and potential risks before implementation to prevent negative consequences."
+    },
+    {
+      "QuestionText": "3. Which of the following best describes an acceptable change?",
+      "Options": [
+        "A. One that reduces company costs regardless of safety impact",
+        "B. One where change-related risks remain acceptable and compliant with standards",
+        "C. One introduced without management approval",
+        "D. One suggested by crew during informal discussions"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Acceptable changes are those with risks evaluated and kept within acceptable limits while complying with industry regulations."
+    },
+    {
+      "QuestionText": "4. Why is identifying change-related implications important?",
+      "Options": [
+        "A. It ensures changes do not affect other parts of the company�s activities negatively",
+        "B. It allows faster execution of changes",
+        "C. It helps reduce the number of management reviews",
+        "D. It ensures that all changes remain confidential"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "Assessing implications ensures that the change doesn�t unintentionally create issues in other company processes or safety systems."
+    },
+    {
+      "QuestionText": "5. How should changes be implemented within the company?",
+      "Options": [
+        "A. Randomly by department heads",
+        "B. Under controlled, authorized, and documented conditions",
+        "C. Only by external consultants",
+        "D. Without prior notification to the DPA"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "All changes must be formally authorized, documented, and monitored to ensure safety and compliance."
+    },
+    {
+      "QuestionText": "6. What must the company ensure after implementing a change?",
+      "Options": [
+        "A. That it is recorded and that no new risks were introduced",
+        "B. That it is kept confidential from auditors",
+        "C. That it is reversed after a month",
+        "D. That it is not reviewed further"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "Post-implementation monitoring ensures the change achieved its purpose safely and did not introduce new operational risks."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "14.0: Risk Assessment (RA) and Risk Management (RM)",
+  "SectionNotes": "Risk Assessment (RA) and Risk Management (RM) ensure that hazards arising from shipping operations are systematically identified, evaluated, and controlled. The Company applies the ALARP principle to minimize risk to acceptable levels while promoting a safety culture where everyone manages risks proactively.",
+  "Topics": [
+    {
+      "TopicTitle": "Understanding Risk and Hazards",
+      "Details": [
+        "Hazards from shipping operations can impact health, safety, environment, public image, and company reputation.",
+        "Any identified hazard is treated as a potential intolerable risk until assessed and mitigated.",
+        "Effective risk management requires systematic hazard identification, consequence and frequency analysis, and implementation of mitigation measures."
+      ]
+    },
+    {
+      "TopicTitle": "Definition of Risk",
+      "Details": [
+        "Risk (R) is a function of the severity of possible Consequences (C) and the Frequency (F) of occurrence.",
+        "The relation is expressed as: Risk (R) = Frequency (F) × Consequence (C).",
+        "Reducing either the frequency or the severity — or both — helps lower the overall risk level."
+      ]
+    },
+    {
+      "TopicTitle": "Scope and Objectives",
+      "Details": [
+        "The procedure describes the Risk Matrix methodology used by the Company to analyze risk scenarios for all activities.",
+        "It evaluates proposed control measures (preventive, mitigative, or alternative) to minimize risk to ALARP (As Low As Reasonably Practicable) levels.",
+        "The aim is to enable informed decision-making for safe and efficient operations."
+      ]
+    },
+    {
+      "TopicTitle": "When to Perform a Risk Assessment (RA)",
+      "Details": [
+        "Before any routine or non-routine operation.",
+        "For new operations, temporary or permanent changes (see Chapter 13).",
+        "Following incidents, accidents, or serious near misses.",
+        "For postponement of critical PMS jobs or equipment defects (see Chapter 10).",
+        "During development of new procedures or projects.",
+        "To identify residual risks that require management attention."
+      ]
+    },
+    {
+      "TopicTitle": "Review and Approval of RAs",
+      "Details": [
+        "Responsible personnel must approve both the RA and any deviations from its action plan.",
+        "RAs should be reviewed regularly for consistency and updated following new incidents or best practices.",
+        "The updated RA Library must include revised version numbers and issue dates to ensure control of current risk documentation."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the primary purpose of Risk Assessment (RA) and Risk Management (RM)?",
+      "Options": [
+        "A. To record all completed ship operations",
+        "B. To systematically identify hazards, evaluate risks, and implement controls to minimize them",
+        "C. To train crew members in emergency communication",
+        "D. To calculate maintenance costs"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "RA and RM ensure hazards are identified, assessed, and mitigated to protect health, safety, and the environment."
+    },
+    {
+      "QuestionText": "2. Which formula expresses the relationship between risk, frequency, and consequence?",
+      "Options": [
+        "A. R = C + F",
+        "B. R = F × C",
+        "C. R = F ÷ C",
+        "D. R = C − F"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Risk is determined by multiplying the frequency of an event by the severity of its consequences (R = F × C)."
+    },
+    {
+      "QuestionText": "3. When must a Risk Assessment be performed?",
+      "Options": [
+        "A. Only after an incident has occurred",
+        "B. Before any routine, non-routine, or new operation and when changes or incidents occur",
+        "C. Only during annual audits",
+        "D. After the Master’s approval"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Risk assessments must be conducted proactively before and during any significant operational activity or change."
+    },
+    {
+      "QuestionText": "4. What does ALARP stand for?",
+      "Options": [
+        "A. As Low As Reasonably Practicable",
+        "B. Always Limit All Risk Procedures",
+        "C. Advanced Level Assessment of Risk Protocols",
+        "D. Authorized Level of Audit and Review Process"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "ALARP refers to reducing risks to a level that is as low as reasonably practicable, balancing safety and operational feasibility."
+    },
+    {
+      "QuestionText": "5. What is the Company’s vision regarding risk management?",
+      "Options": [
+        "A. To develop a culture where each individual personally manages the risk of every action both on and off duty",
+        "B. To assign risk management only to the DPA",
+        "C. To delegate all risk decisions to shore management",
+        "D. To perform RAs once per year"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "The Company encourages every individual to actively manage risks at all times, fostering a strong safety culture."
+    },
+    {
+      "QuestionText": "6. What must be done after reviewing Risk Assessments?",
+      "Options": [
+        "A. Delete previous versions and keep no record",
+        "B. Reissue documents with updated version numbers and update the RA Library",
+        "C. Forward them only to the Port Authority",
+        "D. Store them without review"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "After reviews, updated RA documents must be reissued with revised version control and recorded in the RA Library to maintain traceability."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "15.0: Acquisition and Disposal of Ships",
+  "SectionNotes": "This chapter provides guidance for managing new ship acquisitions and the disposal or transfer of vessels from the Company�s management. The aim is to identify potential risks, ensure compliance, and verify the structural and operational integrity of all vessels entering or leaving the fleet.",
+  "Topics": [
+    {
+      "TopicTitle": "Purpose",
+      "Objectives": [
+        "Provide instructions for handling newbuilding project acquisitions.",
+        "Define procedures for integrating newly acquired second-hand ships into the Company�s fleet.",
+        "Outline the process for ships leaving Company management.",
+        "Ensure that all potential risks are identified and addressed.",
+        "Verify that all preparatory and inspection activities are correctly completed to confirm no structural or operational defects."
+      ]
+    },
+    {
+      "TopicTitle": "Acquisition of New or Second-Hand Ships",
+      "Details": [
+        "All newbuilding and acquisition projects must follow a structured evaluation process before delivery or acceptance.",
+        "Inspections ensure the vessel�s compliance with class, flag, and company standards before joining the fleet.",
+        "All records, certificates, and manuals must be verified as complete and valid before the vessel�s handover.",
+        "Any identified deficiencies must be corrected prior to final acceptance and operation under Company management."
+      ]
+    },
+    {
+      "TopicTitle": "Disposal or Release of Ships from Management",
+      "Details": [
+        "When a vessel leaves the Company�s management, all company-specific materials, manuals, and records must be returned or deleted as required.",
+        "The Company ensures that no proprietary information or data remains onboard.",
+        "All outstanding maintenance, documentation, and statutory obligations must be completed or transferred before release.",
+        "A final inspection confirms that the vessel leaves management in satisfactory condition and free from structural or safety deficiencies."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main purpose of the Acquisition and Disposal of Ships procedure?",
+      "Options": [
+        "A. To regulate ship purchases and disposals only for financial purposes",
+        "B. To ensure risks are identified and all preparatory activities are completed properly during acquisition or disposal",
+        "C. To document only ship insurance transfers",
+        "D. To manage crew change procedures"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The procedure ensures all potential risks are addressed and preparatory tasks are completed before acquiring or releasing a vessel."
+    },
+    {
+      "QuestionText": "2. What must be verified before accepting a new or second-hand ship into the fleet?",
+      "Options": [
+        "A. Only the ship�s cargo capacity",
+        "B. All certificates, manuals, and class/flag compliance documentation",
+        "C. Only the paint coating condition",
+        "D. Crew accommodation layout"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "All official documentation and compliance certificates must be verified to ensure the vessel meets operational and legal standards."
+    },
+    {
+      "QuestionText": "3. What happens if deficiencies are identified during the vessel inspection before acquisition?",
+      "Options": [
+        "A. The vessel is accepted as-is",
+        "B. The deficiencies must be corrected before final acceptance",
+        "C. They are ignored if minor",
+        "D. The company proceeds with operations and fixes later"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Any deficiencies must be corrected before final acceptance to ensure the vessel is compliant and safe to operate."
+    },
+    {
+      "QuestionText": "4. What actions must be taken when a ship leaves Company management?",
+      "Options": [
+        "A. Delete company records and ensure no proprietary data remains onboard",
+        "B. Retain all company data onboard for reference",
+        "C. Leave all manuals for the new owner�s use without review",
+        "D. Skip final inspections"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "Company-sensitive data and materials must be removed or returned to maintain confidentiality and compliance."
+    },
+    {
+      "QuestionText": "5. Why is a final inspection performed before a vessel�s release from management?",
+      "Options": [
+        "A. To check the ship�s financial valuation",
+        "B. To confirm the vessel is free from structural or safety deficiencies",
+        "C. To evaluate crew performance",
+        "D. To update office records only"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The final inspection ensures the ship leaves management in a safe, defect-free condition and in compliance with company standards."
+    },
+    {
+      "QuestionText": "6. What is required before finalizing a newbuilding project or ship acquisition?",
+      "Options": [
+        "A. Class and flag inspection approvals with all documentation verified",
+        "B. Only verbal approval from the superintendent",
+        "C. Signing of commercial contracts only",
+        "D. Postponement of inspection until after sailing"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "Formal class and flag approvals, along with documentation verification, are mandatory before a vessel can be accepted into the fleet."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "16.0: Quality Management System (QMS) and ISO 9001 Implementation",
+  "SectionNotes": "This chapter describes the Company�s implementation of a Quality Management System (QMS) aligned with ISO 9001 requirements. It covers leadership commitment, customer focus, risk and opportunity management, competence and communication, and operational control to maintain service quality and continual improvement.",
+  "Topics": [
+    {
+      "TopicTitle": "Purpose",
+      "Details": [
+        "The Company�s Safety Management System (SMS) fulfills the relevant ISO 9001 requirements except for Clause 8.3, 'Design and Development', which is excluded from implementation.",
+        "The Company�s services are standardized and approved by Authorities, Class Societies, and Charterers.",
+        "Contracts with customers are reviewed, agreed upon, and documented before finalization."
+      ]
+    },
+    {
+      "TopicTitle": "Quality Management System and Processes",
+      "Details": [
+        "The Company applies the 'Plan�Do�Check�Act' (PDCA) model to ensure continual improvement.",
+        "Outsourced processes (e.g., suppliers, contractors) that may affect conformity are controlled and monitored.",
+        "Leadership and customer focus principles guide all activities to meet ISO 9001 standards."
+      ]
+    },
+    {
+      "TopicTitle": "Leadership and Customer Focus",
+      "Details": [
+        "Top Management demonstrates commitment to the SMS by providing resources, reviewing performance, and ensuring compliance.",
+        "The Company follows a 'customer-first' approach to determine, convert, and meet customer requirements.",
+        "Customer satisfaction and continual improvement are key objectives."
+      ]
+    },
+    {
+      "TopicTitle": "Planning, Risks, and Opportunities",
+      "Details": [
+        "Top Management identifies and evaluates risks and opportunities related to Company services.",
+        "For risks rated above ALARP threshold, a mitigation plan is developed and recorded in the Risk and Opportunities Register.",
+        "Opportunities are evaluated for potential new business, efficiency improvements, and reputation enhancement."
+      ]
+    },
+    {
+      "TopicTitle": "Support and Competence",
+      "Details": [
+        "Resources include ships, human capital, infrastructure, technology, and financial capacity.",
+        "Training and competency verification are managed by HR and Crew Managers based on education, training, and experience.",
+        "Awareness programs emphasize the importance of conformity, performance, and environmental responsibility."
+      ]
+    },
+    {
+      "TopicTitle": "Communication and Documentation",
+      "Details": [
+        "Managers ensure effective communication and defined responsibilities both onboard and ashore.",
+        "The DPA ensures distribution of controlled documents and qualification of SMS personnel.",
+        "Documentation control is maintained as per Chapter 11 to ensure up-to-date and traceable records."
+      ]
+    },
+    {
+      "TopicTitle": "Operational Planning and Control",
+      "Details": [
+        "Operational control ensures that all significant activities are performed safely and meet quality objectives.",
+        "Processes are designed to prevent errors, monitored for results, and supported by competent personnel and appropriate technology.",
+        "Requirements for procurement, delivery, and disposal are considered to maintain compliance and minimize environmental impact."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. Which ISO standard is primarily referenced in the Company�s Quality Management System?",
+      "Options": [
+        "A. ISO 14001",
+        "B. ISO 45001",
+        "C. ISO 9001",
+        "D. ISO 50001"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "The Company�s QMS is aligned with ISO 9001, which governs quality management and continual improvement."
+    },
+    {
+      "QuestionText": "2. Which clause of ISO 9001 is excluded from the Company�s SMS implementation?",
+      "Options": [
+        "A. Clause 9.2 � Internal Audit",
+        "B. Clause 7.5 � Documented Information",
+        "C. Clause 8.3 � Design and Development",
+        "D. Clause 10.2 � Nonconformity and Corrective Action"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "Clause 8.3, 'Design and Development', is excluded because the Company�s services are standardized and not innovative."
+    },
+    {
+      "QuestionText": "3. What management model does the Company apply to maintain continual improvement?",
+      "Options": [
+        "A. Root Cause Analysis (RCA)",
+        "B. Plan�Do�Check�Act (PDCA)",
+        "C. Six Sigma DMAIC",
+        "D. Failure Mode and Effects Analysis (FMEA)"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The Company uses the PDCA model to ensure systematic planning, execution, review, and improvement."
+    },
+    {
+      "QuestionText": "4. What is the purpose of maintaining a Risk and Opportunities Register?",
+      "Options": [
+        "A. To record maintenance tasks onboard",
+        "B. To log crew training attendance",
+        "C. To document identified risks, mitigation plans, and improvement opportunities",
+        "D. To track customer complaints only"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "The Register records all identified risks and opportunities, along with corresponding action plans, ensuring proactive management."
+    },
+    {
+      "QuestionText": "5. Who is responsible for ensuring that personnel performing SMS-related tasks are competent and qualified?",
+      "Options": [
+        "A. DPA only",
+        "B. HR Manager / Crew Manager",
+        "C. Ship�s Master",
+        "D. Technical Superintendent"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The HR and Crew Managers ensure all personnel are trained, competent, and hold the required qualifications for their duties."
+    },
+    {
+      "QuestionText": "6. What is the main focus of the Company�s customer approach under ISO 9001?",
+      "Options": [
+        "A. Meeting customer expectations through determination, conversion, and fulfillment of requirements",
+        "B. Limiting customer communication to contractual matters",
+        "C. Prioritizing cost savings over customer satisfaction",
+        "D. Outsourcing customer relations"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "The Company follows a customer-first approach by determining, converting, and fulfilling customer requirements to ensure satisfaction."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "17.0: Contractor Management",
+  "SectionNotes": "This chapter outlines the Company�s procedures for selecting, evaluating, and monitoring Contractors to ensure they meet the Company's HSQE (Health, Safety, Quality, Environment) performance requirements and comply with applicable standards and expectations.",
+  "Topics": [
+    {
+      "TopicTitle": "Purpose",
+      "Objectives": [
+        "Ensure the proper selection and management of Contractors according to Company requirements.",
+        "Establish a consistent evaluation process for Contractor performance, safety, and quality compliance.",
+        "Maintain oversight and documentation of all Contractor activities affecting Company operations."
+      ]
+    },
+    {
+      "TopicTitle": "Contractor Evaluation and Approval",
+      "Details": [
+        "Contractors must be evaluated before engagement and periodically thereafter, based on their performance and compliance with Company standards.",
+        "Evaluation reports are submitted to the Office for review and approval.",
+        "Appendix 1 includes a flowchart outlining the decision-making process for Contractor deployment."
+      ]
+    },
+    {
+      "TopicTitle": "HSQE Performance Monitoring",
+      "Details": [
+        "Contractors are required to implement a system with measurable HSQE targets and key performance indicators (KPIs).",
+        "Typical measurable targets include:",
+        "� LTIF/TRCF � Lost Time Injury Frequency / Total Recordable Case Frequency.",
+        "� Occupational Health performance metrics.",
+        "� Environmental performance indicators.",
+        "� Energy efficiency and sustainability performance.",
+        "Contractors must maintain records and provide evidence of meeting or improving these targets."
+      ]
+    },
+    {
+      "TopicTitle": "Continuous Improvement and Reporting",
+      "Details": [
+        "The Company encourages Contractors to adopt continuous improvement initiatives in safety, environmental, and operational performance.",
+        "Periodic performance reviews help identify areas for development or corrective actions.",
+        "Contractor performance directly impacts the Company�s overall safety and environmental performance ratings."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main objective of Contractor Management within the Company?",
+      "Options": [
+        "A. To reduce office paperwork",
+        "B. To ensure contractors are properly selected, evaluated, and monitored in line with Company standards",
+        "C. To outsource all shipboard maintenance tasks",
+        "D. To minimize the number of active contractors"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Contractor Management ensures that all contracted parties meet the Company�s safety, quality, and environmental standards before and during engagement."
+    },
+    {
+      "QuestionText": "2. When should Contractors be evaluated?",
+      "Options": [
+        "A. Only after a contract ends",
+        "B. Before engagement and periodically thereafter as required",
+        "C. Once every five years",
+        "D. Only if a problem occurs onboard"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Contractors must be evaluated both prior to engagement and periodically to ensure continued compliance and satisfactory performance."
+    },
+    {
+      "QuestionText": "3. What is the purpose of the flowchart in Appendix 1?",
+      "Options": [
+        "A. To describe shipboard emergency procedures",
+        "B. To illustrate the decision-making process for contractor deployment",
+        "C. To list all approved contractors",
+        "D. To record LTIF and TRCF data"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The flowchart outlines the steps for evaluating and deciding on contractor deployment in compliance with Company standards."
+    },
+    {
+      "QuestionText": "4. Which of the following performance metrics may Contractors be required to monitor?",
+      "Options": [
+        "A. LTIF/TRCF, occupational health, environmental, and energy efficiency performance",
+        "B. Crew satisfaction and morale levels",
+        "C. Onboard food consumption rates",
+        "D. Voyage profit margins"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "Contractors must monitor measurable HSQE indicators such as LTIF/TRCF, occupational health, environmental, and energy performance."
+    },
+    {
+      "QuestionText": "5. What must the Contractor provide to demonstrate compliance with performance targets?",
+      "Options": [
+        "A. Verbal confirmation only",
+        "B. Records and evidence of meeting measurable HSQE targets",
+        "C. Copies of financial invoices",
+        "D. Crew evaluation reports"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Contractors must maintain and present documented evidence demonstrating compliance with measurable HSQE targets."
+    },
+    {
+      "QuestionText": "6. Why does the Company encourage continuous improvement among Contractors?",
+      "Options": [
+        "A. To enhance overall Company HSQE performance and ensure safe, efficient operations",
+        "B. To reduce the number of contracts issued annually",
+        "C. To minimize reporting obligations",
+        "D. To eliminate contractor performance evaluations"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "Continuous improvement from Contractors supports the Company�s broader goals of improved safety, quality, and environmental performance."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "18.0: Third Party Inspections",
+  "SectionNotes": "This chapter defines the Company�s standardized process for handling all types of third-party inspections, including those conducted by classification societies, port authorities, vetting organizations, insurance clubs, terminals, and flag administrations. It ensures consistent preparation, execution, and follow-up to maintain compliance and performance.",
+  "Topics": [
+    {
+      "TopicTitle": "Purpose",
+      "Objectives": [
+        "Standardize the process for managing third-party inspections across all company vessels.",
+        "Ensure that all inspections are handled efficiently, consistently, and in full compliance with applicable regulations.",
+        "Establish a framework for preparing, conducting, and following up on inspection findings."
+      ]
+    },
+    {
+      "TopicTitle": "Types of Third-Party Inspections",
+      "Details": [
+        "Class Surveys � conducted by Classification Societies to verify vessel compliance with class standards and maintenance condition.",
+        "Port State Control (PSC) Inspections � ensure compliance with international conventions such as SOLAS, MARPOL, and STCW.",
+        "RightShip or Charterer Vetting Inspections � evaluate the vessel�s safety management, maintenance, and operational standards for charter approval.",
+        "P&I Club Inspections � focus on safety, risk management, and insurance-related conditions.",
+        "Terminal Safety Inspections � confirm that the ship meets safety standards prior to cargo operations.",
+        "Flag Administration Inspections � verify compliance with flag state regulations and certification requirements."
+      ]
+    },
+    {
+      "TopicTitle": "Preparation for Inspections",
+      "Details": [
+        "Ensure all statutory and class certificates are valid and onboard.",
+        "Conduct internal checks and familiarization sessions with officers and crew.",
+        "Rectify any known deficiencies prior to inspection.",
+        "Assign a responsible officer to coordinate with inspectors and maintain records of all observations."
+      ]
+    },
+    {
+      "TopicTitle": "Conduct and Follow-Up",
+      "Details": [
+        "During inspections, full cooperation must be provided to the attending surveyor or inspector.",
+        "All observations or deficiencies identified must be documented and communicated to the Company immediately.",
+        "Follow-up actions must be implemented promptly and verified by the responsible department.",
+        "Lessons learned from inspections should be shared across the fleet to prevent recurrence."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main purpose of standardizing third-party inspection procedures?",
+      "Options": [
+        "A. To simplify financial reporting",
+        "B. To ensure inspections are conducted consistently and in compliance with regulations",
+        "C. To limit the number of inspections per year",
+        "D. To avoid communication with external parties"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Standardization ensures that all inspections follow consistent procedures, meeting both company and regulatory requirements."
+    },
+    {
+      "QuestionText": "2. Which of the following is NOT a type of third-party inspection mentioned in this chapter?",
+      "Options": [
+        "A. Class Survey",
+        "B. Port State Control Inspection",
+        "C. Company Internal Audit",
+        "D. P&I Club Inspection"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "Internal audits are conducted by the Company, not by third parties. The others are external inspection types."
+    },
+    {
+      "QuestionText": "3. What is the main focus of Port State Control (PSC) inspections?",
+      "Options": [
+        "A. Verifying crew training certificates only",
+        "B. Ensuring compliance with international conventions like SOLAS, MARPOL, and STCW",
+        "C. Assessing vessel commercial performance",
+        "D. Evaluating charter party agreements"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "PSC inspections verify the vessel�s compliance with international maritime conventions governing safety and pollution prevention."
+    },
+    {
+      "QuestionText": "4. What must be done before a third-party inspection begins?",
+      "Options": [
+        "A. Cancel all onboard operations",
+        "B. Ensure certificates are valid and deficiencies are rectified",
+        "C. Request the inspection to be postponed",
+        "D. Instruct crew not to cooperate with inspectors"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Preparation includes verifying documentation and rectifying known issues to ensure a smooth and compliant inspection."
+    },
+    {
+      "QuestionText": "5. What should be done after receiving inspection observations?",
+      "Options": [
+        "A. Delay action until the next inspection",
+        "B. Notify the Company, record the findings, and implement corrective actions",
+        "C. Disregard minor deficiencies",
+        "D. Wait for the inspector�s next visit"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Inspection findings must be reported immediately, and corrective actions implemented to prevent recurrence or escalation."
+    },
+    {
+      "QuestionText": "6. Why should lessons learned from inspections be shared across the fleet?",
+      "Options": [
+        "A. To reduce administrative workload",
+        "B. To ensure continuous improvement and prevent similar issues on other vessels",
+        "C. To comply with insurance requirements only",
+        "D. To prepare for crew changes"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Sharing lessons learned promotes continuous improvement and enhances safety and compliance across all vessels."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "19.0: Purchasing and Supplier Control",
+  "SectionNotes": "This chapter defines the controls and activities necessary to ensure that all purchased products and services conform to the Company�s specified requirements. It covers supplier evaluation, procurement ethics, hazardous material restrictions, and authorization procedures for shipboard purchasing.",
+  "Topics": [
+    {
+      "TopicTitle": "Purpose",
+      "Objectives": [
+        "Ensure that all purchased products and services meet specified quality, safety, and environmental requirements.",
+        "Establish proper controls for supplier selection, evaluation, and approval.",
+        "Prevent unethical practices and conflicts of interest in the purchasing process."
+      ]
+    },
+    {
+      "TopicTitle": "General Principles",
+      "Details": [
+        "Purchasing is based on competitive bidding and negotiation to achieve the best value for the Company.",
+        "Suppliers must be approved and periodically evaluated to maintain their approved status.",
+        "Supplier evaluations consider quality, reliability, delivery performance, and HSQE compliance.",
+        "Information from supplier bids and offers is confidential and restricted to authorized personnel."
+      ]
+    },
+    {
+      "TopicTitle": "Ethical Conduct and Conflicts of Interest",
+      "Details": [
+        "Personnel must not accept or request gifts, favors, or personal benefits from suppliers or prospective suppliers.",
+        "Any situation that may be construed as a conflict of interest must be disclosed immediately to the Purchasing Manager or the Master.",
+        "Employees involved in purchasing must act with integrity and prioritize the Company�s best interests."
+      ]
+    },
+    {
+      "TopicTitle": "Hazardous Material Control",
+      "Details": [
+        "All equipment, spare parts, or replacement materials supplied for ships must be free of hazardous materials (refer to SMS Chapter 7.6).",
+        "Purchasing staff and suppliers must verify compliance before shipment or delivery.",
+        "Non-compliant items must not be accepted or installed onboard."
+      ]
+    },
+    {
+      "TopicTitle": "Authorization for Shipboard Purchases",
+      "Details": [
+        "The Master is not authorized to make local purchases without prior approval from the Office.",
+        "Exceptions are allowed only in emergency situations and must be fully documented.",
+        "All shipboard purchasing must follow Company approval channels and recordkeeping requirements."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main purpose of the Purchasing and Supplier Control procedure?",
+      "Options": [
+        "A. To simplify documentation of financial audits",
+        "B. To ensure purchased products and services meet Company specifications and requirements",
+        "C. To reduce the number of approved suppliers",
+        "D. To increase supplier competition only"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The procedure ensures that all purchases conform to the Company�s technical, safety, and quality requirements."
+    },
+    {
+      "QuestionText": "2. How does the Company select suppliers?",
+      "Options": [
+        "A. Based on personal recommendations",
+        "B. Through competitive bidding and negotiation with approved suppliers",
+        "C. By automatic approval from the Master",
+        "D. By random assignment from a supplier list"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Purchasing depends on competitive bidding and negotiation to ensure fair and value-driven supplier selection."
+    },
+    {
+      "QuestionText": "3. What must be ensured regarding materials supplied for ships?",
+      "Options": [
+        "A. They are locally manufactured",
+        "B. They are free of hazardous materials",
+        "C. They are purchased in bulk quantities only",
+        "D. They are compatible with older systems only"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "All items supplied must be free from hazardous materials in compliance with Company safety and environmental standards."
+    },
+    {
+      "QuestionText": "4. What is the correct action if a crew member is offered a gift from a supplier?",
+      "Options": [
+        "A. Accept it if the gift is small",
+        "B. Refuse and report the offer to the Purchasing Manager or Master",
+        "C. Accept it as a courtesy",
+        "D. Exchange it for a discount"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Gifts or favors from suppliers must not be accepted; any such offer must be reported to prevent conflicts of interest."
+    },
+    {
+      "QuestionText": "5. Who is authorized to make local purchases onboard?",
+      "Options": [
+        "A. Any senior officer",
+        "B. The Master, but only with prior approval from the Office",
+        "C. The Chief Engineer without approval",
+        "D. The Ship�s Agent"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The Master can only make local purchases with Office approval, except in emergencies where full documentation is required."
+    },
+    {
+      "QuestionText": "6. Why is supplier evaluation performed periodically?",
+      "Options": [
+        "A. To meet insurance company requirements",
+        "B. To confirm suppliers continue to meet Company performance and HSQE standards",
+        "C. To reduce paperwork",
+        "D. To renegotiate prices annually"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Periodic evaluation ensures suppliers maintain compliance with Company performance, safety, and environmental standards."
+    }
+  ]
+}
+
+
+{
+  "SectionTitle": "20.0: Cybersecurity and Cyber Risk Management",
+  "SectionNotes": "This chapter defines the Company�s approach to protecting information systems, data, and operational technology (OT) against cyber threats. It establishes responsibilities, safeguards, and response procedures to ensure continuity of ship and shore operations in the event of cybersecurity incidents.",
+  "Topics": [
+    {
+      "TopicTitle": "Objectives",
+      "Objectives": [
+        "Protect the Company�s business information, operational assets, and customer or partner data by ensuring confidentiality, integrity, and availability.",
+        "Establish responsibility and accountability for cybersecurity within the Company and onboard ships.",
+        "Promote awareness, knowledge, and skills among all staff to minimize cybersecurity incidents.",
+        "Ensure the continuity of commercial and service operations during and after cybersecurity events."
+      ]
+    },
+    {
+      "TopicTitle": "Purpose",
+      "Details": [
+        "Identify personnel, data, devices, and communication systems that pose risks to ship operations when disrupted.",
+        "Define personnel roles and responsibilities for cyber risk management both ashore and onboard.",
+        "Protect against cybersecurity events through proactive risk control measures and contingency planning.",
+        "Detect cybersecurity events promptly using monitoring and detection systems.",
+        "Respond and recover effectively from cyber events to restore critical IT and OT systems necessary for safe and continuous operation."
+      ]
+    },
+    {
+      "TopicTitle": "Cyber Risk Management",
+      "Details": [
+        "The Company assesses cyber risks from both Information Technology (IT) and Operational Technology (OT) systems.",
+        "Cyber Risk Management includes:",
+        "� Identifying systems, assets, data, and capabilities that, if disrupted, could affect ship or Company operations.",
+        "� Identifying threats and vulnerabilities, assessing exposure, and developing protection measures.",
+        "� Defining the roles and responsibilities of users ashore and onboard.",
+        "� Implementing protective measures such as network configuration control, access control, and detection software.",
+        "� Maintaining preparedness and resilience through training, software updates, access control, and secure handling of removable media."
+      ]
+    },
+    {
+      "TopicTitle": "Cybersecurity Policy",
+      "Details": [
+        "Top Management assigns cybersecurity the same level of importance as all other business operations.",
+        "The Company�s Cybersecurity Policy, found in Chapter 2 � Appendix 9, ensures the safety and security of personnel, assets, and information.",
+        "The policy promotes a proactive approach to identifying risks, preventing attacks, and maintaining operational integrity."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main objective of the Company�s cybersecurity management?",
+      "Options": [
+        "A. To protect only customer data from theft",
+        "B. To safeguard business information, assets, and systems by ensuring confidentiality, integrity, and availability",
+        "C. To monitor only shipboard emails",
+        "D. To limit crew access to computers"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Cybersecurity management ensures that the Company�s data, systems, and operations remain secure, reliable, and available."
+    },
+    {
+      "QuestionText": "2. What is the role of Cyber Risk Management?",
+      "Options": [
+        "A. To track ship maintenance schedules",
+        "B. To identify, assess, and protect against IT and OT system vulnerabilities and threats",
+        "C. To manage crew training records",
+        "D. To control procurement and supplies"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Cyber Risk Management identifies potential vulnerabilities in IT/OT systems and applies preventive and protective measures to mitigate them."
+    },
+    {
+      "QuestionText": "3. Which of the following is an example of a protective cybersecurity measure?",
+      "Options": [
+        "A. Allowing unrestricted network access",
+        "B. Network configuration and access control",
+        "C. Sharing passwords for faster operations",
+        "D. Allowing use of any removable media"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Protective measures such as access control and proper network configuration prevent unauthorized access and reduce vulnerabilities."
+    },
+    {
+      "QuestionText": "4. What is the purpose of developing response and recovery plans for cyber incidents?",
+      "Options": [
+        "A. To restore impaired systems and ensure continued ship operations",
+        "B. To notify customers of delays only",
+        "C. To train staff in using social media",
+        "D. To simplify documentation"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "Response and recovery plans enable timely restoration of critical systems and operational continuity after a cyber incident."
+    },
+    {
+      "QuestionText": "5. How does the Company ensure preparedness and resilience against cyber incidents?",
+      "Options": [
+        "A. By relying solely on third-party IT vendors",
+        "B. Through training, software maintenance, controlled access, and proper handling of removable media",
+        "C. By disabling onboard communication systems",
+        "D. By isolating all computers from the internet"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Preparedness involves training, maintaining systems, controlling access, and secure management of hardware and removable devices."
+    },
+    {
+      "QuestionText": "6. Where can the Company�s official Cybersecurity Policy be found?",
+      "Options": [
+        "A. Chapter 10 � Ship Maintenance System",
+        "B. Chapter 2 � Appendix 9",
+        "C. Chapter 19 � Purchasing Control",
+        "D. Chapter 7 � Health and Hygiene"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The Cybersecurity Policy is located in Chapter 2, Appendix 9, ensuring personnel can easily reference and follow it."
+    }
+  ]
+}
