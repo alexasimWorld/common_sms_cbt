@@ -422,21 +422,23 @@ body.onmousemove .bridge-bg {
     display: none !important;
 }
 
-.presentation-container {
+.presentation-container,
+#presentation-area {
     position: relative;
     width: 90%;
-    height: 80vh;
+    max-width: 900px;
+    min-height: 80vh;
     margin: 40px auto;
-    padding: 25px;
-    background: rgba(10, 15, 20, 0.8);
-    border: 1px solid rgba(0, 255, 255, 0.15);
-    border-radius: 15px;
+    padding: 32px 40px;
+    background: rgba(15, 17, 22, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 200, 255, 0.12);
     color: #e0e0e0;
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
     overflow-y: auto;
-    backdrop-filter: blur(6px);
-    animation: fadeIn 0.8s ease;
+    backdrop-filter: blur(8px);
+    animation: fadeIn 0.6s ease;
 }
+
 
     .presentation-container h1,
     .presentation-container h2 {
@@ -731,6 +733,17 @@ body.login-page {
         padding: 12px 14px;
     }
 
+    @media (max-width: 768px) {
+        .presentation-container,
+        #presentation-area,
+        #quiz-area {
+            width: 95%;
+            padding: 20px;
+            margin: 20px auto;
+        }
+    }
+
+
     .hint-title {
         font-size: 14px;
     }
@@ -776,19 +789,6 @@ body.login-page {
     }
 }
 
-
-.presentation-container {
-    flex: 1;
-    width: 100%;
-    max-width: 1000px;
-    height: 80vh;
-    overflow-y: auto;
-    scroll-behavior: smooth;
-    background: rgba(15, 17, 22, 0.8);
-    border-radius: 16px;
-    box-shadow: 0 0 20px rgba(0, 186, 255, 0.1);
-    padding: 25px;
-}
 
 
 
