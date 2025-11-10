@@ -1,0 +1,82 @@
+{
+  "section": "Chapter 7.8",
+  "questions": [
+    {
+      "question": "What is the primary importance of effective communication according to the Company’s policy?",
+      "options": [
+        "To enhance crew morale and comfort",
+        "To ensure safe and efficient ship management at all levels",
+        "To promote social interaction between vessels",
+        "To comply with commercial reporting requirements only"
+      ],
+      "answer": "To ensure safe and efficient ship management at all levels",
+      "explanation": "Effective communication is essential for maintaining both safety and operational efficiency across all Company and vessel activities."
+    },
+    {
+      "question": "What is the main purpose of the communication procedures described in this chapter?",
+      "options": [
+        "To define internal email usage limits",
+        "To provide standardized procedures and precautions for all types of ship and shore communications",
+        "To establish social media guidelines for the Company",
+        "To regulate internet access onboard"
+      ],
+      "answer": "To provide standardized procedures and precautions for all types of ship and shore communications",
+      "explanation": "The chapter outlines uniform procedures for routine, emergency, and safety-related communication to ensure consistency and compliance."
+    },
+    {
+      "question": "Which of the following types of communication is NOT included within the scope of this chapter?",
+      "options": [
+        "Routine communications between Company and managed ships",
+        "Distress, Urgency, and Safety communications",
+        "Ship reporting systems and requirements",
+        "Personal communications between crew members and their families"
+      ],
+      "answer": "Personal communications between crew members and their families",
+      "explanation": "The policy addresses operational, safety, and regulatory communication, excluding private or personal exchanges."
+    },
+    {
+      "question": "According to the Company’s communication policy, who must ensure the confidentiality of messages?",
+      "options": [
+        "Only the Master",
+        "All personnel involved in preparing or handling incoming and outgoing messages",
+        "The Designated Person Ashore only",
+        "Only radio operators"
+      ],
+      "answer": "All personnel involved in preparing or handling incoming and outgoing messages",
+      "explanation": "Every person handling Company communication has a duty to safeguard confidentiality in accordance with policy and regulations."
+    },
+    {
+      "question": "Which of the following topics are explicitly included in the communication procedures?",
+      "options": [
+        "Radio watchkeeping, radio equipment maintenance, and confidentiality of communications",
+        "Crew disciplinary communication and welfare programs",
+        "Marketing communication and public relations",
+        "Commercial correspondence with charterers only"
+      ],
+      "answer": "Radio watchkeeping, radio equipment maintenance, and confidentiality of communications",
+      "explanation": "The scope includes both operational communications and technical maintenance of radio systems to ensure readiness and compliance."
+    },
+    {
+      "question": "Why does the Company include reporting requirements for ships carrying dangerous or polluting goods in its communication procedures?",
+      "options": [
+        "To comply with international regulations and ensure immediate information flow in case of danger or pollution risk",
+        "To promote transparency in cargo trading",
+        "To reduce the need for cargo documentation",
+        "To meet charterers’ commercial information demands"
+      ],
+      "answer": "To comply with international regulations and ensure immediate information flow in case of danger or pollution risk",
+      "explanation": "Timely reporting of dangerous or polluting goods enhances regulatory compliance and environmental protection."
+    },
+    {
+      "question": "What is one of the safety-related functions emphasized under the Company’s communication policy?",
+      "options": [
+        "Routine crew messaging via satellite phones",
+        "Distress, Urgency, and Safety communications as required by international conventions",
+        "Daily shipboard announcements and briefings",
+        "Social updates from shore management"
+      ],
+      "answer": "Distress, Urgency, and Safety communications as required by international conventions",
+      "explanation": "The SMS requires adherence to international protocols for distress, urgency, and safety messages as part of GMDSS compliance."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "SectionTitle": "11.0: Document and Data Control",
+  "SectionNotes": "This chapter ensures that all Safety Management System (SMS) documentation is properly reviewed, approved, controlled, and updated. It guarantees that all users access the correct version of procedures and records, and that obsolete documents are withdrawn from circulation.",
+  "Topics": [
+    {
+      "TopicTitle": "Purpose",
+      "Objectives": [
+        "Ensure all SMS documentation is reviewed, approved, and controlled.",
+        "Ensure all users have access to and use the latest approved issue of the SMS."
+      ]
+    },
+    {
+      "TopicTitle": "Document / Data Control",
+      "Details": [
+        "The company identifies and controls all SMS documents, ensuring controlled distribution of internal and external documents required for SMS implementation.",
+        "Updated versions of all SMS documents are made available to relevant users.",
+        "All new and revised SMS documents are reviewed and approved before release.",
+        "Invalid or obsolete documents are clearly identified and prevented from unintended use.",
+        "Changes decided by management are properly implemented and communicated.",
+        "All required records are identified, stored, protected, retrievable, retained, and disposed of appropriately.",
+        "Controlled documentation remains legible, identifiable, sorted, and marked with revision dates and status."
+      ]
+    },
+    {
+      "TopicTitle": "Identification, Issuing, Changes, and Distribution of the SMS",
+      "Details": [
+        "The Safety Management System (SMS) contains all documentation and procedures affecting the Company’s and managed ships’ activities.",
+        "The SMS structure includes the Safety Management System Manual (SMSM), containing all company procedures.",
+        "The SMS review is conducted at least concurrently with Management Review Committee (MRC) meetings to amend, improve, and incorporate company circulars as needed.",
+        "Casualty reports of external incidents are treated as Safety Bulletins and used as learning tools."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the primary purpose of controlling SMS documents?",
+      "Options": [
+        "A. To ensure every ship uses a unique version of procedures",
+        "B. To ensure that only reviewed, approved, and updated documents are used by all personnel",
+        "C. To keep documents confidential from the crew",
+        "D. To reduce the number of procedures in circulation"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Document control ensures only current, approved SMS documents are used throughout the company and onboard vessels."
+    },
+    {
+      "QuestionText": "2. How does the company prevent the unintended use of old or invalid documents?",
+      "Options": [
+        "A. By deleting all past records",
+        "B. By identifying and removing obsolete documents from circulation",
+        "C. By archiving them in the same folder as current documents",
+        "D. By distributing them as reference material"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Obsolete documents are identified and withdrawn to prevent accidental use of outdated procedures."
+    },
+    {
+      "QuestionText": "3. When is the SMS review conducted?",
+      "Options": [
+        "A. Only when requested by auditors",
+        "B. At least concurrently with Management Review Committee (MRC) meetings",
+        "C. Once every five years",
+        "D. Only after accidents occur"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The SMS review is performed alongside MRC meetings to ensure continuous improvement and alignment with company operations."
+    },
+    {
+      "QuestionText": "4. What is included in the Safety Management System (SMS)?",
+      "Options": [
+        "A. Only company circulars and forms",
+        "B. All documentation and procedures affecting the company’s and ships’ activities",
+        "C. Only technical manuals",
+        "D. Environmental records"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The SMS encompasses all documentation and procedures that guide safe and compliant company and ship operations."
+    },
+    {
+      "QuestionText": "5. What is the role of casualty reports from external incidents?",
+      "Options": [
+        "A. They are archived without review",
+        "B. They are treated as Safety Bulletins and serve as learning tools",
+        "C. They are discarded after one year",
+        "D. They are used only for insurance claims"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "External casualty reports are used as Safety Bulletins to help prevent similar incidents and enhance safety learning."
+    },
+    {
+      "QuestionText": "6. Why must SMS documentation remain legible and identifiable?",
+      "Options": [
+        "A. To comply with audit requirements and facilitate easy reference to current procedures",
+        "B. To save digital storage space",
+        "C. To allow easy modification by crew members",
+        "D. To reduce the number of hardcopy manuals onboard"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "Documents must remain legible and clearly identified to ensure users can access and follow the correct procedures easily."
+    }
+  ]
+}

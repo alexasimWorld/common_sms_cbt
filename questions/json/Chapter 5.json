@@ -1,0 +1,115 @@
+{
+  "section": "Chapter 5",
+  "questions": [
+    {
+      "question": "Which combination of qualifications best reflects the Company's expectations for a Master?",
+      "options": [
+        "STCW certification only and cargo handling experience",
+        "All STCW certificates for the ship type, ability to lead and motivate crew, assess human performance, and strong English communication skills",
+        "Academic degree in marine biology and basic navigation knowledge",
+        "Only charter-party and accounting knowledge"
+      ],
+      "answer": "All STCW certificates for the ship type, ability to lead and motivate crew, assess human performance, and strong English communication skills",
+      "explanation": "The Master must meet STCW requirements and demonstrate leadership, communication, and management competence beyond technical certification."
+    },
+    {
+      "question": "Why is the Master described as 'the link between the ship and the Company'?",
+      "options": [
+        "Because the Master reports directly to charterers",
+        "Because the Master’s decisions and actions onboard are binding on behalf of the Company",
+        "Because the Master manages crew payroll and budgets only",
+        "Because the Master serves as a communication relay without authority"
+      ],
+      "answer": "Because the Master’s decisions and actions onboard are binding on behalf of the Company",
+      "explanation": "The Master represents the Company onboard, and their operational decisions legally and functionally bind the Company."
+    },
+    {
+      "question": "In relation to commercial operations, how is the Master's responsibility toward cargo owners defined?",
+      "options": [
+        "Deliver cargo safely and promptly, avoiding loss, damage, and reputational harm",
+        "Ensure minimum demurrage and lowest freight rate",
+        "Rely on charterers to coordinate all cargo matters",
+        "Delegate cargo delivery entirely to the Chief Officer"
+      ],
+      "answer": "Deliver cargo safely and promptly, avoiding loss, damage, and reputational harm",
+      "explanation": "The Master is responsible toward cargo owners for ensuring safe, timely delivery without incident or reputational impact."
+    },
+    {
+      "question": "A Master encounters conflicting commercial instructions and safety considerations. What must take precedence?",
+      "options": [
+        "Commercial requirements to maintain schedule",
+        "Company’s business objectives",
+        "Safety of human life, the ship, the cargo, and the environment",
+        "Charterer’s contractual demands"
+      ],
+      "answer": "Safety of human life, the ship, the cargo, and the environment",
+      "explanation": "The Company recognizes the Master’s overriding authority to prioritize safety over commercial interests in any conflict."
+    },
+    {
+      "question": "What does the SMS specify about the Master’s overriding authority?",
+      "options": [
+        "Decisions must always be pre-approved by the DPA",
+        "The Master may take any necessary decision for safety even if it conflicts with the SMS",
+        "Overriding authority applies only during drills",
+        "The Master must consult charterers before exercising authority"
+      ],
+      "answer": "The Master may take any necessary decision for safety even if it conflicts with the SMS",
+      "explanation": "The SMS explicitly recognizes the Master’s right and duty to act independently for safety, even if this contradicts standard procedures."
+    },
+    {
+      "question": "Which communication requirement applies to the Master under the Company’s SMS?",
+      "options": [
+        "Only urgent matters need to be reported to the Company",
+        "Report any condition affecting flawless operations and consult the Company in case of doubt",
+        "Report only after Port State inspections",
+        "Communicate through agents only when required"
+      ],
+      "answer": "Report any condition affecting flawless operations and consult the Company in case of doubt",
+      "explanation": "The Master must maintain communication and seek Company assistance whenever operational integrity is in question."
+    },
+    {
+      "question": "Who substitutes the Master in their absence, and to whom does this substitute report?",
+      "options": [
+        "Chief Officer, reporting to the Company’s Managers, DPA, and GM",
+        "Chief Engineer, reporting to the Port Captain",
+        "Designated Person Ashore, reporting to Class",
+        "Chief Officer, reporting only to the charterer"
+      ],
+      "answer": "Chief Officer, reporting to the Company’s Managers, DPA, and GM",
+      "explanation": "When the Master is absent, the Chief Officer substitutes and reports to the Company’s Managers, DPA, and General Manager."
+    },
+    {
+      "question": "The Master reviews new operational instructions and doubts the ship’s ability to comply safely. What is the correct action?",
+      "options": [
+        "Attempt to comply and report later",
+        "Inform the Company immediately about the doubt before acting",
+        "Ignore the instruction and proceed as usual",
+        "Wait for the next port to clarify"
+      ],
+      "answer": "Inform the Company immediately about the doubt before acting",
+      "explanation": "If compliance is doubtful, the Master must inform the Company before acting to prevent unsafe outcomes."
+    },
+    {
+      "question": "What is the Company's stance regarding the Master’s accountability during office personnel visits?",
+      "options": [
+        "Office presence relieves the Master from responsibility",
+        "Master retains full authority and responsibility regardless of office staff presence",
+        "Responsibility transfers temporarily to the visiting officer",
+        "Authority alternates based on rank"
+      ],
+      "answer": "Master retains full authority and responsibility regardless of office staff presence",
+      "explanation": "Even when office staff are onboard, the Master remains fully responsible for the ship’s safe and efficient operation."
+    },
+    {
+      "question": "Which of the following demonstrates a critical skill listed among the Master’s qualifications?",
+      "options": [
+        "Ability to create company marketing materials",
+        "Ability to assess human performance and motivate crew",
+        "Familiarity with insurance underwriting",
+        "Knowledge of naval architecture design codes"
+      ],
+      "answer": "Ability to assess human performance and motivate crew",
+      "explanation": "The SMS requires the Master to evaluate human performance and inspire effective teamwork onboard."
+    }
+  ]
+}

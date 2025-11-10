@@ -1,0 +1,113 @@
+{
+  "SectionTitle": "20.0: Cybersecurity and Cyber Risk Management",
+  "SectionNotes": "This chapter defines the Company�s approach to protecting information systems, data, and operational technology (OT) against cyber threats. It establishes responsibilities, safeguards, and response procedures to ensure continuity of ship and shore operations in the event of cybersecurity incidents.",
+  "Topics": [
+    {
+      "TopicTitle": "Objectives",
+      "Objectives": [
+        "Protect the Company�s business information, operational assets, and customer or partner data by ensuring confidentiality, integrity, and availability.",
+        "Establish responsibility and accountability for cybersecurity within the Company and onboard ships.",
+        "Promote awareness, knowledge, and skills among all staff to minimize cybersecurity incidents.",
+        "Ensure the continuity of commercial and service operations during and after cybersecurity events."
+      ]
+    },
+    {
+      "TopicTitle": "Purpose",
+      "Details": [
+        "Identify personnel, data, devices, and communication systems that pose risks to ship operations when disrupted.",
+        "Define personnel roles and responsibilities for cyber risk management both ashore and onboard.",
+        "Protect against cybersecurity events through proactive risk control measures and contingency planning.",
+        "Detect cybersecurity events promptly using monitoring and detection systems.",
+        "Respond and recover effectively from cyber events to restore critical IT and OT systems necessary for safe and continuous operation."
+      ]
+    },
+    {
+      "TopicTitle": "Cyber Risk Management",
+      "Details": [
+        "The Company assesses cyber risks from both Information Technology (IT) and Operational Technology (OT) systems.",
+        "Cyber Risk Management includes:",
+        "� Identifying systems, assets, data, and capabilities that, if disrupted, could affect ship or Company operations.",
+        "� Identifying threats and vulnerabilities, assessing exposure, and developing protection measures.",
+        "� Defining the roles and responsibilities of users ashore and onboard.",
+        "� Implementing protective measures such as network configuration control, access control, and detection software.",
+        "� Maintaining preparedness and resilience through training, software updates, access control, and secure handling of removable media."
+      ]
+    },
+    {
+      "TopicTitle": "Cybersecurity Policy",
+      "Details": [
+        "Top Management assigns cybersecurity the same level of importance as all other business operations.",
+        "The Company�s Cybersecurity Policy, found in Chapter 2 � Appendix 9, ensures the safety and security of personnel, assets, and information.",
+        "The policy promotes a proactive approach to identifying risks, preventing attacks, and maintaining operational integrity."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the main objective of the Company�s cybersecurity management?",
+      "Options": [
+        "A. To protect only customer data from theft",
+        "B. To safeguard business information, assets, and systems by ensuring confidentiality, integrity, and availability",
+        "C. To monitor only shipboard emails",
+        "D. To limit crew access to computers"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Cybersecurity management ensures that the Company�s data, systems, and operations remain secure, reliable, and available."
+    },
+    {
+      "QuestionText": "2. What is the role of Cyber Risk Management?",
+      "Options": [
+        "A. To track ship maintenance schedules",
+        "B. To identify, assess, and protect against IT and OT system vulnerabilities and threats",
+        "C. To manage crew training records",
+        "D. To control procurement and supplies"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Cyber Risk Management identifies potential vulnerabilities in IT/OT systems and applies preventive and protective measures to mitigate them."
+    },
+    {
+      "QuestionText": "3. Which of the following is an example of a protective cybersecurity measure?",
+      "Options": [
+        "A. Allowing unrestricted network access",
+        "B. Network configuration and access control",
+        "C. Sharing passwords for faster operations",
+        "D. Allowing use of any removable media"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Protective measures such as access control and proper network configuration prevent unauthorized access and reduce vulnerabilities."
+    },
+    {
+      "QuestionText": "4. What is the purpose of developing response and recovery plans for cyber incidents?",
+      "Options": [
+        "A. To restore impaired systems and ensure continued ship operations",
+        "B. To notify customers of delays only",
+        "C. To train staff in using social media",
+        "D. To simplify documentation"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "Response and recovery plans enable timely restoration of critical systems and operational continuity after a cyber incident."
+    },
+    {
+      "QuestionText": "5. How does the Company ensure preparedness and resilience against cyber incidents?",
+      "Options": [
+        "A. By relying solely on third-party IT vendors",
+        "B. Through training, software maintenance, controlled access, and proper handling of removable media",
+        "C. By disabling onboard communication systems",
+        "D. By isolating all computers from the internet"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Preparedness involves training, maintaining systems, controlling access, and secure management of hardware and removable devices."
+    },
+    {
+      "QuestionText": "6. Where can the Company�s official Cybersecurity Policy be found?",
+      "Options": [
+        "A. Chapter 10 � Ship Maintenance System",
+        "B. Chapter 2 � Appendix 9",
+        "C. Chapter 19 � Purchasing Control",
+        "D. Chapter 7 � Health and Hygiene"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The Cybersecurity Policy is located in Chapter 2, Appendix 9, ensuring personnel can easily reference and follow it."
+    }
+  ]
+}

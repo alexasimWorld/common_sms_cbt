@@ -1,0 +1,71 @@
+{
+  "section": "Chapter 6.4",
+  "questions": [
+    {
+      "question": "How are the core principles and obligations of the Maritime Labour Convention (MLC) 2006 structured?",
+      "options": [
+        "They are detailed only in the Code Part B guidelines",
+        "They are set out in the Articles and Regulations, with implementation details in the Code",
+        "They are contained solely within the Declaration of Maritime Labour Compliance (DMLC)",
+        "They are published separately by each flag administration"
+      ],
+      "answer": "They are set out in the Articles and Regulations, with implementation details in the Code",
+      "explanation": "The Articles and Regulations define core rights and obligations, while the Code provides the practical implementation standards."
+    },
+    {
+      "question": "Which two parts make up the MLC Code, and what is the main difference between them?",
+      "options": [
+        "Part A (mandatory standards) and Part B (non-mandatory guidelines)",
+        "Part 1 (national) and Part 2 (international)",
+        "Part A (administrative) and Part B (operational)",
+        "Part I (optional provisions) and Part II (recommended practices)"
+      ],
+      "answer": "Part A (mandatory standards) and Part B (non-mandatory guidelines)",
+      "explanation": "The Code consists of mandatory standards (Part A) and guidance (Part B), supporting consistent MLC implementation."
+    },
+    {
+      "question": "What are the five Titles under which the MLC Regulations and Code are organized?",
+      "options": [
+        "Title 1: Minimum requirements; Title 2: Conditions of employment; Title 3: Accommodation, recreation, food and catering; Title 4: Health protection, medical care, welfare and social security; Title 5: Compliance and enforcement",
+        "Title 1: Maritime safety; Title 2: Pollution prevention; Title 3: Crew welfare; Title 4: Insurance; Title 5: Certification",
+        "Title 1: Management; Title 2: HR; Title 3: Technical; Title 4: Operational; Title 5: Audit",
+        "Title 1: Recruitment; Title 2: Pay; Title 3: Training; Title 4: Welfare; Title 5: Environment"
+      ],
+      "answer": "Title 1: Minimum requirements; Title 2: Conditions of employment; Title 3: Accommodation, recreation, food and catering; Title 4: Health protection, medical care, welfare and social security; Title 5: Compliance and enforcement",
+      "explanation": "These five Titles cover all essential areas of seafarers’ working and living conditions and the mechanisms for enforcement."
+    },
+    {
+      "question": "Which statement best describes the organization of the MLC’s Regulations and Code under the Titles?",
+      "options": [
+        "Each Title focuses on unrelated administrative issues",
+        "Each Title groups provisions around a specific right, principle, or enforcement measure",
+        "Titles are chronological records of the MLC’s revision history",
+        "Titles represent national annexes of the MLC"
+      ],
+      "answer": "Each Title groups provisions around a specific right, principle, or enforcement measure",
+      "explanation": "Each MLC Title focuses on a thematic area, ensuring comprehensive coverage of seafarer rights and enforcement mechanisms."
+    },
+    {
+      "question": "What are the two important terms introduced in this Chapter that relate to MLC compliance documentation?",
+      "options": [
+        "ISM Manual and Safety Management Certificate",
+        "Declaration of Maritime Labour Compliance (DMLC) and Maritime Labour Certificate",
+        "Ship Safety Equipment Certificate and DOC",
+        "Port State Control Report and Class Endorsement"
+      ],
+      "answer": "Declaration of Maritime Labour Compliance (DMLC) and Maritime Labour Certificate",
+      "explanation": "These two documents demonstrate compliance with MLC requirements—the DMLC details implementation, and the MLC Certificate verifies compliance."
+    },
+    {
+      "question": "What is the function of the Declaration of Maritime Labour Compliance (DMLC) under the MLC framework?",
+      "options": [
+        "To record cargo manifest and stability data",
+        "To outline how the ship and Company comply with each applicable MLC requirement",
+        "To provide a list of company policies unrelated to crew welfare",
+        "To serve as the ship’s certificate of registry"
+      ],
+      "answer": "To outline how the ship and Company comply with each applicable MLC requirement",
+      "explanation": "The DMLC serves as the compliance roadmap, showing how MLC requirements are implemented by the Company and verified by authorities."
+    }
+  ]
+}

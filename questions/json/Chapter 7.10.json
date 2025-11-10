@@ -1,0 +1,83 @@
+{
+  "SectionTitle": "7.10: Health and Hygiene",
+  "SectionNotes": "The Company protects the health and safety of employees, crewmembers, and others by avoiding risks, reducing hazards, and ensuring hygienic working and living conditions both ashore and onboard.",
+  "Topics": [
+    {
+      "TopicTitle": "Health and Safety Commitments",
+      "Commitments": [
+        "Avoid all risks and combat risks at their source.",
+        "Replace dangerous practices, substances, or equipment with safer alternatives.",
+        "Evaluate unavoidable risks and act to minimize them.",
+        "Adopt procedures suitable to individual capabilities.",
+        "Consider new technologies and evolving work practices.",
+        "Prioritize collective protective measures over individual ones.",
+        "Provide clear information and safety instructions to all employees."
+      ]
+    },
+    {
+      "TopicTitle": "Purpose",
+      "Objectives": [
+        "Ensure healthy and hygienic conditions ashore and onboard.",
+        "Familiarize all personnel with health and hygiene principles and precautions.",
+        "Plan and perform work considering employees' health."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the company's primary aim regarding health and hygiene?",
+      "Options": [
+        "A. To ensure only office staff are safe",
+        "B. To protect employees, crewmembers, and others by maintaining healthy and hygienic conditions",
+        "C. To perform only medical inspections onboard",
+        "D. To reduce food consumption onboard"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The company’s policy focuses on ensuring the health and safety of everyone involved through hygienic and safe practices."
+    },
+    {
+      "QuestionText": "2. What should be done with dangerous substances or practices?",
+      "Options": [
+        "A. Keep them in use but add warning signs",
+        "B. Replace them with safer or less dangerous alternatives",
+        "C. Use them only when supervised",
+        "D. Ignore them unless accidents occur"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Replacing hazardous materials and methods with safer options is a key preventive action in occupational health."
+    },
+    {
+      "QuestionText": "3. Why must new technologies and changes in work practices be considered?",
+      "Options": [
+        "A. To increase workload",
+        "B. To keep up with market trends",
+        "C. To identify and reduce any new risks they might introduce",
+        "D. To justify purchasing new equipment"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "Evaluating the impact of new technology helps identify and control new types of risks that could affect health and safety."
+    },
+    {
+      "QuestionText": "4. Which type of protective measures are prioritized?",
+      "Options": [
+        "A. Individual protective measures",
+        "B. Collective protective measures",
+        "C. Optional protective equipment",
+        "D. Personal hygiene only"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Collective measures (e.g., ventilation, shielding) protect everyone and are prioritized over individual measures like PPE."
+    },
+    {
+      "QuestionText": "5. What is one key purpose of this policy?",
+      "Options": [
+        "A. To promote quick work completion",
+        "B. To ensure employees understand health principles and work safely",
+        "C. To encourage competition among departments",
+        "D. To focus on office administration"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The policy aims to educate and guide all employees on maintaining health and hygiene standards while working safely."
+    }
+  ]
+}

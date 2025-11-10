@@ -1,0 +1,117 @@
+﻿{
+  "SectionTitle": "14.0: Risk Assessment (RA) and Risk Management (RM)",
+  "SectionNotes": "Risk Assessment (RA) and Risk Management (RM) ensure that hazards arising from shipping operations are systematically identified, evaluated, and controlled. The Company applies the ALARP principle to minimize risk to acceptable levels while promoting a safety culture where everyone manages risks proactively.",
+  "Topics": [
+    {
+      "TopicTitle": "Understanding Risk and Hazards",
+      "Details": [
+        "Hazards from shipping operations can impact health, safety, environment, public image, and company reputation.",
+        "Any identified hazard is treated as a potential intolerable risk until assessed and mitigated.",
+        "Effective risk management requires systematic hazard identification, consequence and frequency analysis, and implementation of mitigation measures."
+      ]
+    },
+    {
+      "TopicTitle": "Definition of Risk",
+      "Details": [
+        "Risk (R) is a function of the severity of possible Consequences (C) and the Frequency (F) of occurrence.",
+        "The relation is expressed as: Risk (R) = Frequency (F) × Consequence (C).",
+        "Reducing either the frequency or the severity — or both — helps lower the overall risk level."
+      ]
+    },
+    {
+      "TopicTitle": "Scope and Objectives",
+      "Details": [
+        "The procedure describes the Risk Matrix methodology used by the Company to analyze risk scenarios for all activities.",
+        "It evaluates proposed control measures (preventive, mitigative, or alternative) to minimize risk to ALARP (As Low As Reasonably Practicable) levels.",
+        "The aim is to enable informed decision-making for safe and efficient operations."
+      ]
+    },
+    {
+      "TopicTitle": "When to Perform a Risk Assessment (RA)",
+      "Details": [
+        "Before any routine or non-routine operation.",
+        "For new operations, temporary or permanent changes (see Chapter 13).",
+        "Following incidents, accidents, or serious near misses.",
+        "For postponement of critical PMS jobs or equipment defects (see Chapter 10).",
+        "During development of new procedures or projects.",
+        "To identify residual risks that require management attention."
+      ]
+    },
+    {
+      "TopicTitle": "Review and Approval of RAs",
+      "Details": [
+        "Responsible personnel must approve both the RA and any deviations from its action plan.",
+        "RAs should be reviewed regularly for consistency and updated following new incidents or best practices.",
+        "The updated RA Library must include revised version numbers and issue dates to ensure control of current risk documentation."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. What is the primary purpose of Risk Assessment (RA) and Risk Management (RM)?",
+      "Options": [
+        "A. To record all completed ship operations",
+        "B. To systematically identify hazards, evaluate risks, and implement controls to minimize them",
+        "C. To train crew members in emergency communication",
+        "D. To calculate maintenance costs"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "RA and RM ensure hazards are identified, assessed, and mitigated to protect health, safety, and the environment."
+    },
+    {
+      "QuestionText": "2. Which formula expresses the relationship between risk, frequency, and consequence?",
+      "Options": [
+        "A. R = C + F",
+        "B. R = F × C",
+        "C. R = F ÷ C",
+        "D. R = C − F"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Risk is determined by multiplying the frequency of an event by the severity of its consequences (R = F × C)."
+    },
+    {
+      "QuestionText": "3. When must a Risk Assessment be performed?",
+      "Options": [
+        "A. Only after an incident has occurred",
+        "B. Before any routine, non-routine, or new operation and when changes or incidents occur",
+        "C. Only during annual audits",
+        "D. After the Master’s approval"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "Risk assessments must be conducted proactively before and during any significant operational activity or change."
+    },
+    {
+      "QuestionText": "4. What does ALARP stand for?",
+      "Options": [
+        "A. As Low As Reasonably Practicable",
+        "B. Always Limit All Risk Procedures",
+        "C. Advanced Level Assessment of Risk Protocols",
+        "D. Authorized Level of Audit and Review Process"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "ALARP refers to reducing risks to a level that is as low as reasonably practicable, balancing safety and operational feasibility."
+    },
+    {
+      "QuestionText": "5. What is the Company’s vision regarding risk management?",
+      "Options": [
+        "A. To develop a culture where each individual personally manages the risk of every action both on and off duty",
+        "B. To assign risk management only to the DPA",
+        "C. To delegate all risk decisions to shore management",
+        "D. To perform RAs once per year"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "The Company encourages every individual to actively manage risks at all times, fostering a strong safety culture."
+    },
+    {
+      "QuestionText": "6. What must be done after reviewing Risk Assessments?",
+      "Options": [
+        "A. Delete previous versions and keep no record",
+        "B. Reissue documents with updated version numbers and update the RA Library",
+        "C. Forward them only to the Port Authority",
+        "D. Store them without review"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "After reviews, updated RA documents must be reissued with revised version control and recorded in the RA Library to maintain traceability."
+    }
+  ]
+}

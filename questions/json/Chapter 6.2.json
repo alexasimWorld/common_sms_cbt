@@ -1,0 +1,93 @@
+{
+  "section": "Chapter 6.2",
+  "questions": [
+    {
+      "question": "What is the overall objective of the Company’s policy for managing shore personnel?",
+      "options": [
+        "To ensure shore staff are selected, appointed, and administered as experienced, qualified, and competent professionals",
+        "To reduce the number of shore staff to cut operating expenses",
+        "To assign temporary staff to all shore positions to increase flexibility",
+        "To centralize all HR decisions under the DPA only"
+      ],
+      "answer": "To ensure shore staff are selected, appointed, and administered as experienced, qualified, and competent professionals",
+      "explanation": "The Company applies controls to ensure shore personnel are capable, qualified, and effectively managed to support safe and efficient ship management."
+    },
+    {
+      "question": "Why does the Company emphasize employing sufficient shore personnel?",
+      "options": [
+        "To provide full supervision of managed ships and ensure efficient implementation of HSQE processes",
+        "To handle external marketing campaigns",
+        "To reduce reliance on third-party technical service providers",
+        "To comply solely with flag administration manning levels"
+      ],
+      "answer": "To provide full supervision of managed ships and ensure efficient implementation of HSQE processes",
+      "explanation": "Adequate shore staffing ensures both operational control and compliance with HSQE standards across managed vessels."
+    },
+    {
+      "question": "How does the Company verify the authenticity of shore employees’ qualifications and records?",
+      "options": [
+        "By assuming that all certificates issued by recognized institutions are valid",
+        "By checking that declared qualifications are valid, genuine, and that pre-employment records are accurate",
+        "By delegating verification entirely to recruitment agencies",
+        "By requesting self-declarations only"
+      ],
+      "answer": "By checking that declared qualifications are valid, genuine, and that pre-employment records are accurate",
+      "explanation": "The Company verifies both documentation and background details to ensure all shore employees meet required standards."
+    },
+    {
+      "question": "What method is used to assess and support the continued competence of shore personnel?",
+      "options": [
+        "A peer voting system within departments",
+        "An appraisal system verifying qualifications and facilitating further development",
+        "Annual written exams without review",
+        "Outsourcing evaluations to external consultants only"
+      ],
+      "answer": "An appraisal system verifying qualifications and facilitating further development",
+      "explanation": "Regular appraisals help confirm competence and identify development needs for continuous improvement."
+    },
+    {
+      "question": "How does the Company retain and enhance the skills of key shore personnel such as Managers and Superintendents?",
+      "options": [
+        "Through initial on-the-job refresher training and participation in industry seminars and forums",
+        "By offering extended shore leave periods",
+        "By rotating them between unrelated departments",
+        "By delegating training responsibilities entirely to ship crews"
+      ],
+      "answer": "Through initial on-the-job refresher training and participation in industry seminars and forums",
+      "explanation": "Continuous professional development ensures key shore staff maintain current knowledge and skills relevant to the maritime industry."
+    },
+    {
+      "question": "What principle underpins the Company’s policy on equal opportunities and motivation for shore staff?",
+      "options": [
+        "Meritocracy, providing advancement based on ability and contribution",
+        "Seniority, regardless of performance",
+        "Preference for internal recommendations only",
+        "Rotation policy based on availability"
+      ],
+      "answer": "Meritocracy, providing advancement based on ability and contribution",
+      "explanation": "The Company promotes merit-based advancement, fairness, and equal opportunities to encourage motivation and commitment."
+    },
+    {
+      "question": "How does the Company maintain commitment and motivation among shore personnel?",
+      "options": [
+        "By encouraging job satisfaction and personal development",
+        "By offering bonuses based solely on company profit",
+        "By implementing rigid schedules without feedback mechanisms",
+        "By outsourcing HR management"
+      ],
+      "answer": "By encouraging job satisfaction and personal development",
+      "explanation": "The SMS emphasizes engagement and satisfaction as drivers of motivation and performance among shore employees."
+    },
+    {
+      "question": "What additional function does the Company’s personnel management system serve beyond compliance?",
+      "options": [
+        "It supports long-term retention and development of people in key roles",
+        "It focuses exclusively on recruitment targets",
+        "It limits training opportunities to control costs",
+        "It centralizes payroll operations"
+      ],
+      "answer": "It supports long-term retention and development of people in key roles",
+      "explanation": "The personnel system is designed not only for compliance but also to sustain continuity and growth in essential positions."
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "SectionTitle": "16.0: Quality Management System (QMS) and ISO 9001 Implementation",
+  "SectionNotes": "This chapter describes the Company’s implementation of a Quality Management System (QMS) aligned with ISO 9001 requirements. It covers leadership commitment, customer focus, risk and opportunity management, competence and communication, and operational control to maintain service quality and continual improvement.",
+  "Topics": [
+    {
+      "TopicTitle": "Purpose",
+      "Details": [
+        "The Company’s Safety Management System (SMS) fulfills the relevant ISO 9001 requirements except for Clause 8.3, 'Design and Development', which is excluded from implementation.",
+        "The Company’s services are standardized and approved by Authorities, Class Societies, and Charterers.",
+        "Contracts with customers are reviewed, agreed upon, and documented before finalization."
+      ]
+    },
+    {
+      "TopicTitle": "Quality Management System and Processes",
+      "Details": [
+        "The Company applies the 'Plan–Do–Check–Act' (PDCA) model to ensure continual improvement.",
+        "Outsourced processes (e.g., suppliers, contractors) that may affect conformity are controlled and monitored.",
+        "Leadership and customer focus principles guide all activities to meet ISO 9001 standards."
+      ]
+    },
+    {
+      "TopicTitle": "Leadership and Customer Focus",
+      "Details": [
+        "Top Management demonstrates commitment to the SMS by providing resources, reviewing performance, and ensuring compliance.",
+        "The Company follows a 'customer-first' approach to determine, convert, and meet customer requirements.",
+        "Customer satisfaction and continual improvement are key objectives."
+      ]
+    },
+    {
+      "TopicTitle": "Planning, Risks, and Opportunities",
+      "Details": [
+        "Top Management identifies and evaluates risks and opportunities related to Company services.",
+        "For risks rated above ALARP threshold, a mitigation plan is developed and recorded in the Risk and Opportunities Register.",
+        "Opportunities are evaluated for potential new business, efficiency improvements, and reputation enhancement."
+      ]
+    },
+    {
+      "TopicTitle": "Support and Competence",
+      "Details": [
+        "Resources include ships, human capital, infrastructure, technology, and financial capacity.",
+        "Training and competency verification are managed by HR and Crew Managers based on education, training, and experience.",
+        "Awareness programs emphasize the importance of conformity, performance, and environmental responsibility."
+      ]
+    },
+    {
+      "TopicTitle": "Communication and Documentation",
+      "Details": [
+        "Managers ensure effective communication and defined responsibilities both onboard and ashore.",
+        "The DPA ensures distribution of controlled documents and qualification of SMS personnel.",
+        "Documentation control is maintained as per Chapter 11 to ensure up-to-date and traceable records."
+      ]
+    },
+    {
+      "TopicTitle": "Operational Planning and Control",
+      "Details": [
+        "Operational control ensures that all significant activities are performed safely and meet quality objectives.",
+        "Processes are designed to prevent errors, monitored for results, and supported by competent personnel and appropriate technology.",
+        "Requirements for procurement, delivery, and disposal are considered to maintain compliance and minimize environmental impact."
+      ]
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionText": "1. Which ISO standard is primarily referenced in the Company’s Quality Management System?",
+      "Options": [
+        "A. ISO 14001",
+        "B. ISO 45001",
+        "C. ISO 9001",
+        "D. ISO 50001"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "The Company’s QMS is aligned with ISO 9001, which governs quality management and continual improvement."
+    },
+    {
+      "QuestionText": "2. Which clause of ISO 9001 is excluded from the Company’s SMS implementation?",
+      "Options": [
+        "A. Clause 9.2 – Internal Audit",
+        "B. Clause 7.5 – Documented Information",
+        "C. Clause 8.3 – Design and Development",
+        "D. Clause 10.2 – Nonconformity and Corrective Action"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "Clause 8.3, 'Design and Development', is excluded because the Company’s services are standardized and not innovative."
+    },
+    {
+      "QuestionText": "3. What management model does the Company apply to maintain continual improvement?",
+      "Options": [
+        "A. Root Cause Analysis (RCA)",
+        "B. Plan–Do–Check–Act (PDCA)",
+        "C. Six Sigma DMAIC",
+        "D. Failure Mode and Effects Analysis (FMEA)"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The Company uses the PDCA model to ensure systematic planning, execution, review, and improvement."
+    },
+    {
+      "QuestionText": "4. What is the purpose of maintaining a Risk and Opportunities Register?",
+      "Options": [
+        "A. To record maintenance tasks onboard",
+        "B. To log crew training attendance",
+        "C. To document identified risks, mitigation plans, and improvement opportunities",
+        "D. To track customer complaints only"
+      ],
+      "CorrectAnswer": "C",
+      "Reason": "The Register records all identified risks and opportunities, along with corresponding action plans, ensuring proactive management."
+    },
+    {
+      "QuestionText": "5. Who is responsible for ensuring that personnel performing SMS-related tasks are competent and qualified?",
+      "Options": [
+        "A. DPA only",
+        "B. HR Manager / Crew Manager",
+        "C. Ship’s Master",
+        "D. Technical Superintendent"
+      ],
+      "CorrectAnswer": "B",
+      "Reason": "The HR and Crew Managers ensure all personnel are trained, competent, and hold the required qualifications for their duties."
+    },
+    {
+      "QuestionText": "6. What is the main focus of the Company’s customer approach under ISO 9001?",
+      "Options": [
+        "A. Meeting customer expectations through determination, conversion, and fulfillment of requirements",
+        "B. Limiting customer communication to contractual matters",
+        "C. Prioritizing cost savings over customer satisfaction",
+        "D. Outsourcing customer relations"
+      ],
+      "CorrectAnswer": "A",
+      "Reason": "The Company follows a customer-first approach by determining, converting, and fulfilling customer requirements to ensure satisfaction."
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Menu - Company CBT</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- LEFT PANE (SIDEBAR) -->
+        <div id="sidebar" class="left-pane"></div>
+
+        <!-- RIGHT PANE (MAIN CONTENT) -->
+        <div class="right-pane">
+
+            <!-- INTRO / BRIDGE SCENE -->
+            <div class="bridge-scene" id="intro-screen">
+                <div class="bridge-bg"></div>
+                <div class="hud-ring ring1"></div>
+                <div class="hud-ring ring2"></div>
+                <div class="hud-ring ring3"></div>
+                <div id="data-layer"></div>
+
+                <div class="jarvis-scene">
+                    <div class="welcome-text" id="welcome">Welcome aboard!</div>
+                    <div id="jarvis-bubble"></div>
+                    <div id="orbit-container"></div>
+                </div>
+            </div>
+
+            <!-- PRESENTATION AREA (Hidden initially) -->
+            <div id="presentation-area" class="presentation-container hidden">
+                <div id="chapter-content"></div>
+                <div id="chapter-nav" class="chapter-nav">
+                    <button onclick="loadPrevious()">⟵ Previous</button>
+                    <span id="chapter-title">Chapter 1</span>
+                    <button onclick="loadNext()">Next ⟶</button>
+                </div>
+            </div>
+
+            <!-- QUIZ AREA (hidden initially) -->
+            <div id="quiz-area" class="presentation-container hidden">
+                <div id="quiz-header" style="margin-bottom:12px;">
+                    <span id="quiz-progress">Question 1/20</span>
+                    <span id="quiz-score" style="float:right;">Best: <span id="best-score">0%</span></span>
+                </div>
+
+                <div id="quiz-question" style="font-weight:600; margin-bottom:10px;"></div>
+                <div id="quiz-choices"></div>
+
+                <div class="chapter-nav" style="margin-top:18px;">
+                    <button id="quiz-prev">⟵ Previous</button>
+                    <button id="quiz-submit" class="hidden">Submit</button>
+                    <button id="quiz-next">Next ⟶</button>
+                </div>
+
+                <div id="quiz-result" class="hidden" style="margin-top:16px;"></div>
+            </div>
+        </div> <!-- end right-pane -->
+    </div> <!-- end container -->
+    <!-- ========================================= -->
+    <!-- 🧠 Scripts -->
+    <!-- ========================================= -->
+    <script src="js/app.js"></script>
+    <script src="js/jarvis.js"></script>
+    <script src="js/bridge.js"></script>
+
+    <!-- 🪙 Nautical Robot Assistant -->
+    <div id="nautical-robot">
+        <img id="robot-img" src="assets/images/commonpro/nautical_bot.png" alt="Hint Robot">
+        <div id="robot-flag">Hint</div>
+    </div>
+
+    <!-- Hint Bubble -->
+    <div id="hint-bubble" class="hidden"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const robot = document.getElementById("nautical-robot");
+            const hintBubble = document.getElementById("hint-bubble");
+            if (!robot || !hintBubble) return;
+
+            // Determine which section is visible
+            function getCurrentMode() {
+                const intro = document.getElementById("intro-screen");
+                const pres = document.getElementById("presentation-area");
+                const quiz = document.getElementById("quiz-area");
+                if (!intro || !pres || !quiz) return "unknown";
+                if (!intro.classList.contains("hidden")) return "intro";
+                if (!pres.classList.contains("hidden")) return "presentation";
+                if (!quiz.classList.contains("hidden")) return "quiz";
+                return "unknown";
+            }
+
+            function updateRobotVisibility() {
+                const mode = getCurrentMode();
+                if (mode === "presentation") {
+                    robot.style.display = "none";
+                    hintBubble.classList.add("hidden");
+                } else {
+                    robot.style.display = "block";
+                }
+            }
+
+            function showThinking() {
+                hintBubble.innerHTML = `
+          <div class="thinking-dots">
+            <span></span><span></span><span></span>
+          </div>
+        `;
+                hintBubble.classList.remove("hidden");
+                hintBubble.classList.add("visible");
+            }
+
+            function showHint(contentHtml) {
+                hintBubble.innerHTML = contentHtml;
+            }
+
+            robot.addEventListener("click", (e) => {
+                e.stopPropagation();
+                const mode = getCurrentMode();
+                showThinking();
+
+                setTimeout(() => {
+                    if (mode === "intro") {
+                        showHint(`
+              <div class="hint-title">👋 Welcome aboard!</div>
+              <div class="hint-reason">
+                Choose to view the <b>Company’s presentation</b> or click on the <b>Quiz</b> to test your knowledge.
+              </div>
+            `);
+                    } else if (mode === "quiz") {
+                        const q = window.currentQuestion;
+                        if (!q) {
+                            showHint(`<div class="hint-title">💡 No question loaded yet.</div>`);
+                            return;
+                        }
+                        const answerText =
+                            q.choices && q.choices[q.correctIndex]
+                                ? q.choices[q.correctIndex]
+                                : "Hint to understand the answer...";
+                        const reasonText = q.Reason || q.explanation || "No explanation provided.";
+
+                        showHint(`
+              <div class="hint-title">💡 Correct Answer:</div>
+              <div class="hint-answer">${answerText}</div>
+              <div class="hint-reason">${reasonText}</div>
+            `);
+                    } else {
+                        showHint(`<div class="hint-title">🪙 I'm ready when you are!</div>`);
+                    }
+                }, 800);
+            });
+
+            document.addEventListener("click", (e) => {
+                if (!robot.contains(e.target) && !hintBubble.contains(e.target)) {
+                    hintBubble.classList.remove("visible");
+                    hintBubble.classList.add("hidden");
+                }
+            });
+
+            // Observe view changes every half second to auto-toggle visibility
+            setInterval(updateRobotVisibility, 500);
+        });
+    </script>
+
+
+
+</body>
+</html>
