@@ -134,15 +134,106 @@ function prevQuestion() {
 function showResults() {
     const resultBox = document.getElementById("quiz-result");
     let correct = 0;
+
     currentSet.forEach((q, i) => {
         const selected = userAnswers[i];
         if (q.options[selected] === q.answer) correct++;
     });
+
     const percent = Math.round((correct / currentSet.length) * 100);
     resultBox.textContent = `Your score: ${correct} / ${currentSet.length} (${percent}%)`;
     resultBox.classList.remove("hidden");
     document.getElementById("best-score").textContent = `${percent}%`;
+
+    // ✅ Retrieve user info directly from sidebar fields in main.html
+    // ✅ Try reading from visible sidebar fields first
+    let userName = "";
+    let userLastName = "";
+    let userRank = "";
+
+    // Try several sources (sidebar, intro screen, hidden fields)
+    const tryGet = (id) => document.getElementById(id)?.value?.trim() || "";
+
+    userName = tryGet("userName");
+    userLastName = tryGet("userLastName");
+    userRank = tryGet("userRank");
+
+    // ✅ Fallback to localStorage if sidebar not found or empty
+    if (!userName) userName = localStorage.getItem("userName") || "John";
+    if (!userLastName) userLastName = localStorage.getItem("userLastName") || "Doe";
+    if (!userRank) userRank = localStorage.getItem("userRank") || "Trainee";
+
+    const fullName = `${userName} ${userLastName}`;
+
+    // ✅ Show popup only if score ≥ 70%
+    if (percent >= 1) {
+        const popup = document.createElement("div");
+        popup.className = "congrats-popup";
+        popup.innerHTML = `
+            <div class="popup-content">
+                <h2>🎉 Congratulations!</h2>
+                <p>You have successfully passed the CBT with a score of <b>${percent}%</b>.</p>
+                <button id="viewCertBtn">View Certificate</button>
+            </div>
+        `;
+        document.body.appendChild(popup);
+
+        // Inline styling for popup
+        const style = document.createElement("style");
+        style.innerHTML = `
+            .congrats-popup {
+                position: fixed;
+                top: 0; left: 0;
+                width: 100%; height: 100%;
+                background: rgba(0,0,0,0.6);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 9999;
+            }
+            .popup-content {
+                background: #fff;
+                color: #222;
+                padding: 30px 40px;
+                border-radius: 12px;
+                text-align: center;
+                box-shadow: 0 0 25px rgba(0,0,0,0.3);
+                max-width: 400px;
+                width: 90%;
+                animation: fadeIn 0.3s ease;
+            }
+            .popup-content h2 {
+                color: #007bff;
+                margin-bottom: 10px;
+            }
+            .popup-content button {
+                margin-top: 20px;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 6px;
+                background: #007bff;
+                color: white;
+                font-weight: bold;
+                cursor: pointer;
+                transition: background 0.2s ease;
+            }
+            .popup-content button:hover {
+                background: #005fc1;
+            }
+        `;
+        document.head.appendChild(style);
+
+        // Handle button click → Open certificate with user details
+        document.getElementById("viewCertBtn").onclick = () => {
+            const certURL = `certificate.html?name=${encodeURIComponent(fullName)}&rank=${encodeURIComponent(userRank)}&score=${percent}`;
+            window.open(certURL, "_blank");
+            popup.remove();
+        };
+    }
 }
+
+
+
 
 // Attach events
 document.getElementById("quiz-next").onclick = nextQuestion;
