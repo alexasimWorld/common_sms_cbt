@@ -101,20 +101,20 @@
         }
     </style>
 </head>
-<body>
-    <div class="certificate">
+
+<body onload="loadCertificate()">
+    <div id="certificate" class="certificate">
         <img src="assets/images/commonpro/wimas.png" class="logo" alt="Wimas Logo">
 
         <h1>Certificate of Completion</h1>
-
         <p>This is to certify that</p>
-        <div class="name" id="cert-name">[Name Lastname, Rank]</div>
+        <div class="name" id="cert-name"></div>
 
         <p>has successfully completed the CBT:</p>
         <p style="font-weight:600; font-size:1.3rem;">Guide for Company's SMS</p>
 
         <div class="details">
-            <p><b>Result:</b> <span id="cert-score">85%</span></p>
+            <p><b>Result:</b> <span id="cert-score"></span></p>
         </div>
 
         <div class="signatures">
@@ -130,21 +130,36 @@
                 <div class="date-box">Completion Date:<br><span id="cert-date"></span></div>
             </div>
         </div>
+
+        <button id="pdfBtn" style="margin-top:40px;">Download as PDF</button>
     </div>
 
+    <!-- ✅ jsPDF for PDF creation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
     <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const params = new URLSearchParams(window.location.search);
-            const fullName = params.get("name") || "Unknown Trainee";
-            const rank = params.get("rank") || "Trainee";
-            const score = params.get("score") || "0";
+        function loadCertificate() {
+            const data = JSON.parse(sessionStorage.getItem("certificateData"));
+            if (!data) {
+                // No quiz data found → redirect
+                window.location.href = "index.html";
+                return;
+            }
 
-            document.getElementById("cert-name").textContent = `${fullName}, ${rank}`;
-            document.getElementById("cert-score").textContent = `${score}%`;
-            document.getElementById("cert-date").textContent = new Date().toLocaleDateString();
-        });
+            document.getElementById("cert-name").textContent =
+                `${data.firstName} ${data.lastName}, ${data.rank}`;
+            document.getElementById("cert-score").textContent = `${data.score}%`;
+            document.getElementById("cert-date").textContent = data.date;
+        }
+
+        document.getElementById("pdfBtn").onclick = () => {
+            const { jsPDF } = window.jspdf;
+            const pdf = new jsPDF({ unit: "px", format: "a4" });
+            pdf.html(document.getElementById("certificate"), {
+                callback: (doc) => doc.save("Certificate.pdf"),
+                margin: [20, 20, 20, 20]
+            });
+        };
     </script>
-
-
 </body>
 </html>

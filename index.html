@@ -35,7 +35,7 @@
             <option>Engine Officer</option>
             <option>Ratings</option>
             <option>Catering</option>
-            
+
 
         </select>
 
@@ -45,12 +45,33 @@
     <script src="js/app.js"></script>
 
     <script>
-if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("service-worker.js")
-    .then(() => console.log("✅ Service Worker registered"))
-    .catch(err => console.log("Service Worker registration failed:", err));
-}
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("service-worker.js")
+                .then(() => console.log("✅ Service Worker registered"))
+                .catch(err => console.log("Service Worker registration failed:", err));
+        }
     </script>
+
+
+    <script>
+        function login() {
+            const firstName = document.getElementById("firstName").value.trim();
+            const lastName = document.getElementById("lastName").value.trim();
+            const rank = document.getElementById("rank").value.trim();
+
+            if (!firstName || !lastName || !rank) {
+                alert("Please fill all fields before proceeding.");
+                return;
+            }
+
+            const user = { firstName, lastName, rank };
+            localStorage.setItem("userCredentials", JSON.stringify(user));
+
+            // redirect to quiz page
+            window.location.href = "quiz.html";
+        }
+    </script>
+
 
 </body>
 </html>
