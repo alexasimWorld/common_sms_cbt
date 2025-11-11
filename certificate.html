@@ -150,16 +150,30 @@
                 `${data.firstName} ${data.lastName}, ${data.rank}`;
             document.getElementById("cert-score").textContent = `${data.score}%`;
             document.getElementById("cert-date").textContent = data.date;
+
+            // 🧾 Automatically download if ?auto=1
+            const params = new URLSearchParams(window.location.search);
+            if (params.get("auto") === "1") {
+                setTimeout(() => downloadPDF(true), 800);
+            }
         }
 
-        document.getElementById("pdfBtn").onclick = () => {
+        function downloadPDF(auto = false) {
             const { jsPDF } = window.jspdf;
             const pdf = new jsPDF({ unit: "px", format: "a4" });
             pdf.html(document.getElementById("certificate"), {
-                callback: (doc) => doc.save("Certificate.pdf"),
+                callback: (doc) => {
+                    doc.save("Certificate.pdf");
+                    if (auto) {
+                        // Optional: close tab automatically after save
+                        setTimeout(() => window.close(), 1500);
+                    }
+                },
                 margin: [20, 20, 20, 20]
             });
-        };
+        }
+
+        document.getElementById("pdfBtn").onclick = () => downloadPDF(false);
     </script>
 </body>
 </html>
