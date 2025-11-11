@@ -64,14 +64,18 @@
                 return;
             }
 
-            const user = { firstName, lastName, rank };
-            localStorage.setItem("userCredentials", JSON.stringify(user));
+            // ✅ Save using the same key as app.js
+            localStorage.setItem("cbt_user", JSON.stringify({
+                first: firstName,
+                last: lastName,
+                rank
+            }));
 
             // redirect to main page
             window.location.href = "main.html";
-
         }
     </script>
+
 
 
 </body>

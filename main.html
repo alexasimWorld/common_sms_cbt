@@ -74,33 +74,7 @@
     <script src="js/jarvis.js"></script>
     <script src="js/bridge.js"></script>
 
-    <!-- Auto-save user credentials -->
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            const nameField = document.getElementById("userName");
-            const lastField = document.getElementById("userLastName");
-            const rankField = document.getElementById("userRank");
 
-            // Load unified credentials
-            const creds = JSON.parse(localStorage.getItem("userCredentials") || "{}");
-            nameField.value = creds.firstName || "";
-            lastField.value = creds.lastName || "";
-            rankField.value = creds.rank || "";
-
-            // Auto-save back into same object
-            [nameField, lastField, rankField].forEach(field => {
-                field.addEventListener("input", () => {
-                    const updated = {
-                        firstName: nameField.value.trim(),
-                        lastName: lastField.value.trim(),
-                        rank: rankField.value.trim()
-                    };
-                    localStorage.setItem("userCredentials", JSON.stringify(updated));
-                });
-            });
-
-        });
-    </script>
 
     <!-- 🪙 Nautical Robot Assistant -->
     <div id="nautical-robot">
@@ -141,9 +115,9 @@
 
             function showThinking() {
                 hintBubble.innerHTML = `
-                        <div class="thinking-dots">
-                            <span></span><span></span><span></span>
-                        </div>`;
+                            <div class="thinking-dots">
+                                <span></span><span></span><span></span>
+                            </div>`;
                 hintBubble.classList.remove("hidden");
                 hintBubble.classList.add("visible");
             }
@@ -160,10 +134,10 @@
                 setTimeout(() => {
                     if (mode === "intro") {
                         showHint(`
-                                <div class="hint-title">👋 Welcome aboard!</div>
-                                <div class="hint-reason">
-                                    Choose to view the <b>Company’s presentation</b> or click on the <b>Quiz</b> to test your knowledge.
-                                </div>`);
+                                    <div class="hint-title">👋 Welcome aboard!</div>
+                                    <div class="hint-reason">
+                                        Choose to view the <b>Company’s presentation</b> or click on the <b>Quiz</b> to test your knowledge.
+                                    </div>`);
                     } else if (mode === "quiz") {
                         const q = window.currentQuestion;
                         if (!q) {
@@ -174,9 +148,9 @@
                         const reasonText = q.Reason || q.explanation || "No explanation provided.";
 
                         showHint(`
-                                <div class="hint-title">📘 Chapter:</div>
-                                <div class="hint-answer">${chapterName}</div>
-                                <div class="hint-reason">${reasonText}</div>`);
+                                    <div class="hint-title">📘 Chapter:</div>
+                                    <div class="hint-answer">${chapterName}</div>
+                                    <div class="hint-reason">${reasonText}</div>`);
                     } else {
                         showHint(`<div class="hint-title">🪙 I'm ready when you are!</div>`);
                     }
@@ -193,5 +167,29 @@
             setInterval(updateRobotVisibility, 500);
         });
     </script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // ✅ Read unified user object created in index.html
+            const creds = JSON.parse(localStorage.getItem("cbt_user") || "{}");
+
+            const nameField = document.getElementById("userName");
+            const lastField = document.getElementById("userLastName");
+            const rankField = document.getElementById("userRank");
+
+            if (creds.first && creds.last && creds.rank) {
+                nameField.value = creds.first;
+                lastField.value = creds.last;
+                rankField.value = creds.rank;
+            } else {
+                nameField.value = "";
+                lastField.value = "";
+                rankField.value = "";
+                console.warn("⚠️ No user credentials found in localStorage.");
+            }
+        });
+    </script>
+
 </body>
 </html>
