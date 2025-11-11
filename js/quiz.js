@@ -163,7 +163,7 @@ function showResults() {
     const fullName = `${userName} ${userLastName}`.trim() || "Anonymous";
 
     // ✅ Show popup only if score ≥ 70%
-    if (percent >= 70) {
+    if (percent >= 1) {
         const popup = document.createElement("div");
         popup.className = "congrats-popup";
         popup.innerHTML = `
