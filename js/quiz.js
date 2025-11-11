@@ -150,41 +150,48 @@ function showResults() {
     });
 
     const percent = Math.round((correct / currentSet.length) * 100);
-    resultBox.textContent = `Your score: ${correct} / ${currentSet.length} (${percent}%)`;
-    resultBox.classList.remove("hidden");
-    document.getElementById("best-score").textContent = `${percent}%`;
+    resultBox.innerHTML = `Your score: ${correct} / ${currentSet.length} (${percent}%)`;
 
-    // ✅ Load credentials
+    // ✅ Load stored user info
     const creds = JSON.parse(localStorage.getItem("userCredentials") || "{}");
     const { firstName = "Anonymous", lastName = "", rank = "" } = creds;
-    const fullName = `${firstName} ${lastName}`.trim();
 
-    // ✅ Only if user passed with 70% or more
-    if (percent >= 1) {
-        const certData = {
-            firstName, lastName, rank, score: percent,
-            date: new Date().toLocaleDateString()
-        };
-        sessionStorage.setItem("certificateData", JSON.stringify(certData));
+    // ✅ Save certificate data for next page
+    const certData = {
+        firstName, lastName, rank, score: percent,
+        date: new Date().toLocaleDateString()
+    };
+    sessionStorage.setItem("certificateData", JSON.stringify(certData));
 
-        const popup = document.createElement("div");
-        popup.className = "congrats-popup";
-        popup.innerHTML = `
-            <div class="popup-content">
-                <h2>🎉 Congratulations!</h2>
-                <p>You passed with <b>${percent}%</b>.</p>
-                <button id="viewCertBtn">View Certificate</button>
-            </div>
+    // ✅ Define passing score
+    const PASS_MARK = 70;
+
+    if (percent >= PASS_MARK) {
+        // 🎉 Passed — show congratulatory message with clickable link
+        resultBox.innerHTML += `
+            <p style="color:green; font-weight:bold; margin-top:15px;">
+                🎉 Congratulations, you have passed with ${percent}%.
+                <a href="#" id="viewCertificate" style="color:#007bff; text-decoration:underline; cursor:pointer;">
+                    Click here to view your certificate
+                </a>
+            </p>
         `;
-        document.body.appendChild(popup);
 
-        document.getElementById("viewCertBtn").onclick = () => {
-            window.location.href = "certificate.html";
+        document.getElementById("viewCertificate").onclick = () => {
+            window.location.href = "certificate.html?auto=1";
         };
     } else {
-        alert("You scored below 70%. Please retry the quiz.");
+        // ❌ Failed
+        resultBox.innerHTML += `
+            <p style="color:red; margin-top:15px;">
+                You scored below the required ${PASS_MARK}%. Please try again.
+            </p>
+        `;
     }
+
+    resultBox.classList.remove("hidden");
 }
+
 
 
 // === Attach events ===
