@@ -164,7 +164,7 @@ function showResults() {
     sessionStorage.setItem("certificateData", JSON.stringify(certData));
 
     // ✅ Define passing score
-    const PASS_MARK = 70;
+    const PASS_MARK = 1;
 
     if (percent >= PASS_MARK) {
         // 🎉 Passed — show congratulatory message with clickable link
@@ -208,3 +208,4 @@ document.getElementById("quiz-prev").onclick = prevQuestion;
     global.showResults = showResults;
     console.log("🌍 quiz.js: functions exported to global window");
 })(typeof window !== "undefined" ? window : this);
+
