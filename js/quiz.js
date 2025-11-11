@@ -152,9 +152,11 @@ function showResults() {
     const percent = Math.round((correct / currentSet.length) * 100);
     resultBox.innerHTML = `Your score: ${correct} / ${currentSet.length} (${percent}%)`;
 
-    // ✅ Load stored user info
-    const creds = JSON.parse(localStorage.getItem("userCredentials") || "{}");
-    const { firstName = "Anonymous", lastName = "", rank = "" } = creds;
+    // ✅ Load stored user info from the unified key used by index.html/app.js
+    const u = JSON.parse(localStorage.getItem("cbt_user") || "{}");
+    const firstName = u.first || "Anonymous";
+    const lastName = u.last || "";
+    const rank = u.rank || "";
 
     // ✅ Save certificate data for next page
     const certData = {
@@ -162,6 +164,7 @@ function showResults() {
         date: new Date().toLocaleDateString()
     };
     sessionStorage.setItem("certificateData", JSON.stringify(certData));
+
 
     // ✅ Define passing score
     const PASS_MARK = 1;
@@ -178,8 +181,9 @@ function showResults() {
         `;
 
         document.getElementById("viewCertificate").onclick = () => {
-    window.open("certificate.html?auto=1", "_blank");
+            window.open("certificate.html?auto=1", "_blank");
         };
+
     } else {
         // ❌ Failed
         resultBox.innerHTML += `
@@ -208,5 +212,3 @@ document.getElementById("quiz-prev").onclick = prevQuestion;
     global.showResults = showResults;
     console.log("🌍 quiz.js: functions exported to global window");
 })(typeof window !== "undefined" ? window : this);
-
-
