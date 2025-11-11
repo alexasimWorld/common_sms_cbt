@@ -178,7 +178,7 @@ function showResults() {
         `;
 
         document.getElementById("viewCertificate").onclick = () => {
-            window.location.href = "certificate.html?auto=1";
+    window.open("certificate.html?auto=1", "_blank");
         };
     } else {
         // ❌ Failed
@@ -208,4 +208,5 @@ document.getElementById("quiz-prev").onclick = prevQuestion;
     global.showResults = showResults;
     console.log("🌍 quiz.js: functions exported to global window");
 })(typeof window !== "undefined" ? window : this);
+
 
