@@ -81,17 +81,24 @@
             const lastField = document.getElementById("userLastName");
             const rankField = document.getElementById("userRank");
 
-            // Load saved values
-            nameField.value = localStorage.getItem("userName") || "";
-            lastField.value = localStorage.getItem("userLastName") || "";
-            rankField.value = localStorage.getItem("userRank") || "";
+            // Load unified credentials
+            const creds = JSON.parse(localStorage.getItem("userCredentials") || "{}");
+            nameField.value = creds.firstName || "";
+            lastField.value = creds.lastName || "";
+            rankField.value = creds.rank || "";
 
-            // Auto-save on change
+            // Auto-save back into same object
             [nameField, lastField, rankField].forEach(field => {
                 field.addEventListener("input", () => {
-                    localStorage.setItem(field.id, field.value.trim());
+                    const updated = {
+                        firstName: nameField.value.trim(),
+                        lastName: lastField.value.trim(),
+                        rank: rankField.value.trim()
+                    };
+                    localStorage.setItem("userCredentials", JSON.stringify(updated));
                 });
             });
+
         });
     </script>
 
